@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
+import Helmet from 'react-helmet'
 
 import Header from "./header";
 import "./default.css";
@@ -19,6 +20,9 @@ const Layout = ({ children, hideHeading = false }) => (
     `}
     render={data => (
       <>
+        <Helmet>
+          <title>JavaScript and Friends Conference</title>
+        </Helmet>
         {!hideHeading && <Header siteTitle={data.site.siteMetadata.title} />}
         <main
           style={{
