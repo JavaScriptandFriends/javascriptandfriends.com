@@ -14,6 +14,9 @@ const Root = () => (
         <div>
           <Link to="vision">Vision Statement</Link>
         </div>
+        <div>
+          <Link to="callforspeakers">Call for Speakers</Link>
+        </div>
       </div>
     </div>
   </Layout>
