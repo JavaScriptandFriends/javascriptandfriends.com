@@ -12,6 +12,8 @@ const Root = () => (
         <div>Columbus, Ohio</div>
         <div>August 2, 2019</div>
       </div>
+      <br />
+      <br />
       <div className="infoRow">
         <div>
           <Link to="vision">Vision Statement</Link>
