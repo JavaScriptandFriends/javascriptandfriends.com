@@ -1,0 +1,25 @@
+.hero {
+  background-color: $dark_blue;
+  height: 100vh;
+  h1 {
+    color: #FFF;
+    font-size: 6rem;
+  }
+}
+
+@supports (display: grid) {
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    grid-gap: 40px;
+  
+    > section {
+      grid-column: 8 / span 5;
+    }
+
+    > figure {
+      grid-column: 1 / span 7;
+    }
+  }
+}
