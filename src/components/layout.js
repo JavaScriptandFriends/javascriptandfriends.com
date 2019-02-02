@@ -1,11 +1,25 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
-import Helmet from 'react-helmet'
+import Helmet from "react-helmet";
 
-import Header from "./header";
+import Header from "./Header";
 import "./default.css";
-import "./layout.css";
+import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
+import theme from "../themes";
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: ${props => props.theme.mainBackground || "#FAB"};
+  }
+`;
+
+const Main = styled.main`
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0px 1.0875rem 1.45rem;
+  padding-top: 0;
+`;
 
 const Layout = ({ children, hideHeading = false }) => (
   <StaticQuery
@@ -23,17 +37,15 @@ const Layout = ({ children, hideHeading = false }) => (
         <Helmet>
           <title>JavaScript and Friends Conference</title>
         </Helmet>
-        {!hideHeading && <Header siteTitle={data.site.siteMetadata.title} />}
-        <main
-          style={{
-            margin: "0 auto",
-            maxWidth: 960,
-            padding: "0px 1.0875rem 1.45rem",
-            paddingTop: 0
-          }}
-        >
-          {children}
-        </main>
+        <ThemeProvider theme={theme}>
+          <>
+            <GlobalStyle />
+            {!hideHeading && (
+              <Header siteTitle={data.site.siteMetadata.title} />
+            )}
+            <Main>{children}</Main>
+          </>
+        </ThemeProvider>
       </>
     )}
   />
