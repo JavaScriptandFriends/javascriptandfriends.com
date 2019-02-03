@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
+import { GatsbyLink as Link } from "./Link";
+
 import Helmet from "react-helmet";
 
 import Header from "./Header";
@@ -8,18 +10,15 @@ import "./default.css";
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 import theme from "../themes";
 
+import { Nav, NavItem } from "./Nav";
+
 const GlobalStyle = createGlobalStyle`
   body {
-    background-color: ${props => props.theme.mainBackground || "#FAB"};
+    background-color: ${props => props.theme.colors.mainBackground || "#FAB"};
   }
 `;
 
-const Main = styled.main`
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 0px 1.0875rem 1.45rem;
-  padding-top: 0;
-`;
+const Main = styled.main``;
 
 const Layout = ({ children, hideHeading = false }) => (
   <StaticQuery
@@ -40,9 +39,17 @@ const Layout = ({ children, hideHeading = false }) => (
         <ThemeProvider theme={theme}>
           <>
             <GlobalStyle />
-            {!hideHeading && (
-              <Header siteTitle={data.site.siteMetadata.title} />
-            )}
+            <Header siteTitle={data.site.siteMetadata.title} Link={Link}>
+              <Nav>
+                <NavItem>
+                  <Link to="vision">Vision Statement</Link>
+                </NavItem>
+
+                <NavItem>
+                  <Link to="codeofconduct">Code of Conduct</Link>
+                </NavItem>
+              </Nav>
+            </Header>
             <Main>{children}</Main>
           </>
         </ThemeProvider>
