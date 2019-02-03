@@ -1,11 +1,29 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
-import Helmet from 'react-helmet'
+import { GatsbyLink as Link } from "./Link";
 
-import Header from "./header";
+import Helmet from "react-helmet";
+
+import Header from "./Header";
 import "./default.css";
-import "./layout.css";
+import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
+import theme from "../themes";
+
+import { Nav, NavItem } from "./Nav";
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: ${props => props.theme.colors.mainBackground || "#FAB"};
+  }
+
+  :focus {
+    outline: 3px dashed ${props => props.theme.colors.highlight};
+    padding: 8px;
+  }
+`;
+
+const Main = styled.main``;
 
 const Layout = ({ children, hideHeading = false }) => (
   <StaticQuery
@@ -23,17 +41,23 @@ const Layout = ({ children, hideHeading = false }) => (
         <Helmet>
           <title>JavaScript and Friends Conference</title>
         </Helmet>
-        {!hideHeading && <Header siteTitle={data.site.siteMetadata.title} />}
-        <main
-          style={{
-            margin: "0 auto",
-            maxWidth: 960,
-            padding: "0px 1.0875rem 1.45rem",
-            paddingTop: 0
-          }}
-        >
-          {children}
-        </main>
+        <ThemeProvider theme={theme}>
+          <>
+            <GlobalStyle />
+            <Header siteTitle={data.site.siteMetadata.title} Link={Link}>
+              <Nav>
+                <NavItem>
+                  <Link to="vision">Vision Statement</Link>
+                </NavItem>
+
+                <NavItem>
+                  <Link to="codeofconduct">Code of Conduct</Link>
+                </NavItem>
+              </Nav>
+            </Header>
+            <Main>{children}</Main>
+          </>
+        </ThemeProvider>
       </>
     )}
   />

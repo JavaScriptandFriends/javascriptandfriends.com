@@ -1,0 +1,17 @@
+import React, { Component } from "react";
+import styled from "styled-components";
+import Text from "../Text";
+
+export default function({ as, size, children, ...rest }) {
+  if (!as && (!Number.isInteger(size) || !(size < 7 && size > 0))) {
+    throw "size must be a valid number between 1 and 6";
+  }
+
+  const tag = size ? `h${size}` : as;
+
+  return (
+    <Text {...rest} as={tag}>
+      {children}
+    </Text>
+  );
+}
