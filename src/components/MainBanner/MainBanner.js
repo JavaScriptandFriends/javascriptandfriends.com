@@ -12,11 +12,17 @@ const Image = styled.img`
 
 function MainBanner({ children }) {
   return (
-    <Flex style={{ maxWidth: "100%" }}>
-      <Box width={1 / 2}>
-        <Image src={mainBannerSrc} alt="" />
-      </Box>
-      <Box width={1 / 2} alignSelf="center" justifyContent="center" px={30}>
+    <Flex
+      flexDirection={["column", "row-reverse"]}
+      my={[48, 0]}
+      alignItems="center"
+    >
+      <Box
+        width={[1, 1 / 2]}
+        alignSelf={["flex-start", "center"]}
+        justifyContent={["flex-start", "center"]}
+        px={30}
+      >
         <Flex justifyContent="center" flexDirection="column">
           <Heading size={1} color="light" my={0} fontSize={6}>
             JavaScript &amp; Friends Conference
@@ -26,6 +32,9 @@ function MainBanner({ children }) {
           </Text>
           {children}
         </Flex>
+      </Box>
+      <Box width={[1, 1 / 2]}>
+        <Image src={mainBannerSrc} alt="" />
       </Box>
     </Flex>
   );

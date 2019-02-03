@@ -16,6 +16,11 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${props => props.theme.colors.mainBackground || "#FAB"};
   }
+
+  :focus {
+    outline: 3px dashed ${props => props.theme.colors.highlight};
+    padding: 8px;
+  }
 `;
 
 const Main = styled.main``;

@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import { Flex } from "@rebass/grid";
 
-const List = styled.ul`
+const List = styled(Flex)`
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
 `;
 
 export const NavItem = styled.li`
@@ -24,6 +23,8 @@ export const NavItem = styled.li`
 
 export const Nav = ({ children }) => (
   <nav>
-    <List>{children}</List>
+    <List as="ul" flexDirection={["column", "row"]} my={[20, 0]} mx={0}>
+      {children}
+    </List>
   </nav>
 );

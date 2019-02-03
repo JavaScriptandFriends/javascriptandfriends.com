@@ -10,7 +10,8 @@ const theme = {
   },
   fonts: {
     defaultFont: "Roboto"
-  }
+  },
+  breakpoints: ["850px", "1024px"]
 };
 
 export default theme;

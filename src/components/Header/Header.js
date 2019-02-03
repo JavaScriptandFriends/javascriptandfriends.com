@@ -11,8 +11,13 @@ const Wrapper = styled(Flex)`
 
 const Header = ({ siteTitle, children, Link }) => (
   <header>
-    <Wrapper justifyContent="flex-start" py={24} px={48}>
-      <Box width={1 / 2}>
+    <Wrapper
+      justifyContent={["flex-start"]}
+      py={24}
+      px={48}
+      flexDirection={["column", "row"]}
+    >
+      <Box width={[1, 1 / 2]}>
         <Heading
           style={{ margin: 0 }}
           as="strong"
@@ -30,8 +35,11 @@ const Header = ({ siteTitle, children, Link }) => (
           </Link>
         </Heading>
       </Box>
-      <Box width={1 / 2}>
-        <Flex justifyContent="flex-end" alignItems="center">
+      <Box width={[1, 1 / 2]}>
+        <Flex
+          justifyContent={["flex-start", "flex-end"]}
+          alignItems={["flex-start", "center"]}
+        >
           {children}
         </Flex>
       </Box>
