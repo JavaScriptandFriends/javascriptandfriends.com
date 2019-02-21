@@ -55,7 +55,7 @@ const Root = () => (
           borderColor="alternateHeading"
           backgroundColor="rgba(0,0,0,0)"
           color="alternateHeading"
-          href="./SponsorshipFlyer.pdf"
+          href="/callforsponsors"
         >
           Learn More
         </Link>
