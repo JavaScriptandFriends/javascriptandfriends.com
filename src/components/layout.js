@@ -19,7 +19,6 @@ const GlobalStyle = createGlobalStyle`
 
   :focus {
     outline: 3px dashed ${props => props.theme.colors.highlight};
-    padding: 8px;
   }
 `;
 
