@@ -29,7 +29,7 @@ const Root = () => (
           >
             Submit a talk
           </ButtonLink>
-          <GatsbyLink to="callforspeakers" color="white">
+          <GatsbyLink to="speak" color="white">
             Learn more
           </GatsbyLink>
         </Flex>
@@ -53,7 +53,7 @@ const Root = () => (
           borderColor="alternateHeading"
           backgroundColor="rgba(0,0,0,0)"
           color="alternateHeading"
-          href="/callforsponsors"
+          href="/sponsor"
         >
           Learn More
         </Link>
