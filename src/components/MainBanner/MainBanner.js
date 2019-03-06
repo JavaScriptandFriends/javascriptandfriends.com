@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import mainBannerSrc from "./main_banner.jpg";
+import bannerImg from "./homepage-image.png";
 import { Flex, Box } from "@rebass/grid";
 import Heading from "../Heading";
 import Text from "../Text";
@@ -25,16 +25,16 @@ function MainBanner({ children }) {
       >
         <Flex justifyContent="center" flexDirection="column">
           <Heading size={1} color="light" my={0} fontSize={6}>
-            JavaScript &amp; Friends Conference
+            MagnoliaJS Conference
           </Heading>
           <Text color="highlight" my={30}>
-            Columbus Ohio | 08.02.19
+            Jackson, Mississppi | April 17 - April 18
           </Text>
           {children}
         </Flex>
       </Box>
       <Box width={[1, 1 / 2]}>
-        <Image src={mainBannerSrc} alt="" />
+        <Image src={bannerImg} alt="" />
       </Box>
     </Flex>
   );

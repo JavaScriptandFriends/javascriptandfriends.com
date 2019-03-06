@@ -23,7 +23,7 @@ const Root = () => (
       <MainBanner>
         <Flex flexDirection="row" alignItems="center">
           <ButtonLink
-            href="https://sessionize.com/javascript-and-friends-conference/"
+            href="#"
             alignSelf="flex-start"
             mr={40}
           >
@@ -40,15 +40,13 @@ const Root = () => (
         </Heading>
         <TextWrapper>
           <Text pt={10} pb={30}>
-            Our mission is to bring a diverse group of around 200 JavaScript
-            developers and friends to learn new skills and concepts and to
-            network and develop new relationships.
+            MagnoliaJS is Mississippi's <strong>first-ever developer conference</strong>. Our mission is to foster growth and opportunities for developers in the Southeast and be the launching point for greater things for the tech in Mississippi.
+          </Text>
+          <Text pt={10} pb={30}>
+            We are aiming to bring together around 200 web developers and friends to learn new skills and concepts and to network and develop new relationships.
           </Text>
           <Text pb={40}>
-            Here's your chance to contribute to that mission! We're looking for
-            the best companies to partner with us and help to make the First
-            Annual JavaScript and Friends Conference a success. And with your
-            contribution, it will be!
+            Here's your chance to contribute to that mission! We're looking for the best companies to partner with us and help to make the First Annual MagnoliaJS conference a success.
           </Text>
         </TextWrapper>
         <Link
