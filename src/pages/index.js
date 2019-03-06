@@ -46,7 +46,7 @@ const Root = () => (
             We are aiming to bring together around 200 web developers and friends to learn new skills and concepts and to network and develop new relationships.
           </Text>
           <Text pb={40}>
-            Here's your chance to contribute to that mission! We're looking for the best companies to partner with us and help to make the First Annual MagnoliaJS conference a success.
+            Here's your chance to contribute to that mission! We're looking for the best companies to partner with us and help to make the first-annual MagnoliaJS conference a success.
           </Text>
         </TextWrapper>
         <Link
