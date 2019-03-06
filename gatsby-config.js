@@ -2,9 +2,9 @@ const path = require("path");
 
 module.exports = {
   siteMetadata: {
-    title: "JavaScript and Friends Conference",
-    description: "Columbus Ohio JavaScript Conference",
-    author: "JavaScript and Friends Conference (volunteers)"
+    title: "MagnoliaJS",
+    description: "April 17-18 - Mississippi's first-ever developer conference.",
+    author: "MagnoliaJS Conference"
   },
   plugins: [
     {
@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-133428737-1",
+        trackingId: "######",
       },
     },
     "gatsby-plugin-react-helmet",
@@ -36,10 +36,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "gatsby-default-mdx-basic",
-        short_name: "JavaScript and Friends Conference",
+        short_name: "MagnoliaJS Conference",
         start_url: "/",
-        background_color: "#663399",
-        theme_color: "#663399",
+        background_color: "#BF5272",
+        theme_color: "#BF5272",
         display: "minimal-ui"
       }
     }
