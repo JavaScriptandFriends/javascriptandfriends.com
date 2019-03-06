@@ -5,7 +5,7 @@ import { Link } from "../Link/Link";
 import { Nav, NavItem } from "../Nav";
 
 storiesOf("Header", module).add("Basic", () => (
-  <Header siteTitle="JavaScript &amp; Friends" Link={Link}>
+  <Header siteTitle="MagnoliaJS Conference" Link={Link}>
     <Nav>
       <NavItem>
         <Link to="#">First</Link>

@@ -1,4 +1,6 @@
-# JavaScript and Friends Conference Site
+# MagnoliaJS Conference Website
+
+Forked from JavaScript and Friends Conference! ❤️
 
 ## To run the app:
 
@@ -8,5 +10,3 @@
 
 The site is built with [Gatsby](https://www.gatsbyjs.org/) and [Gatsby+MDX](https://gatsby-mdx.netlify.com/). The Gatsby Starter used is [gatsby-starter-mdx-basic](https://github.com/ChristopherBiscardi/gatsby-starter-mdx-basic)
 View this starter [live on Netlify](https://gatsby-starter-mdx-basic.netlify.com/)
-
-
