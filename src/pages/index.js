@@ -35,6 +35,34 @@ const Root = () => (
         </Flex>
       </MainBanner>
       <Alternate pb={100}>
+        <Heading color="mainBackground" size={2}>
+          Upcoming Dates
+        </Heading>
+        <TextWrapper>
+          <Text pt={10} pb={30}>
+            🔈 CFP Opens <strong>March 8, 2019</strong>
+          </Text>
+          <Text pt={10} pb={30}>
+            🐦 Early Bird Tickets Available <strong>March 15, 2019</strong>
+          </Text>
+          <Text pt={10} pb={30}>
+            🔐 CFP Closes <strong>March 22, 2019</strong>
+          </Text>
+          <Text pt={10} pb={30}>
+            🗣️ Speakers Announced <strong>March 27, 2019</strong>
+          </Text>
+          <Text pt={10} pb={30}>
+            🎟️ Regular Tickets Available <strong>April 3, 2019</strong>
+          </Text>
+          <Text pt={10} pb={30}>
+            🤓 Workshop Day on <strong>April 18, 2019</strong>
+          </Text>
+          <Text pt={10} pb={30}>
+            🎊 Party Time on <strong>April 18, 2019</strong>
+          </Text>
+        </TextWrapper>
+      </Alternate>
+      <Alternate pb={100}>
         <Heading color="alternateHeading" size={2}>
           Interested in sponsoring?
         </Heading>
