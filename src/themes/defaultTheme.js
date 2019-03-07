@@ -4,12 +4,12 @@ const theme = {
     alternateBackground: "#D1D9E4",
     alternateHeading: "#3F5F93",
     white: "#fff",
-    highlight: "#f9ff50",
+    highlight: "#A2D9F3",
     mainLight: "#73b2ff",
     mainBackground: "#BF5272",
-    light: "#f9ff50",
+    light: "#A2D9F3",
     cardColor: "rgba(234, 234, 234, 0.95)",
-    headingBorder: "#f9ff50",
+    headingBorder: "#A2D9F3",
     transparent: "rgba(0,0,0,0)"
   },
   fonts: {
