@@ -23,7 +23,7 @@ const Root = () => (
       <MainBanner>
         <Flex flexDirection="row" alignItems="center">
           <ButtonLink
-            href="https://magnoliajs.typeform.com/to/K3uoNF"
+            href="https://www.papercall.io/magnoliajs"
             alignSelf="flex-start"
             mr={40}
             target="_blank"
