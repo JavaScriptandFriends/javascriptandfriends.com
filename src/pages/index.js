@@ -55,7 +55,7 @@ const Root = () => (
             🎟️ Regular Tickets Available <strong>April 3, 2019</strong>
           </Text>
           <Text pt={10} pb={30}>
-            🤓 Workshop Day on <strong>April 18, 2019</strong>
+            🤓 Workshop Day on <strong>April 17, 2019</strong>
           </Text>
           <Text pt={10} pb={30}>
             🎊 Party Time on <strong>April 18, 2019</strong>
