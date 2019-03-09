@@ -6,6 +6,7 @@ import { GatsbyLink as Link } from "./Link";
 import Helmet from "react-helmet";
 
 import Header from "./Header";
+import Footer from "./Footer";
 import "./default.css";
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 import theme from "../themes";
@@ -63,6 +64,7 @@ const Layout = ({ children, hideHeading = false }) => (
               </Nav>
             </Header>
             <Main>{children}</Main>
+            <Footer>&copy; 2019 Magnolia Events LLC</Footer>
           </>
         </ThemeProvider>
       </>
