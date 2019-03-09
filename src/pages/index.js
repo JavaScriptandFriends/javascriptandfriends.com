@@ -23,9 +23,10 @@ const Root = () => (
       <MainBanner>
         <Flex flexDirection="row" alignItems="center">
           <ButtonLink
-            href="#"
+            href="https://magnoliajs.typeform.com/to/K3uoNF"
             alignSelf="flex-start"
             mr={40}
+            target="_blank"
           >
             Submit a talk
           </ButtonLink>
@@ -55,7 +56,7 @@ const Root = () => (
             🎟️ Regular Tickets Available <strong>April 3, 2019</strong>
           </Text>
           <Text pt={10} pb={30}>
-            🤓 Workshop Day on <strong>April 18, 2019</strong>
+            🤓 Workshop Day on <strong>April 17, 2019</strong>
           </Text>
           <Text pt={10} pb={30}>
             🎊 Party Time on <strong>April 18, 2019</strong>
@@ -68,13 +69,21 @@ const Root = () => (
         </Heading>
         <TextWrapper>
           <Text pt={10} pb={30}>
-            MagnoliaJS is Mississippi's <strong>first-ever developer conference</strong>. Our mission is to foster growth and opportunities for developers in the Southeast and be the launching point for greater things for the tech in Mississippi.
+            MagnoliaJS is Mississippi's{" "}
+            <strong>first-ever developer conference</strong>. Our mission is to
+            foster growth and opportunities for developers in the Southeast and
+            be the launching point for greater things for the tech in
+            Mississippi.
           </Text>
           <Text pt={10} pb={30}>
-            We are aiming to bring together around 200 web developers and friends to learn new skills and concepts and to network and develop new relationships.
+            We are aiming to bring together around 200 web developers and
+            friends to learn new skills and concepts and to network and develop
+            new relationships.
           </Text>
           <Text pb={40}>
-            Here's your chance to contribute to that mission! We're looking for the best companies to partner with us and help to make the first-annual MagnoliaJS conference a success.
+            Here's your chance to contribute to that mission! We're looking for
+            the best companies to partner with us and help to make the
+            first-annual MagnoliaJS conference a success.
           </Text>
         </TextWrapper>
         <Link
