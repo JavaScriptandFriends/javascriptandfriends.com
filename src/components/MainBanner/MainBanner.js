@@ -32,6 +32,12 @@ function MainBanner({ children }) {
           </Text>
           {children}
         </Flex>
+        <Flex justifyContent="center" flexDirection="column">
+          <Text color="highlight" my={30}>
+            Tickets on sale soon
+          </Text>
+        </Flex>
+        
       </Box>
       <Box width={[1, 1 / 2]}>
         <Image src={bannerImg} alt="" />
