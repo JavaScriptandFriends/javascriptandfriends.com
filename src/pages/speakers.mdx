@@ -1,11 +1,105 @@
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Card from "../components/Card";
+import { Flex } from "@rebass/grid";
+import Speaker from "../components/Speaker";
+import KenWheelerImage from "../components/Images/ken-wheeler-image";
+import LaurieVossImage from "../components/Images/laurie-voss-image";
+import JayPhelpsImage from "../components/Images/jay-phelps-image";
+import TaelurAlexisImage from "../components/Images/taelur-alexis-image";
+import NaderDabitImage from "../components/Images/nader-dabit-image";
+import JoePreviteImage from "../components/Images/joe-previte-image";
+import GrantLabordeImage from "../components/Images/grant-laborde-image";
+import KurtKempleImage from "../components/Images/kurt-kemple-image";
+import BlakeWatsonImage from "../components/Images/blake-watson-image";
+import SiaKaramalegosImage from "../components/Images/sia-karamalegos-image";
 
-<Card>
-
-## Speakers
-
-Speakers haven't been announced yet, but they'll be on this page soon!
-
-</Card>
+<Flex
+  flexDirection="row"
+  flexWrap="wrap"
+  alignItems="center"
+  justifyContent="center"
+  style={{ padding: "2rem", width: "" }}
+>
+  <Speaker
+    name="Laurie Voss"
+    Image={LaurieVossImage}
+    talk={{
+      title: "Whitty talk title",
+       description: "Followed up with a killer talk description."
+    }}
+  />
+  <Speaker
+    name="Ken Wheeler"
+    Image={KenWheelerImage}
+    talk={{
+      title: "Whitty talk title",
+      description: "Followed up with a killer talk description."
+    }}
+  />
+  <Speaker
+    name="Jay Phelps"
+    Image={JayPhelpsImage}
+    talk={{
+      title: "Whitty talk title",
+      description: "Followed up with a killer talk description. that is very long, much longer than the rest, to show what a long one will look like. you know, in case one is really long or something. I don't know, whatever dude."
+    }}
+  />
+  <Speaker
+    name="Tae'lur Alexis"
+    Image={TaelurAlexisImage}
+    talk={{
+      title: "Whitty talk title",
+      description: "Followed up with a killer talk description."
+    }}
+  />
+  <Speaker
+    name="Nader Dabit"
+    Image={NaderDabitImage}
+    talk={{
+      title: "Whitty talk title",
+      description: "Followed up with a killer talk description."
+    }}
+  />
+  <Speaker
+    name="Joe Previte"
+    Image={JoePreviteImage}
+    talk={{
+      title: "Whitty talk title",
+      description: "Followed up with a killer talk description."
+    }}
+  />
+  <Speaker
+    name="Gant Laborde"
+    Image={GrantLabordeImage}
+    talk={{
+      title: "Whitty talk title",
+      description: "Followed up with a killer talk description."
+    }}
+  />
+  <Speaker
+    name="Kurt Kemple"
+    Image={KurtKempleImage}
+    talk={{
+      title:
+        "Whitty talk title which is much longer than the other titles, which should show what a long title would do.",
+      description: "Followed up with a killer talk description."
+    }}
+  />
+  <Speaker
+    name="Sia Karamalegos"
+    Image={SiaKaramalegosImage}
+    talk={{
+      title: "Whitty talk title",
+      description: "Followed up with a killer talk description."
+    }}
+  />
+  <Speaker
+    name="Blake Watson"
+    Image={BlakeWatsonImage}
+    talk={{
+      title: "Whitty talk title",
+      description: "Followed up with a killer talk description."
+    }}
+  />
+</Flex>;
