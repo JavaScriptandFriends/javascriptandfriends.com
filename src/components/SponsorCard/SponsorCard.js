@@ -2,24 +2,20 @@ import React from "react";
 import styled from "styled-components";
 import { Box } from "rebass";
 import Heading from "../Heading/Heading";
+import { Link } from "../Button";
+import Text from "../Text";
 
 const LocalBox = styled(Box)`
   background-color: ${props => props.theme.colors.white};
-  width: 400px;
-  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 25px;
+  padding: 25px 100px;
   align-items: center;
   border: 4px solid ${props => props.theme.colors.mainBackground};
 `;
 
-const Image = styled.div`
-  height: 300px;
-  display: flex;
-  justify-content: center;
-`;
+const Image = styled.div``;
 
 const ExternalLink = styled.a`
   color: ${props => props.theme.colors.mainBackground} !important;
@@ -28,21 +24,29 @@ const ExternalLink = styled.a`
   font-weight: bold;
 `;
 
-export default function SponsorCard({ imageSrc, title, href, level = 3 }) {
+const Description = styled.div``;
+export default function SponsorCard({
+  imageSrc,
+  title,
+  href,
+  level = 3,
+  logoWidth: width,
+  logoHeight: height,
+  description
+}) {
   return (
     <LocalBox>
       <Image>
         <img
           src={imageSrc}
-          style={{ maxWidth: "100%", maxHeight: "100%" }}
+          style={{ width, height, maxWidth: "100%", maxHeight: "100%" }}
           alt=""
         />
       </Image>
-      <Heading size={level}>
-        <ExternalLink href={href} style={{ textDecoration: "none" }}>
-          {title}
-        </ExternalLink>
-      </Heading>
+      <Description>
+        <Text>{description}</Text>
+      </Description>
+      <Link href={href}>Learn more about {title}</Link>
     </LocalBox>
   );
 }
