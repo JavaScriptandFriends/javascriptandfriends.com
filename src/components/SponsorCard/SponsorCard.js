@@ -10,7 +10,6 @@ const LocalBox = styled(Box)`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 25px 100px;
   align-items: center;
   border: 4px solid ${props => props.theme.colors.mainBackground};
 `;
@@ -35,7 +34,7 @@ export default function SponsorCard({
   description
 }) {
   return (
-    <LocalBox>
+    <LocalBox py={25} px={[10, 100]}>
       <Image>
         <img
           src={imageSrc}
