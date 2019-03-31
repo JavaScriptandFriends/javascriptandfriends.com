@@ -14,7 +14,7 @@ export const NavItem = styled.li`
   & a:link,
   & a:visited {
     text-decoration: none;
-    color: ${props => props.theme.colors.white};
+    color: ${props => props.theme.colors.mainBackground};
     opacity: 0.8;
     text-transform: uppercase;
     font-size: 16px;
