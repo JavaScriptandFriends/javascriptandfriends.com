@@ -3,10 +3,16 @@ import React from "react";
 import Heading from "../Heading";
 import { Flex, Box } from "@rebass/grid";
 import styled from "styled-components";
+import Logo from "../Logo";
 
 const Wrapper = styled(Flex)`
   margin: 0;
   border-bottom: 1px solid ${props => props.theme.colors.headingBorder};
+  background-color: ${props => props.theme.colors.headerBackground};
+
+  & a {
+    color: ${props => props.theme.colors.mainBackground};
+  }
 `;
 
 const Header = ({ siteTitle, children, Link }) => (
@@ -27,18 +33,17 @@ const Header = ({ siteTitle, children, Link }) => (
           <Link
             to="/"
             style={{
-              color: "white",
               textDecoration: "none"
             }}
           >
-            {siteTitle}
+            <Logo />
           </Link>
         </Heading>
       </Box>
       <Box width={[1, 1 / 2]}>
         <Flex
           justifyContent={["flex-start", "flex-end"]}
-          alignItems={["flex-start", "center"]}
+          alignItems={["flex-end", "center"]}
         >
           {children}
         </Flex>
