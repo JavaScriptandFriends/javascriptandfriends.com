@@ -28,7 +28,7 @@ function MainBanner({ children }) {
             JavaScript &amp; Friends Conference
           </Heading>
           <Text color="highlight" my={30}>
-            Columbus Ohio | 08.02.19
+            Quest Conference Center | Columbus Ohio | 08.02.19
           </Text>
           {children}
         </Flex>

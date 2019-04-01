@@ -13,8 +13,8 @@ export default class extends React.Component {
             imageSrc={hmbLogo}
             title="HMB"
             href="https://hmbnet.com/"
-            logoWidth={300}
-            logoHeight={85.8}
+            logoWidth={330}
+            logoHeight={206}
             description={
               <>
                 <p>

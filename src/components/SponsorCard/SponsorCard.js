@@ -45,7 +45,7 @@ export default function SponsorCard({
       <Description>
         <Text>{description}</Text>
       </Description>
-      <Link href={href}>Learn more about {title}</Link>
+      <Link href={href} target="_blank">Learn more about {title}</Link>
     </LocalBox>
   );
 }
