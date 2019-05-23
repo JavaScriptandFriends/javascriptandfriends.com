@@ -22,16 +22,14 @@ const Root = () => (
     <Layout>
       <MainBanner>
         <Flex flexDirection="row" alignItems="center">
-          <ButtonLink
-            href="https://sessionize.com/javascript-and-friends-conference/"
+        <ButtonLink
+            href="https://www.eventbrite.com/e/javascript-and-friends-conference-registration-60880128102"
             alignSelf="flex-start"
             mr={40}
+            target="_blank" rel="noopener noreferrer"
           >
-            Submit a talk
+            BUY TICKETS
           </ButtonLink>
-          <GatsbyLink to="callforspeakers" color="white">
-            Learn more
-          </GatsbyLink>
         </Flex>
       </MainBanner>
       <Alternate pb={100}>
