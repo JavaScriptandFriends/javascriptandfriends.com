@@ -3,6 +3,8 @@ import { Flex } from "@rebass/grid";
 import Modal from "react-modal";
 import SpeakerModal from "./SpeakerModal";
 import styled from "styled-components";
+import { Button } from "../Button";
+import { Text } from "../Text";
 
 const NameLinks = styled.div`
   @media (max-width: 560px) {
@@ -12,13 +14,16 @@ const NameLinks = styled.div`
   }
 `;
 
-const Link = styled.button`
-  font-size: 0.75rem;
-  padding: 0;
-  border: 0;
-  background: none;
-  border-bottom: 1px solid #444;
+const ActionArea = styled.div`
+  width: 100%;
   display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+`;
+const Link = styled(Button)`
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
 `;
 
 const truncate = content =>
@@ -34,6 +39,7 @@ function Speaker({ Image, name, talk, twitter, linkedin, company, bio }) {
     <div
       onClick={x => setOpen(true)}
       style={{
+        cursor: "pointer",
         width: 480,
         minWidth: 300,
         minHeight: 280,
@@ -41,7 +47,8 @@ function Speaker({ Image, name, talk, twitter, linkedin, company, bio }) {
         backgroundColor: "#fff",
         borderRadius: 12,
         display: "flex",
-        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "column",
         boxShadow: "6px 9px 3px rgba(0 ,0,0,0.4)"
       }}
     >
@@ -121,16 +128,20 @@ function Speaker({ Image, name, talk, twitter, linkedin, company, bio }) {
           style={{
             width: "250px",
             margin: "0.5rem",
-            flexDirection: "column"
+            flexDirection: "column",
+            alignItems: "space-between",
+            justifyContent: "space-between"
           }}
         >
           <h2 style={{ fontSize: "1rem" }}>{talk.title}</h2>
           {company && (
             <strong style={{ fontSize: ".9rem" }}>Company: {company}</strong>
           )}
-          <Link>Learn more</Link>
         </div>
       </Flex>
+      <ActionArea>
+        <Link>Learn more</Link>
+      </ActionArea>
     </div>
   );
 }
