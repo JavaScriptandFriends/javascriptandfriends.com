@@ -1,0 +1,53 @@
+import { Link } from "gatsby"; 
+import Layout from "../components/layout"; 
+import Card from "../components/Card"; 
+import { Flex } from "@rebass/grid"; 
+import Speaker from "../components/Speaker"; 
+import michealImage from "../components/SpeakerImages/michaelperry";
+import ryanImage from "../components/SpeakerImages/ryan";
+import scottsanImage from "../components/SpeakerImages/scottsan";
+
+import { Hidden } from '../components/Hidden';
+
+<Hidden as="h1">Workshops</Hidden>
+<Card>
+
+## Workshops 
+
+
+Will be conducted on Aug-01-2019 at Improving , Columbus Office from 8 AM to 4 PM.
+</Card>
+
+<Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
+
+
+<Speaker name="Michael L Perry" Image={michealImage} talk={{ title: "Your First PWA", 
+description: "Progressive Web Apps bridge the gap between web sites and mobile applications. They are easy to install from any browser, work offline, and provide a faster, more native experience. Unfortunately, the patterns and APIs needed to build them are quite low level and difficult to get right. Thankfully, we have tools to make that job easier. Using Node, Webpack, TypeScript, React, and Jinaga, you can have your first PWA up and running in an afternoon. And what a fun afternoon it will be! Open up your Windows or Mac laptop and fire up your favorite Linux terminal. Use Node to bring in Webpack and TypeScript. Pop open your text editor of choice (Visual Studio Code strongly recommended) and start slinging some React and Jinaga code. Together, we will build a conference app that any show would be proud to show off. Design a data model that can be stored on the device and in the could, Present that data on a gloriously responsive interface, Cache sessions offline to cope with bad conference WiFi, Receive updates and notifications from conference organizers, Collaborate with other attendees through social media integration. Not every web site should be a Progressive Web App. But some of them should. Learn the skills to build them better."}} 
+twitter="michaellperry" 
+linkedin="michaellperry" 
+company="Improving Enterprises" 
+bio="Software is math. Every class is a theorem. The compiler is the proof. And unit tests check our work. Michael has recorded Pluralsight courses on CQRS, XAML Patterns, and Cryptography, in addition to Provable Code. He maintains the spoon-bending Assisticant, Correspondence, and Jinaga open-source libraries. He shared videos about distributed systems at historicalmodeling.com. And he helps his clients at Improving benefit from the power of software mathematics."
+ /> 
+
+<Speaker name="Ryan Lanciaux" Image={ryanImage} talk={{ title: "Intro to React and Best Practices Workshop ", 
+description: "React is no longer in its infancy as a framework and its popularity is continuing to grow.  While many modern JavaScript frameworks employ a component based structure, React can be a paradigm shift for those unfamiliar with the technology. In this workshop, we will explore some of the introductory concepts to React using React Hooks. We will discuss concepts like how do I start building an application?, how do I structure my components? and how do I get the most reuse from my components without a ton of overhead? At the end of this workshop you will be on the path to building your own web applications with React.  We will cover some of the practices we have employed building production applications with React over the past 5 years." }} 
+twitter="ryanlanciaux" 
+linkedin="lanciaux" 
+company="Spaceship Studio LLC" 
+bio="Founding Member at Spaceship Studio LLC. Ryan specializes in fast and dynamic web and native mobile applications development.His specialities include JavaScript, React, Node.js, Ruby, Rails, C#, Web, CSS, Linux.He lives in Ann Arbor with his wonderful family! In his freetime, he creates electronic music"
+ /> 
+
+
+<Speaker name="Scott Sanzenbacher" Image={scottsanImage} talk={{ title: "Intro to React and Best Practices Workshop ", 
+description: "React is no longer in its infancy as a framework and its popularity is continuing to grow.  While many modern JavaScript frameworks employ a component based structure, React can be a paradigm shift for those unfamiliar with the technology. In this workshop, we will explore some of the introductory concepts to React using React Hooks. We will discuss concepts like how do I start building an application?, how do I structure my components? and how do I get the most reuse from my components without a ton of overhead? At the end of this workshop you will be on the path to building your own web applications with React.  We will cover some of the practices we have employed building production applications with React over the past 5 years." }} 
+twitter="scottsanz" 
+linkedin="scottsanzenbacher" 
+company="Black Mutt Media, LLC" 
+bio="Owner at Black Mutt Media, LLC. Scott Sanzenbacher is a web and mobile application developer using many languages and frameworks. His current focus is React and React Native with a Node.js API."
+ /> 
+
+
+
+</Flex>
+###### Speakers subject to change.######
+

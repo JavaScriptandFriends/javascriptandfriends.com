@@ -3,6 +3,7 @@ import Layout from "../../components/layout";
 import SponsorCard from "../../components/SponsorCard";
 import hmbLogo from "./HMB-green-finity.png";
 import progressLogo from "./Progress_Kinvey_Primary.png";
+import beamDentalLogo from "./beamDental.jpg";
 import Alternate from "../../components/Alternate";
 export default class extends React.Component {
   render() {
@@ -59,6 +60,26 @@ export default class extends React.Component {
                 <p>
                 Over 1,700 independent software vendors, 100,000 enterprise customers and two million developers rely on Progress to power their applications. 
                 Learn about Progress at www.progress.com or +1-800-477-6473. 
+                </p>
+              </>
+            }
+          />
+          <SponsorCard
+            imageSrc={beamDentalLogo}
+            title="Beam Dental"
+            href="https://www.beam.dental."
+            logoWidth={330}
+            logoHeight={150}
+            description={
+              <>
+                <p>
+                Beam Dental was built around the idea that blending technology with traditional insurance policies could bring incredible value to a commoditized employee benefits
+                market.
+                </p>
+                <p>
+                Beam Dental is small and medium businesses’ best choice for a differentiated, innovative take on dental and ancillary employee benefits with a
+                nationwide network of over 335,000 access points.
+                Learn more at www.beam.dental. 
                 </p>
               </>
             }
