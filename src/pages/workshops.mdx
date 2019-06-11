@@ -7,7 +7,9 @@ import michealImage from "../components/SpeakerImages/michaelperry";
 import ryanImage from "../components/SpeakerImages/ryan";
 import scottsanImage from "../components/SpeakerImages/scottsan";
 import felesiaImage from "../components/SpeakerImages/felesia";
+import { Link as ButtonLink } from "../components/Button";
 import { Hidden } from '../components/Hidden';
+
 
 <Hidden as="h1">Workshops</Hidden>
 <Card>
@@ -16,8 +18,19 @@ import { Hidden } from '../components/Hidden';
 
 
 Will be conducted on Aug-01-2019 at Improving , Columbus Office from 8 AM to 4 PM.
-</Card>
 
+
+</Card>
+<Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
+<ButtonLink
+            href="https://www.eventbrite.com/e/javascript-and-friends-conference-registration-60880128102"
+            alignSelf="center"
+            mr={40}
+            target="_blank" rel="noopener noreferrer"
+          >
+            REGISTER
+          </ButtonLink>   
+</Flex>
 <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
 
 <Speaker name="Felesia McDonald" Image={felesiaImage} talk={{ title: "UX Workshop for Developers", 
