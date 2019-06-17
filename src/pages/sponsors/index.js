@@ -4,8 +4,8 @@ import SponsorCard from "../../components/SponsorCard";
 import hmbLogo from "./HMB-green-finity.png";
 import progressLogo from "./Progress_Kinvey_Primary.png";
 import beamDentalLogo from "./beamDental.jpg";
-import auth0Logo from "./Auth.PNG";
-import sparkboxLogo from "./sparkbox.PNG";
+import auth0Logo from "./Autho.png";
+import sparkboxLogo from "./sparkboxx.png";
 import Alternate from "../../components/Alternate";
 export default class extends React.Component {
   render() {
