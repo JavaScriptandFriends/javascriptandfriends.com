@@ -4,6 +4,8 @@ import SponsorCard from "../../components/SponsorCard";
 import hmbLogo from "./HMB-green-finity.png";
 import progressLogo from "./Progress_Kinvey_Primary.png";
 import beamDentalLogo from "./beamDental.jpg";
+import auth0Logo from "./Autho.png";
+import sparkboxLogo from "./sparkboxx.png";
 import Alternate from "../../components/Alternate";
 export default class extends React.Component {
   render() {
@@ -84,6 +86,15 @@ export default class extends React.Component {
               </>
             }
           />
+          <br></br>
+          <h2>Friends</h2>
+          <a href="https://auth0.com/" target="_blank">
+          <img src={auth0Logo} style={{ width:100, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>
+          &nbsp;
+          <a href="https://seesparkbox.com/" target="_blank">
+          <img src={sparkboxLogo} style={{ width:120, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>
         </Alternate>
       </Layout>
     );
