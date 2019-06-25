@@ -7,6 +7,7 @@ import beamDentalLogo from "./beamDental.jpg";
 import auth0Logo from "./Autho.png";
 import sparkboxLogo from "./sparkboxx.png";
 import centroLogo from "./centro.png";
+import mapsysLogo from "./mapsys.jpg";
 import Alternate from "../../components/Alternate";
 export default class extends React.Component {
   render() {
@@ -83,6 +84,23 @@ export default class extends React.Component {
                 Beam Dental is small and medium businesses’ best choice for a differentiated, innovative take on dental and ancillary employee benefits with a
                 nationwide network of over 335,000 access points.
                 Learn more at www.beam.dental. 
+                </p>
+              </>
+            }
+          />
+          <SponsorCard
+            imageSrc={mapsysLogo}
+            title="MAPSYS"
+            href="https://www.mapsysinc.com/"
+            logoWidth={330}
+            logoHeight={150}
+            description={
+              <>
+                <p>
+                Headquartered in Columbus, Ohio, MAPSYS, Inc. has been proudly serving the IT industry for over 35 years. As an IT Consulting firm initially specializing in iSeries (IBM i) infrastructure and application development, the company began adding Project Management and Web Development staff in 2005 and presently has over 40 technical staff with skills sets ranging from Web Application Development (Angular 7, Microsoft .Net, Java, PHP), Legacy Application Development (RPG, COBOL), Mobile Application Development (Ionic), Infrastructure Architecture Design, Database Design and Project Management. And by leveraging the latest versions of Angular and Microsoft DevOps on new applications, MAPSYS is able to provide both its clients and technical teams with the best technology solutions available.   
+                </p>
+                <p>
+                MAPSYS...the Difference Makers. 
                 </p>
               </>
             }
