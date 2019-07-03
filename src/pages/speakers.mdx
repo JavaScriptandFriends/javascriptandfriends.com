@@ -30,10 +30,10 @@ import toddnussImage from "../components/SpeakerImages/todd-nussbaum";
 import trezyImage from "../components/SpeakerImages/trezy-who";
 import dimitryImage from "../components/SpeakerImages/dimitry";
 import chrisHollandImage from "../components/SpeakerImages/chrisholland";
-import margeauxImage from "../components/SpeakerImages/margeaux";
 import vinceImage from "../components/SpeakerImages/vince";
 import jyotsnaImage from "../components/SpeakerImages/jyotsna-gupta";
 import milufranzImage from "../components/SpeakerImages/milu-franz";
+import aydinImage from "../components/SpeakerImages/aydin-akcasu";
 import { Hidden } from '../components/Hidden';
 import Text from "../components/Text";
 import { Link as ButtonLink } from "../components/Button";
@@ -52,6 +52,13 @@ import { Link as ButtonLink } from "../components/Button";
 </Flex>        
 
 <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
+
+<Speaker name="Aydin Akcasu" Image={aydinImage} talk={{ title: "I Told You to Stand Still ! (Motion Detection Web App with JavaScript)", 
+description: "Web browsers are getting more and more powerful. Now you can easily access the camera, and analyze the images. Using only a browser, we will access the camera , using WebRTC (Web Real-Time Communications). We will capture still frames from the streaming video, and analyze the images and create a Motion Detection Web Application, using ONLY JavaScript.We will create an app that will detect if there is motion, the direction, and the magnitude.In this talk, Aydin Akcasu, (who has over 10 years of prior experience in computer vision), demonstrates how easy it is to create a Motion Detector app, using only JavaScript and just your web browser."}} 
+twitter="aakcasu" linkedin="aydin-akcasu-51063" company="Quicken Loans" 
+bio="Aydin Akcasu is a Senior Software Engineer at Quicken Loans, the nations largest mortgage lender, which is based in Detroit, Michigan.He has over 30 years of experience as a software engineer with a wide variety of backgrounds across multiple industries including computer vision, medical devices, supply chain management, advertising, automotive, and Financial Technology. For many years Aydin shared his love of programming at a nearby community college as an adjunct lecturer, and he frequently donates time teaching children concepts of programming.When not writing software, he spends time hacking various technology devices to see how they work. His biggest claim to fame is bicycling solo from Detroit to Seattle, to raise money for the American Diabetes Association (http://RidinWithAydin.com). You can follow Aydin on twitter at @aakcasu."
+ /> 
+
 <Speaker name="Alison Falk" Image={alisonfalkImage} talk={{ title: "Sextech- A Valid and Important Technical Field", 
 description: "When it comes to sextech, people often let their imaginations get in the way of the facts. One common reason is that the media likes to focus primarily on VR porn and bang-able robots. In reality these subjects are just a small uncommon sliver on the sextech spectrum. Sextech spans everything from menopause technology and sex ed apps for teens to teledildonics and erotica audiobooks.\r\n\r\nYou encounter it when you use an app to track your menstrual cycle, talk to an A.I. OBGYN chatbot, or simply viewing adult content.\r\n\r\nIn this talk I\'ll describe:\r\n\u2022 briefly what sextech is and is not\r\n\r\n\u2022 the current biases sextech faces and how it detrimentally impacts marginalized groups, leads to sexual abuse and stifles innovation within the industry \r\n\r\n\u2022 why sextech is the most lucrative sector of technology based on growth statistics, use-cases and the human experience.\r\n\r\n\u2022 why adding \u201Ctech\" to the end of \u201Csex\u201D gives us \u201Cpermission\u201D to start dialogue on a taboo topic. The tech sector is uniquely positioned to remove the stigma surrounding one of the most common human experiences, and this is important for eliminating the professional risk associated with working in sextech. Technology enables bright minds to come forward and provide real world solutions to things like human trafficking, STIs, sexual assault, sex-ed, and more.\r\n\r\n\u2022 why being informed on the subject will make you a more well-rounded inclusive technologist and advocate for a more diverse and progressive tech industry"}} 
 twitter="alisonfalkpgh" linkedin="alison-falk" company="Women In Technology Pittsburgh" 
@@ -182,15 +189,6 @@ linkedin="martinedowden"
 company="Andromeda" 
 bio="UX,UI Designer & Developer, GDE, MVP. Focusing on web interfaces that are beautiful, functional, and usable, Martine delivers products that adhere to WCAG 2.0 and Section 508 for accessibility and compliance. She approaches User Experience from both Art and Science, drawing from her degrees in Psychology and Visual Communications. Martine has worked as an artist, educator, and consultant since 2005.She stays active in the industry, teaching new developers at Eleven Fifty Academy, attending and speaking at conferences and meetups, and publishing the occasional blog. In 2015 Martines childrens book Programming Languages ABC++ was published by Inedo, and in 2016 the Workbook Edition sold over 20,000 copies."
  />
-
-<Speaker name="Margeaux DeRaedt" Image={margeauxImage} talk={{ title: "An Aspiring Developers Notes on Being a Mentor", 
-description: "In this session, you will learn how to be an effective mentor from the perspective of an aspiring developer.As an experienced developer, you may have found yourself in a position of influence over young developers. You may know just what to do, or you may feel uncertain of how to play the mentor role. Additionally, good developers are in high demand! What can we do to ensure a new generation of effective devs?  To change your corner of the world, you need to take time and learn to be an effective mentor to others. This session is a guideline to what an effective mentor and mentee relationship looks like. Topics covered will include soft skills, practical advice, and how to instill the values of integrity and lifelong learning in a young developer. If you have found yourself in a mentor position or are looking to become one, this session is for you." }} 
-twitter="" 
-linkedin="margeaux-deraedt-307079182" 
-company="Kinship" 
-bio="Margeaux DeRaedt is a student at the University of Toledo, majoring in Computer Science Engineering. Currently, Margeaux is an apprentice at Kinship, where she is learning to become a master in React and humbly figuring out how to work with APIs. In her free time, Margeaux enjoys playing guitar, gaming, and reading."
- />
-
 
 <Speaker name="Matthew Groves" Image={mattGrovesImage} talk={{ title: "Querying NoSQL with SQL: HAVING Your JSON Cake and SELECTing it too", 
 description: "Until recently, agile business had to choose between the benefits of JSON-based NoSQL databases and the benefits of SQL-based querying. NoSQL provides schema flexibility, high performance, and elastic scaling, while SQL provides expressive, independent data access. Recent convergence allows developers and organizations to have the best of both worlds.Developers need to deliver apps that readily evolve, perform, and scale, all to match changing business needs. Organizations need rapid access to their operational data, using standard analytical tools, for insight into their business. In this session, you will learn the ways that SQL can be applied to NoSQL databases, and what additional features are needed to deal with JSON documents. SQL for JSON, JSON data modeling, indexing, and tool integration will be covered. This session will focus mainly on CosmosDb and Couchbase, but it will also touch on emerging relational approaches to JSON data." }} 
