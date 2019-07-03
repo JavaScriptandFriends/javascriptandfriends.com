@@ -8,6 +8,7 @@ import auth0Logo from "./Autho.png";
 import sparkboxLogo from "./sparkboxx.png";
 import centroLogo from "./centro.png";
 import mapsysLogo from "./mapsys.jpg";
+import mongodbLogo from "./mongodb.png";
 import Alternate from "../../components/Alternate";
 export default class extends React.Component {
   render() {
@@ -15,6 +16,20 @@ export default class extends React.Component {
       <Layout>
         <Alternate style={{ border: 0 }}>
           <h1>Sponsors</h1>
+          <SponsorCard
+            imageSrc={mongodbLogo}
+            title="MongoDB"
+            href="https://www.mongodb.com/"
+            logoWidth={330}
+            logoHeight={100}
+            description={
+              <>
+                <p>
+                MongoDB is the leading modern, general purpose database platform, designed to unleash the power of software and data for developers and the applications they build. Headquartered in New York, MongoDB has more than 14,200 customers in over 100 countries. The MongoDB database platform has been downloaded over 65 million times and there have been more than one million MongoDB University registrations. 
+                </p>               
+              </>
+            }
+          />
           <SponsorCard
             imageSrc={hmbLogo}
             title="HMB"
