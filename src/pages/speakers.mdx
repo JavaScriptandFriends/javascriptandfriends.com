@@ -20,7 +20,6 @@ import martineImage from "../components/SpeakerImages/martine";
 import mattGrovesImage from "../components/SpeakerImages/matt-groves";
 import mikehandImage from "../components/SpeakerImages/mike-hand";
 import nicoleImage from "../components/SpeakerImages/nicole";
-import pankajImage from "../components/SpeakerImages/pankaj";
 import robRichardImage from "../components/SpeakerImages/rob-richard";
 import robTarrImage from "../components/SpeakerImages/rob-tarr";
 import scottImage from "../components/SpeakerImages/scott-mcallister";
@@ -28,12 +27,12 @@ import stephenImage from "../components/SpeakerImages/stephen";
 import surenImage from "../components/SpeakerImages/suren-kona";
 import toddnussImage from "../components/SpeakerImages/todd-nussbaum";
 import trezyImage from "../components/SpeakerImages/trezy-who";
-import dimitryImage from "../components/SpeakerImages/dimitry";
 import chrisHollandImage from "../components/SpeakerImages/chrisholland";
 import vinceImage from "../components/SpeakerImages/vince";
 import jyotsnaImage from "../components/SpeakerImages/jyotsna-gupta";
 import milufranzImage from "../components/SpeakerImages/milu-franz";
 import aydinImage from "../components/SpeakerImages/aydin-akcasu";
+import dianaimage from "../components/SpeakerImages/diana";
 import { Hidden } from '../components/Hidden';
 import Text from "../components/Text";
 import { Link as ButtonLink } from "../components/Button";
@@ -101,21 +100,20 @@ company="TriNet"
 bio="Chris Holland leads a small Software Engineering Team at an HR company. Throughout a career spanning more than 20 years, Chris has held Sr. Engineering and Leadership roles for small and large successful publicly-traded companies such as EarthLink and Internet Brands, serving business models across Content, Commerce, Travel & Finance on a wide variety of technology stacks including PHP,LAMP, Java,J2EE and C# and .Net, catering to audiences over 100 million monthly visitors."
  />
 
- <Speaker name="Dmitry Vinnik" Image={dimitryImage} talk={{ title: "Uphill Battle Of Mobile Visual Regression", 
-description: "There are many types of testing companies need to perform in order to have confidence in their product: security testing, integration testing, system testing, performance testing, and more. Often, Mobile Developers focus on ensuring that main End-to-End flows of their applications work by relying on frameworks like Appium, or Robotium. However, in Mobile domain, Visual Testing is essential as mobile devices differ drastically in capabilities, display dimensions and even operating systems.Visual regression testing targets specific areas of visual concepts like layouts, responsive design, graphics, and CSS. Because modern mobile applications are built as hybrid and native applications, there is no way to scale this sort of testing using manual resources; hence, Visual test automation should be a crucial piece of testing stack.In this talk, the audience will learn about major Visual Testing Frameworks targeting both responsive web applications, and native mobile applications. " }} 
-twitter="DmitryVinnik" 
-linkedin="dmitry-vinnik" 
-company="Salesforce" 
-bio="Dmitry Vinnik is a Lead Software Engineer at Salesforce and has been passionate about Software Quality since the very beginning of his career.He started out as a Quality Engineer, and was able to bring test expertise into his current Software Engineering role to ensure delivery of a high quality product. Dmitry is also a Scrum Master focused on making his team more efficient and productive.His background involves studying medicine and bioinformatics in addition to software and quality engineering."
- />
-
-
  <Speaker name="Diego Hernandez" Image={diegoImage} talk={{ title: "Strengthening your blocks: A practical guide to UI component testing", 
 description: "As web applications continue to evolve into complex systems, developers today are building more and more UIs with component-based frameworks like React and Vue. As a result, UI testing today is easier than it has ever been before.  But where do you start? If you feel like it is a guessing game, this is the talk for you. In this talk, I will guide you with a practical approach to testing UI components to improve your UI resiliency and ensure it behaves as intended. Code examples will be React components. This talk is for React and non-React developers alike." }} 
 twitter="diego_codes" 
 linkedin="diegoahernandez" 
 company="IBM" 
 bio="Diego Hernandez is a front-end developer at IBM and Software Engineering graduate student at DePaul University in Chicago. He is a trained filmmaker, turned self-taught developer and designer. As a creative person, Diego is always looking for ways to stretch his canvas, in this case, web browsers, to create unique web experiences that tell a story. When he is not coding, you will probably find him attempting to rock climb or in the kitchen trying out a new recipe."
+ />
+
+<Speaker name="Diana Rodríguez" Image={dianaimage} talk={{ title: "No Panic!: Vue + Auth0 + Deployment", 
+description: "Fostering the DevOps culture of collaboration with a simple and very practical example: I created a simple panic button app using Vue.js, there are some basic frontend principles to talk about but what if i expanded how far things can get with this app: adding maps & real time location, sending sms messages to trusted contacts, handling auth and realtime database options, cloud functions, deploying to firebase… and walking the extra mile, deploying this app to GKE?. The sky is the limit. A simple proof that extra knowledge can take you very far without changing your specialty. From your favourite DevOps, sometimes Frontend Developer!" }} 
+twitter="cotufa82" 
+linkedin="nerdattack82" 
+company="Voicethread" 
+bio="Chief DevOps Architect. Google Developer Expert in Web Technologies and Google Cloud Platform. Auth0 Ambassador, Vue Vixens Worldwide Community Organiser. Full time nerd."
  />
 
 <Speaker name="Daniel Ceragioli Abrão" Image={danielImage} talk={{ title: "Javascript State - Homogeneity of Web solutions", 
@@ -220,15 +218,7 @@ twitter="lavie_encode"
 linkedin="nicolearchambault" 
 company="La Vie en Code" 
 bio="Nicole Archambault is a Boston area front-end web developer, coding career change coach, and EdTech entrepreneur. She is the founder of La Vie en Code, dedicated to new self-taught web developers.Her entire career is centered on optimizing the experience of those who choose to teach themselves programming skills in lieu of a more traditional academic setting, or bootcamp. She has received several awards and recognitions through her work in the developer community, including freeCodeCamp Top Contributor, and has been featured as a Treehouse Success Story. She has been teaching everything she knows via her course + coaching program, 30 Days to Web Development, the La Vie en Code blog, and the La Vie en Code podcast."
- />
-
- <Speaker name="Pankaj Parkar" Image={pankajImage} talk={{ title: "Demystifying Change Detection in Angular", 
-description: "Angular is one of the extraordinary javascript frameworks available in the market, because it have all the features required for the web development out of the box. The change detection system is at heart of framework, it essentially helps to update bindings on a page in efficient manner. In this session, we will learn about change detection in detail, in a simple and easy to understand way. And gradually we will move on to the behind the scenes part of it." }} 
-twitter="pankajparkar" 
-linkedin="pankajparkar" 
-company="Synerzip" 
-bio="Pankaj is currently working as a Technical Lead at Synerzip, Pune. He has been into web application development from last 6 years. Worked on different front-end technologies based on Javascript (like AngularJS, Angular, React, emberjs, etc) and backend technologies (like .Net, C#, SQL, nodejs, etc). He is passionate about knowledge sharing, hence most of the time you will find him helping people on StackOverflow for Angular questions.I consistently contribute to community by speaking at events, writing blogs, answering questions on stackoverflow, opensource contribution, etc. Beside that He is a part of Microsoft MVP and Google Developer Expert program."
- />
+ /> 
 
 <Speaker name="Rob Richardson" Image={robRichardImage} talk={{ title: "async and await with Node and Express", 
 description: "Express is the defacto Node web server, but it is built with callbacks. Can we use modern JavaScript like async and await? Let us dive into building routes with modern JavaScript, and how to write tests that prove they work." }} 
