@@ -33,12 +33,17 @@ import jyotsnaImage from "../components/SpeakerImages/jyotsna-gupta";
 import milufranzImage from "../components/SpeakerImages/milu-franz";
 import aydinImage from "../components/SpeakerImages/aydin-akcasu";
 import dianaimage from "../components/SpeakerImages/diana";
+import asiaImage from "../components/SpeakerImages/asia-r";
 import { Hidden } from '../components/Hidden';
 import Text from "../components/Text";
 import { Link as ButtonLink } from "../components/Button";
 
 <Hidden as="h1">Speakers</Hidden>
-
+<Card>
+<Text>
+Friends join us on Aug-02-2019 from 08:00 AM to 04:00 PM at Quest Conference Center, 8405 Pulsar Pl, Columbus, OH 43240.
+</Text>
+</Card>
 <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
 <ButtonLink
             href="https://www.eventbrite.com/e/javascript-and-friends-conference-registration-60880128102"
@@ -51,6 +56,15 @@ import { Link as ButtonLink } from "../components/Button";
 </Flex>        
 
 <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
+
+
+<Speaker name="Asia Rawls" Image={asiaImage} talk={{ title: "Driving User Enthusiasm with Gamification", 
+description: "This talk focuses on meeting business objectives through software development, driven by gamification. Typically, the UX aims to understand the individual’s experience using a product or service. However, it’s time to expound upon this idea and drive the user’s interest through drive and impulse. Is the user motivated or excited through the software application? Do they feel challenged? Are they notified about milestones achieved? Are they compelled and recognized? Does your application only care about when things are going wrong? This talk will focus on different ways to stimulate performance and put users in the zone. There are so many software applications unused because they fail to impact the user emotionally and psychologically."}} 
+twitter="" 
+linkedin="asia-rawls-7a964879" 
+company="Trumble Inc" 
+bio="Asia is a Director of Education at Trumble Inc, in this position Asia trains and educates engineers and production floor members about the internet of things and smart factories. Reveal, which is an intelligent software deployed as SaaS, which allows Asia to coordinate, lead, train, develop and create training material pertaining to data analytics. Asia has worked with brands such as Fiat Chrysler and Magna. In her role, she partnered with plant managers, manufacturing managers, and a diversity of team leaders to achieve collaboration and enthusiasm. Asia managed projects with the responsibility of helping oversee a range of critical projects from conception to delivery. She has assisted with improving KPI metrics, software enhancements and detecting data issues for upgrades. Asia has accomplishments as a Division 1 athlete. She was NCAA All-American at Eastern Michigan University. Later on, she went to complete her Master\'s in Business Administration and a Master\'s in Computer Information Systems, while coaching Division 1 Athletes. While studying for her MBA, she traveled to Nairobi Kenya to give a speech about Global Sustainability, amongst other Jesuit MBA professionals.Moreover, Asia is a large community organizer in Detroit Michigan, Asia offers her spare time to communities serving as a Board of Director under Judith Dianne Jackson Scholarship fund and a community cohort program known as, Contemplative Leaders in Action."
+ /> 
 
 <Speaker name="Aydin Akcasu" Image={aydinImage} talk={{ title: "I Told You to Stand Still ! (Motion Detection Web App with JavaScript)", 
 description: "Web browsers are getting more and more powerful. Now you can easily access the camera, and analyze the images. Using only a browser, we will access the camera , using WebRTC (Web Real-Time Communications). We will capture still frames from the streaming video, and analyze the images and create a Motion Detection Web Application, using ONLY JavaScript.We will create an app that will detect if there is motion, the direction, and the magnitude.In this talk, Aydin Akcasu, (who has over 10 years of prior experience in computer vision), demonstrates how easy it is to create a Motion Detector app, using only JavaScript and just your web browser."}} 
