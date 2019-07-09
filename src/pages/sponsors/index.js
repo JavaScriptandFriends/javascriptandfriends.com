@@ -9,6 +9,9 @@ import sparkboxLogo from "./sparkboxx.png";
 import centroLogo from "./centro.png";
 import mapsysLogo from "./mapsys.jpg";
 import mongodbLogo from "./mongodb.png";
+import leadingedjeLogo from "./LeadingEDJE.png";
+import improvingLogo from "./improving.png";
+import mozillaLogo from "./mozilla.png";
 import Alternate from "../../components/Alternate";
 export default class extends React.Component {
   render() {
@@ -123,15 +126,27 @@ export default class extends React.Component {
           <br></br>
           <h2>Friends</h2>
           <a href="https://auth0.com/" target="_blank" rel="noopener noreferrer">
-          <img src={auth0Logo} style={{ width:100, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
+          <img src={auth0Logo} alt="Auth0" style={{ width:100, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
           </a>
           &nbsp;
           <a href="https://seesparkbox.com/" target="_blank" rel="noopener noreferrer">
-          <img src={sparkboxLogo} style={{ width:120, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
+          <img src={sparkboxLogo} alt="Sparkbox" style={{ width:120, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
           </a>
           &nbsp;
           <a href="https://www.centro.net/" target="_blank" rel="noopener noreferrer">
-          <img src={centroLogo} style={{ width:100, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
+          <img src={centroLogo} alt="Centro" style={{ width:100, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>
+          &nbsp;
+          <a href="http://leadingedje.com/" target="_blank" rel="noopener noreferrer">
+          <img src={leadingedjeLogo} alt="Leading EDJE" style={{ width:150, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>
+          &nbsp;
+          <a href="https://improving.com/" target="_blank" rel="noopener noreferrer">
+          <img src={improvingLogo} alt="Improving" style={{ width:150, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>
+          &nbsp;
+          <a href="https://www.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">
+          <img src={mozillaLogo} alt="Mozilla" style={{ width:150, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
           </a>
         </Alternate>
       </Layout>
