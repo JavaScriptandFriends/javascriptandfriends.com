@@ -11,7 +11,8 @@ const WorkshopModal = ({
   Image,
   company,
   bio,
-  registerlink
+  registerlink,
+  timing
 }) => {
   const buttonRef = React.createRef();
   useEffect(() => {
@@ -63,7 +64,7 @@ const WorkshopModal = ({
           </a>{" "}
           &nbsp;
           <a
-            href={`https://www.linkedin.com/company/${linkedin}`}
+            href={`https://www.linkedin.com/${linkedin}`}
             title={`Go to ${name}'s LinkedIn`}
             target="_blank"
             rel="noopener noreferrer"
@@ -85,6 +86,7 @@ const WorkshopModal = ({
         </Flex>
         <h3 style={{ fontSize: "1rem" }}>{talk.title}</h3>
         <h4 style={{ fontSize: ".9rem" }}>Company: {company}</h4>
+        <h4 style={{ fontSize: ".9rem" }}>Time: {timing}</h4>
         <p style={{ fontSize: "1rem" }}>{talk.description}</p>
         {bio && (
           <>

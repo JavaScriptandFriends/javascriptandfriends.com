@@ -26,7 +26,7 @@ const Link = styled(Button)`
 `;
 
 
-function Workshop({ Image, name, talk, twitter, linkedin, company, bio, registerlink }) {
+function Workshop({ Image, name, talk, twitter, linkedin, company, bio, registerlink, timing }) {
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -70,6 +70,7 @@ function Workshop({ Image, name, talk, twitter, linkedin, company, bio, register
           company={company}
           bio={bio}
           registerlink = {registerlink}
+          timing = {timing}
         />
       </Modal>
 
@@ -107,7 +108,7 @@ function Workshop({ Image, name, talk, twitter, linkedin, company, bio, register
               </a>{" "}
               &nbsp;
               <a
-                href={`https://www.linkedin.com/company/${linkedin}`}
+                href={`https://www.linkedin.com/${linkedin}`}
                 title={`Go to ${name}'s LinkedIn`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -131,6 +132,10 @@ function Workshop({ Image, name, talk, twitter, linkedin, company, bio, register
           <h2 style={{ fontSize: "1rem" }}>{talk.title}</h2>
           {company && (
             <strong style={{ fontSize: ".9rem" }}>Company: {company}</strong>
+          )}
+          <br></br>
+           {timing && (
+            <strong style={{ fontSize: ".9rem" }}>Time: {timing}</strong>
           )}
         </div>
       </Flex>
