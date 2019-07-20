@@ -23,8 +23,6 @@ import nicoleImage from "../components/SpeakerImages/nicole";
 import robRichardImage from "../components/SpeakerImages/rob-richard";
 import robTarrImage from "../components/SpeakerImages/rob-tarr";
 import scottImage from "../components/SpeakerImages/scott-mcallister";
-import stephenImage from "../components/SpeakerImages/stephen";
-import surenImage from "../components/SpeakerImages/suren-kona";
 import toddnussImage from "../components/SpeakerImages/todd-nussbaum";
 import trezyImage from "../components/SpeakerImages/trezy-who";
 import chrisHollandImage from "../components/SpeakerImages/chrisholland";
@@ -35,6 +33,7 @@ import aydinImage from "../components/SpeakerImages/aydin-akcasu";
 import dianaimage from "../components/SpeakerImages/diana";
 import asiaImage from "../components/SpeakerImages/asia-r";
 import guyImage from "../components/SpeakerImages/guy";
+import ryanwealImage from "../components/SpeakerImages/ryanwe";
 import { Hidden } from '../components/Hidden';
 import Text from "../components/Text";
 import { Link as ButtonLink } from "../components/Button";
@@ -42,7 +41,7 @@ import { Link as ButtonLink } from "../components/Button";
 <Hidden as="h1">Speakers</Hidden>
 <Card>
 <Text>
-Friends join us on Aug-02-2019 from 08:00 AM to 04:00 PM at Quest Conference Center, 8405 Pulsar Pl, Columbus, OH 43240.
+Friends join us on Aug-02-2019 from 08:00 AM to 05:30 PM at Quest Conference Center, 8405 Pulsar Pl, Columbus, OH 43240.
 </Text>
 </Card>
 <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
@@ -257,27 +256,22 @@ linkedin=""
 company="Sparkbox" 
 bio="I am a developer at Sparkbox in Dayton, Ohio. I mostly spend my days writing JavaScript & HTML. When I am not at work I can usually be found playing with my kids, hacking on NodeBots, on a bike, hanging out with my wife or working on my latest project."
  />
+
+<Speaker name="Ryan Weal " Image={ryanwealImage} talk={{ title: "Using Nuxt to power Raspberry Pi e-ink displays", 
+description: "We stare at glowing screens all day! E-ink displays on the other hand do not have a backlight and thus are perfect for hanging on the wall to display static information. In this talk I discuss planning, researching, and coding for Raspberry Pi. We will look at parsing some public data from the Internet to create an information panel display powered by Vue.js, using Nuxt as a layout engine." }} 
+twitter="ryan_weal" 
+linkedin="rweal" 
+company="Kafei Interactive" 
+bio="Ryan is a vue.js & node.js developer who loves distributed data and hardware projects."
+ />
+
  <Speaker name="Scott McAllister" Image={scottImage} talk={{ title: "Building Command-Line Applications with OAuth in Node", 
 description: "Node provided a way to bring JavaScript out of the browser and on to server and desktop. In addition to building web applications, now you can build command line interface applications using JavaScript! Come explore some tools and libraries that will help you in your development, and even learn how to complete an OAuth flow from the command line." }} 
 twitter="stmcallister" 
 linkedin="stmcallister" 
 company="PagerDuty" 
 bio="Scott McAllister has been building web applications in several industries for over a decade. Now he is helping others learn about a wide range of web technologies. When he is not coding, writing or speaking he enjoys long walks with his wife, skipping rocks with his kids, and is happy whenever Real Salt Lake can manage a win."
- />
- <Speaker name="Kenigbolo Meya Stephen" Image={stephenImage} talk={{ title: "Components - more than a shinny frenzy", 
-description: "More often than not developers fall into the trap of wanting to use some shinny trend heard in the IT world and that is no different with web components. Do you really understand the design decisions behind the concept of web components? In this talk we will take a deep dive into what it is all about.In the last few years the term web components have become a main stay in frontend development and web development at large. This popularity as usual tends to come with a huge adoption in the industry albeit without people actually understanding the core concepts behind this new frenzy they have encountered. This is not limited to juniors alone. The goal of this talk is to give a deep dive into the background behind components, where it came from, how it has evolved and possibly what we might see in the future." }} 
-twitter="expensivestevie" 
-linkedin="kenigbolo" 
-company="BCaster OY" 
-bio="I am Kenigbolo Meya Stephen, Full Stack Software Engineer working as the Frontend Engineering Team Lead at BCaster OY. Formerly Arch Conveyer and Community Manager of CodeAfrique (now Reload), a not-for-profit weekend intensive software engineering bootcamp for underrepresented groups in IT based out of Estonia.During my free time I sometimes volunteer as an open source developer for adsbexchange.com, play golf and coach football (soccer as Americans call it). I also have a nick for writing tiny javascript modules on npm to help a few developers out there so they need not rewrite same utilities that we all might need (usually it is the case that we are only a handful needing those so there is really nothing too worry much about)."
- />
- <Speaker name="Suren Konathala" Image={surenImage} talk={{ title: "The JAQ Stack", 
-description: "Build web applications quick using Java, Angular and NoSql or SQL without using any frameworks. This session introduces the application stack and building web applications on top of these great languages. With presentations on building Monoliths, Microservices, Monorepos and Multiple-repos using this (JAQ) stack." }} 
-twitter="surenkonathala" 
-linkedin="ksurendra" 
-company="Adobe" 
-bio="Suren Konathala is a passionate, technology specialist on a mission to simplify technology adoption for organizations. He is a developer, architect, consultant, manager and love to Write and Talk about technology. He works at Adobe as a Technical Architect, holds a Masters degree in Computer science and studied at Carnegie Mellon and Stanford universities. With over 18 years of industry experience working in several levels at small to fortune 100 companies, Suren brings with him the practical real-world implementation experience and the challenges they bring with the lessons learnt. He is a great speaker, presenter, author, mentor and enjoys sharing his knowledge. His one thing that can do all day\/night without getting bored. Suren advocates for a more inclusive and an open-source, community based technology innovation and development and is a constant learner."
- />
+ /> 
  <Speaker name="Todd Nussbaum" Image={toddnussImage} talk={{ title: "Managing your resource heap - a guide to generations in the workplace", 
 description: "Modern programming languages have a variety of strategies for managing resources on the heap. As a developer, it is important to know the generational behavior and makeup of the heap, and how to manage various aspects of those resources. The same goes for managing people in your organization. As a leader, knowing the generations represented on your team can make you better equipped to relate to your team. In this talk, we will discuss the generations that makeup the modern workplace. We will explore the commonalities and differences of the various generations, and provide strategies for motivating and managing those generations in ways that lead to more efficient and effective teams." }} 
 twitter="tnussbaum" 
