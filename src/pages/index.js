@@ -22,6 +22,7 @@ const Root = () => (
     <Layout>
       <MainBanner>
         <Flex flexDirection="row" alignItems="center">
+        <ButtonLink href="schedule" rel="noopener noreferrer">Schedule</ButtonLink>
         <ButtonLink
             href="https://www.eventbrite.com/e/javascript-and-friends-conference-registration-60880128102"
             alignSelf="flex-start"
