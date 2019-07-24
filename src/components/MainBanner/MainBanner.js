@@ -4,7 +4,7 @@ import mainBannerSrc from "./main_banner.jpg";
 import { Flex, Box } from "@rebass/grid";
 import Heading from "../Heading";
 import Text from "../Text";
-
+import { GatsbyLink as Link } from "../Link";
 const Image = styled.img`
   max-width: 100%;
   height: auto;
