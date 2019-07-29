@@ -13,6 +13,7 @@ import leadingedjeLogo from "./LeadingEDJE.png";
 import improvingLogo from "./improving.png";
 import mozillaLogo from "./mozilla.png";
 import pagerduty from "./pagerduty.png";
+import andromeda from "./andromeda.png";
 import Alternate from "../../components/Alternate";
 export default class extends React.Component {
   render() {
@@ -152,6 +153,10 @@ export default class extends React.Component {
           &nbsp;
           <a href="https://www.pagerduty.com/" target="_blank" rel="noopener noreferrer">
           <img src={pagerduty} alt="PagerDuty" style={{ width:150, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>
+          &nbsp;
+          <a href="https://andromeda16.com/#/" target="_blank" rel="noopener noreferrer">
+          <img src={andromeda} alt="Andromeda" style={{ width:148, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
           </a>
         </Alternate>
       </Layout>
