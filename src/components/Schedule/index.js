@@ -183,7 +183,7 @@ export default function Schedule() {
 
         <tr>
           <td><Text>03:10 PM</Text></td>
-          <td>Talk by Austin Zellner</td>
+          <td>Getting Dangerous with MongoDB</td>
           <td>Austin Zellner</td>
           <td>Scarlet Room - MongoDB</td>
         </tr>
