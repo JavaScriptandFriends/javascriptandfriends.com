@@ -127,10 +127,10 @@ export default function Schedule() {
         </tr>
         <tr>
           <td><Text>01:00 PM</Text></td>
-          <td>I Feel the Need for Web Page Speed</td>
-          <td>Bill Dinger</td>
+          <td>TypeScript Features You Can Use Immediately</td>
+          <td>Bob Fornal</td>
           <td>Gray Room - HMB</td>
-        </tr>
+        </tr>   
         <tr>
           <td><Text>01:00 PM</Text></td>
           <td>Test-Driving Agility into Software</td>
@@ -204,25 +204,18 @@ export default function Schedule() {
           <td>5 ways to teach your kids how to program</td>
           <td>Dan Miller</td>
           <td>Dublin Room - Mapsys</td>
-        </tr> 
-        
+        </tr>         
         <tr>
-          <td><Text>04:15 PM</Text></td>
+          <td><Text>03:10 PM</Text></td>
           <td>No Panic!: Vue + Auth0 + Deployment</td>
           <td>Diana Rodríguez</td>
-          <td>Scarlet Room - MongoDB</td>
-        </tr>
+          <td>Delaware Room - Progress Kinvey</td>
+        </tr>        
         <tr>
           <td><Text>04:15 PM</Text></td>
-          <td>TypeScript Features You Can Use Immediately</td>
-          <td>Bob Fornal</td>
-          <td>Gray Room - HMB</td>
-        </tr>   
-        <tr>
-          <td><Text>04:15 PM</Text></td>
-          <td>Mentoring Panel</td>
+          <td>Mentoring Panel- Insightful Discussions with Lisa Turner, Cassandra Faris, David Amaya and Matthew Groves</td>
           <td></td>
-          <td>Buckeye Room - Beam Dental</td>
+          <td>Columbus Room</td>
         </tr>
         <tr>
           <td><Text>04:15 PM</Text></td>
