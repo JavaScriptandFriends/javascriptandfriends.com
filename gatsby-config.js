@@ -36,7 +36,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "gatsby-default-mdx-basic",
-        short_name: "JavaScript and Friends Conference",
+        short_name: "2019 JavaScript and Friends Conference",
         start_url: "/",
         background_color: "#663399",
         theme_color: "#663399",
