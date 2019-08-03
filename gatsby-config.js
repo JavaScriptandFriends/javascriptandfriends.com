@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   siteMetadata: {
-    title: "JavaScript and Friends Conference",
+    title: "2019 JavaScript and Friends Conference",
     description: "Columbus Ohio JavaScript Conference",
     author: "JavaScript and Friends Conference (volunteers)"
   },
