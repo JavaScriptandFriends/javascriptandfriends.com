@@ -20,17 +20,7 @@ const TextWrapper = styled.div`
 const Root = () => (
   <ThemeProvider theme={theme}>
     <Layout>
-      <MainBanner>
-        <Flex flexDirection="row" alignItems="center">        
-        <ButtonLink
-            href="https://www.eventbrite.com/e/javascript-and-friends-conference-registration-60880128102"
-            alignSelf="flex-start"
-            mr={40}
-            target="_blank" rel="noopener noreferrer"
-          >
-            BUY TICKETS
-          </ButtonLink>
-        </Flex>
+      <MainBanner>        
       </MainBanner>
       <Alternate pb={100}>
         <Heading color="alternateHeading" size={2}>

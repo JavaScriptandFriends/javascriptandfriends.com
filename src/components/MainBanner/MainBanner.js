@@ -29,8 +29,8 @@ function MainBanner({ children }) {
           </Heading>
           
           <Text color="highlight" my={30}>
-            Pre Conference Workshop | Columbus Ohio | 08.01.19<br/>
-            Quest Conference Center &nbsp;| Columbus Ohio | 08.02.19
+            Workshop Day &nbsp;&nbsp;| &nbsp;Aug-13-2020 <br/>
+            Conference Day  | &nbsp;Aug-14-2020           
           </Text>
           {children}
         </Flex>
