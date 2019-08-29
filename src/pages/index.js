@@ -34,7 +34,7 @@ const Root = () => (
           </Text>
           <Text pb={40}>
             Here's your chance to contribute to that mission! We're looking for
-            the best companies to partner with us and help to make the First
+            the best companies to partner with us and help to make the Second
             Annual JavaScript and Friends Conference a success. And with your
             contribution, it will be!
           </Text>
