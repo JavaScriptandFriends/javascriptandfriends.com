@@ -16,12 +16,26 @@ import pagerduty from "./pagerduty.png";
 import andromeda from "./andromeda.png";
 import manningBooks from "./Manning.svg";
 import Alternate from "../../components/Alternate";
+import Heading from "../../components/Heading";
+import { Link } from "../../components/Button";
 export default class extends React.Component {
   render() {
     return (
       <Layout>
+     
         <Alternate style={{ border: 0 }}>
-          <h1>Sponsors</h1>
+        <Heading color="alternateHeading" size={2}>
+          Interested in sponsoring JavaScript and Friends Conference 2020?  <Link
+          borderColor="alternateHeading"
+          backgroundColor="rgba(0,0,0,0)"
+          color="alternateHeading"
+          href="/callforsponsors"
+        >
+          Learn More
+        </Link>
+        </Heading>
+        <br></br>
+          <h1>2019 Sponsors</h1>
           <SponsorCard
             imageSrc={mongodbLogo}
             title="MongoDB"
