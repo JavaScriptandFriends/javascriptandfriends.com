@@ -6,6 +6,7 @@ import { GatsbyLink as Link } from "./Link";
 import Helmet from "react-helmet";
 
 import Header from "./Header";
+import Footer from "./Footer";
 import "./default.css";
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 import theme from "../themes";
@@ -62,7 +63,9 @@ const Layout = ({ children, hideHeading = false }) => (
                 </NavItem>
               </Nav>
             </Header>
-            <Main>{children}</Main>            
+            <Main>{children}</Main> 
+            <Footer>
+            </Footer>           
           </>
         </ThemeProvider>
       </>
