@@ -34,6 +34,13 @@ function MainBanner({ children }) {
           <Text color="highlight" my={10}>
             Conference Day | &nbsp;Aug-14-2020 - Quest Conference Center<br/>                   
           </Text>
+          <Link
+          borderColor="alternateHeading"
+          backgroundColor="rgba(0,0,0,0)"         
+          to="/callforspeakers"
+          color="highlight">
+          Call for Speakers Open - Apply Now
+          </Link>    
           {children}
         </Flex>
       </Box>

@@ -1,20 +1,10 @@
 import React from "react";
 import Layout from "../../components/layout";
 import SponsorCard from "../../components/SponsorCard";
-import hmbLogo from "./HMB-green-finity.png";
-import progressLogo from "./Progress_Kinvey_Primary.png";
-import beamDentalLogo from "./beamDental.jpg";
-import auth0Logo from "./Autho.png";
-import sparkboxLogo from "./sparkboxx.png";
-import centroLogo from "./centro.png";
-import mapsysLogo from "./mapsys.jpg";
-import mongodbLogo from "./mongodb.png";
 import leadingedjeLogo from "./LeadingEDJE.png";
 import improvingLogo from "./improving.png";
-import mozillaLogo from "./mozilla.png";
-import pagerduty from "./pagerduty.png";
-import andromeda from "./andromeda.png";
 import manningBooks from "./Manning.svg";
+import mysqlLogo from "./logo-mysql.png";
 import Alternate from "../../components/Alternate";
 import Heading from "../../components/Heading";
 import { Link } from "../../components/Button";
@@ -35,145 +25,51 @@ export default class extends React.Component {
         </Link>
         </Heading>
         <br></br>
-          <h1>2019 Sponsors</h1>
+          <h1>2020 Sponsors</h1>          
           <SponsorCard
-            imageSrc={mongodbLogo}
-            title="MongoDB"
-            href="https://www.mongodb.com/"
-            logoWidth={330}
-            logoHeight={100}
+            imageSrc={leadingedjeLogo}
+            title="Leading EDJE"
+            href="http://leadingedje.com/"
+            logoWidth={340}
+            logoHeight={60}
             description={
               <>
                 <p>
-                MongoDB is the leading modern, general purpose database platform, designed to unleash the power of software and data for developers and the applications they build. Headquartered in New York, MongoDB has more than 14,200 customers in over 100 countries. The MongoDB database platform has been downloaded over 65 million times and there have been more than one million MongoDB University registrations. 
-                </p>               
+                At Leading EDJE, we like to have fun, collaborate, and work on new and interesting technical solutions. With a focus on providing a great culture, where the technically driven can excel, our team members enjoy the benefits of collaborating with smart colleagues who embrace challenges and are passionate about what they do.
+                </p>
+                <p>
+                We are quality focused and work hard to get the job done right. Our team members are forward thinking, continuously strive for self-improvement, and keep up to date with the latest technology and trends in the industry.
+                Not only are EDJERs honest and trustworthy, we are truthful with ourselves as well. We understand our strengths and opportunities for improvement. We are patient with respect to working with others and in ensuring we focus on quality and do the right thing, not the “right now thing”
+                </p>                
               </>
             }
-          />
+          />           
           <SponsorCard
-            imageSrc={hmbLogo}
-            title="HMB"
-            href="https://hmbnet.com/"
-            logoWidth={330}
-            logoHeight={100}
+            imageSrc={mysqlLogo}
+            title="MySQL"
+            href="https://www.mysql.com"
+            logoWidth={170}
+            logoHeight={115}
             description={
               <>
                 <p>
-                  Where There’s Business, There's Technology. And Where There’s
-                  Technology, There Are Bound To Be Challenges. That’s where we
-                  come in. We’re an IT solutions company that solves tough
-                  technology challenges so you can get back to business as usual
-                  — business better than usual. We win when you win.
+                MySQL is the world's most popular OS database. With its proven performance, reliability and ease-of-use, MySQL has become the leading db choice for web-based applications, used by high profile web properties including Facebook, Twitter, YouTube, Yahoo! and many more. 
+Additionally, it is an extremely popular choice as embedded database, distributed by over 3,000 ISVs & OEMs.To organizations in need of an open source, ACID-compliant transactional database delivering real-time in-memory performance and 99.999 percent availability, Oracle offers MySQL Cluster. 
                 </p>
                 <p>
-                  We win because of the people we hire and surround ourselves
-                  with — and the people we are fortunate to call clients. When
-                  we focus on being more interested than interesting, we build
-                  trust. When we build trust, our clients succeed. When our
-                  clients succeed, we succeed. Technology empowers our clients
-                  to do some truly amazing things. And helping them bring their
-                  projects to life, well — it energizes us. It’s what gets us
-                  out of bed each morning. We come to work knowing we’re part of
-                  building sensational technology that matters. This passion is
-                  what drives us to succeed. It’s what we’re here to do.
+                MySQL Enterprise Edition is a commercial offering comprised of the MySQL database with security, encryption, auditing, high availability and scalability extensions, online backup, monitoring, management, and visual database design and SQL development tools. 
+MySQL Enterprise Edition is backed by Oracle Premier support for organizations delivering highly available, business critical applications and services. 
                 </p>
+                <p>
+                Oracle MySQL Cloud Service delivers a secure, cost-effective and enterprise-grade MySQL database service. Built on MySQL Enterprise Edition and powered by the Oracle Cloud, it provides a simple, automated, integrated and enterprise ready MySQL cloud service, enabling organizations to increase business agility and reduce costs.
+Oracle drives MySQL innovation, constantly improving MySQL solutions and delivering new capabilities to power next generation web, cloud, mobile and embedded applications.
+                </p>                
               </>
             }
           />
-          <SponsorCard
-            imageSrc={progressLogo}
-            title="Progress Kinvey"
-            href=" https://www.progress.com/kinvey"
-            logoWidth={330}
-            logoHeight={100}
-            description={
-              <>
-                <p>
-                Progress (NASDAQ: PRGS) offers the leading platform for developing and deploying strategic business applications. 
-                We enable customers and partners to deliver modern, high-impact digital experiences with a fraction of the effort, time and cost. 
-                Progress offers a high-productivity app development platform that increases productivity while maintaining developer control, 
-                powerful tools for building adaptive user experiences across any type of device or touchpoint,
-                machine learning that enables cognitive capabilities, a serverless cloud to deploy modern apps, 
-                plus business rules, web content management and leading data connectivity technology. 
-                </p>
-                <p>
-                Over 1,700 independent software vendors, 100,000 enterprise customers and two million developers rely on Progress to power their applications. 
-                Learn about Progress at www.progress.com or +1-800-477-6473. 
-                </p>
-              </>
-            }
-          />
-          <SponsorCard
-            imageSrc={beamDentalLogo}
-            title="Beam Dental"
-            href="https://www.beam.dental."
-            logoWidth={330}
-            logoHeight={150}
-            description={
-              <>
-                <p>
-                Beam Dental was built around the idea that blending technology with traditional insurance policies could bring incredible value to a commoditized employee benefits
-                market.
-                </p>
-                <p>
-                Beam Dental is small and medium businesses’ best choice for a differentiated, innovative take on dental and ancillary employee benefits with a
-                nationwide network of over 335,000 access points.
-                Learn more at www.beam.dental. 
-                </p>
-              </>
-            }
-          />
-          <SponsorCard
-            imageSrc={mapsysLogo}
-            title="MAPSYS"
-            href="https://www.mapsysinc.com/"
-            logoWidth={330}
-            logoHeight={150}
-            description={
-              <>
-                <p>
-                Headquartered in Columbus, Ohio, MAPSYS, Inc. has been proudly serving the IT industry for over 35 years. As an IT Consulting firm initially specializing in iSeries (IBM i) infrastructure and application development, the company began adding Project Management and Web Development staff in 2005 and presently has over 40 technical staff with skills sets ranging from Web Application Development (Angular 7, Microsoft .Net, Java, PHP), Legacy Application Development (RPG, COBOL), Mobile Application Development (Ionic), Infrastructure Architecture Design, Database Design and Project Management. And by leveraging the latest versions of Angular and Microsoft DevOps on new applications, MAPSYS is able to provide both its clients and technical teams with the best technology solutions available.   
-                </p>
-                <p>
-                MAPSYS...the Difference Makers. 
-                </p>
-              </>
-            }
-          />
+          
           <br></br>
-          <h2>Friends</h2>
-          <a href="https://auth0.com/" target="_blank" rel="noopener noreferrer">
-          <img src={auth0Logo} alt="Auth0" style={{ width:100, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          &nbsp;
-          <a href="https://seesparkbox.com/" target="_blank" rel="noopener noreferrer">
-          <img src={sparkboxLogo} alt="Sparkbox" style={{ width:120, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          &nbsp;
-          <a href="https://www.centro.net/" target="_blank" rel="noopener noreferrer">
-          <img src={centroLogo} alt="Centro" style={{ width:100, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          &nbsp;
-          <a href="http://leadingedje.com/" target="_blank" rel="noopener noreferrer">
-          <img src={leadingedjeLogo} alt="Leading EDJE" style={{ width:150, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          &nbsp;
-          <a href="https://improving.com/" target="_blank" rel="noopener noreferrer">
-          <img src={improvingLogo} alt="Improving" style={{ width:150, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          &nbsp;
-          <a href="https://www.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">
-          <img src={mozillaLogo} alt="Mozilla" style={{ width:150, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          &nbsp;
-          <a href="https://www.pagerduty.com/" target="_blank" rel="noopener noreferrer">
-          <img src={pagerduty} alt="PagerDuty" style={{ width:150, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          &nbsp;
-          <a href="https://andromeda16.com/#/" target="_blank" rel="noopener noreferrer">
-          <img src={andromeda} alt="Andromeda" style={{ width:148, height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          &nbsp;
+          <h2>Friends</h2>        
           <a href="https://www.manning.com" target="_blank" rel="noopener noreferrer">
           <img src={manningBooks} alt="ManningBooks" style={{ width:235, height:40, maxWidth: "100%", maxHeight: "100%" }}/> 
           </a>
