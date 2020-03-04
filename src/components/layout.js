@@ -50,16 +50,16 @@ const Layout = ({ children, hideHeading = false }) => (
                 </NavItem>
                 <NavItem>
                   <Link to="codeofconduct">COC</Link>
-                </NavItem>                
+                </NavItem>
+                <NavItem>
+                  <Link to="callforspeakers">CFP</Link>
+                </NavItem>
                 <NavItem>
                   <Link to="sponsors">Sponsors</Link>
                 </NavItem>
                 <NavItem>
                   <Link to="communityevents">Events</Link>
-                </NavItem>
-                <NavItem>
-                  <Link to="blog/thankyou">Thank You</Link>
-                </NavItem>
+                </NavItem>               
               </Nav>
             </Header>
             <Main>{children}</Main>            
