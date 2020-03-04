@@ -29,7 +29,7 @@ export default class extends React.Component {
           <SponsorCard
             imageSrc={leadingedjeLogo}
             title="Leading EDJE"
-            href="https://leadingedje.com/"
+            href="http://leadingedje.com/"
             logoWidth={340}
             logoHeight={60}
             description={
