@@ -4,6 +4,8 @@ import styled from "styled-components";
 import Text from "../Text";
 import twitter from "../../images/Twitter-Circle.png";
 import linkedIn from "../../images/LinkedIn-Circle.png";
+import youTube from "../../images/YouTube-Circle.png";
+import twitch from "../../images/Twitch-Circle.png";
 
 const FlexWrapper = styled(Flex)`
     margin: 0;
@@ -23,26 +25,40 @@ const FirstFlexWrapper = styled(FlexWrapper)`
     }
 `;
 
+const CopyrightText = styled(Text)`
+    font-size: 15px;
+    color: rgba(255,255,255,.3);
+`;
+
 const Footer = () => (
     <footer>
         <FirstFlexWrapper>
-            <Box width={1/2} textAlign={["right"]} px={2}>
+            <Box px={2}>
                 <a href={"https://twitter.com/JSFriendsConf"} target="_blank" rel="external">
                     <img src={twitter} alt="Twitter - JavaScript and Friends"/>
                 </a>
             </Box>
-            <Box width={1/2} textAlign={["left"]} px={2}>
+            <Box px={2}>
                 <a href={"https://www.linkedin.com/company/javascript-and-friends/"} target="_blank" rel="external">
                     <img src={linkedIn} alt="LinkedIn - JavaScript and Friends"/>
+                </a>
+            </Box>
+            <Box px={2}>
+                <a href={"https://www.youtube.com/channel/UCz4LNOw6U7ncyOSx73u_YMQ"} target="_blank" rel="external">
+                    <img src={youTube} alt="YouTube - JavaScript and Friends"/>
+                </a>
+            </Box>
+            <Box px={2}>
+                <a href={"https://www.twitch.tv/javascriptandfriends"} target="_blank" rel="external">
+                    <img src={twitch} alt="Twitch - JavaScript and Friends"/>
                 </a>
             </Box>
         </FirstFlexWrapper>
         <FlexWrapper>
             <Box width={1} textAlign={["center"]}>
-                <Text fontSize={["15px"]}>Copyright © 2020 JavaScript &amp; Friends.</Text>
+                <CopyrightText>Copyright © 2020 JavaScript &amp; Friends.</CopyrightText>
             </Box>
         </FlexWrapper>
     </footer>
 )
-
 export default Footer;
