@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import styled from "styled-components";
+import React from "react";
 import Text from "../Text";
 
 export default function({ as, size, children, ...rest }) {
