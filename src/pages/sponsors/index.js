@@ -5,6 +5,7 @@ import leadingedjeLogo from "./LeadingEDJE.png";
 import improvingLogo from "./improving.png";
 import manningBooks from "./Manning.svg";
 import mysqlLogo from "./logo-mysql.png";
+import wecancodeitlogo from "./WeCanCodeIT.png";
 import Alternate from "../../components/Alternate";
 import Heading from "../../components/Heading";
 import { Link } from "../../components/Button";
@@ -25,7 +26,34 @@ export default class extends React.Component {
         </Link>
         </Heading>
         <br></br>
-          <h1>2020 Sponsors</h1>          
+          <h1>2020 Sponsors</h1>  
+          <SponsorCard
+            imageSrc={wecancodeitlogo}
+            title="We Can Code IT"
+            href="https://wecancodeit.org"
+            logoWidth={280}
+            logoHeight={60}
+            description={
+              <>
+                <p>
+                We are committed to making people comfortable with the process of learning
+technology and software development so that all populations can be included in the tech
+community. Through innovative teaching methods that leverage in-class and hands-on
+learning, we bridge the knowledge gap to produce talented and diverse tech
+professionals.
+                </p>
+                <p>
+                We take pride in delivering engaging, personalized, and immersive experiences to bring
+your strengths to the forefront. Our innovative approach to technology education has
+given our students the confidence they need to know they can succeed as software
+developers, web developers, programmers, and analysts. We believe your motivation to
+learn is more valuable than your previous knowledge. It’s our job to help you learn, your
+job to give it your all, and given our mutual goal of your success, it’s our combined job to
+bring out the best software professional in you.
+                </p>                
+              </>
+            }
+          />             
           <SponsorCard
             imageSrc={leadingedjeLogo}
             title="Leading EDJE"
