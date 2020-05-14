@@ -29,10 +29,10 @@ function MainBanner({ children }) {
           </Heading>
           
           <Text color="highlight" my={10}>
-            Workshop Day &nbsp;&nbsp;| &nbsp;Aug-13-2020 - Dublin Integrated Education Center                  
+            Workshop Day &nbsp;&nbsp;| &nbsp;Aug-13-2020 - Virtual                  
           </Text>
           <Text color="highlight" my={10}>
-            Conference Day | &nbsp;Aug-14-2020 - Quest Conference Center<br/>                   
+            Conference Day | &nbsp;Aug-14-2020 - Virtual<br/>                   
           </Text>           
           {children}
         </Flex>
