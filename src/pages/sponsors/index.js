@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../../components/layout";
 import SponsorCard from "../../components/SponsorCard";
-import leadingedjeLogo from "./LeadingEDJE.png";
 import improvingLogo from "./improving.png";
 import manningBooks from "./Manning.svg";
 import mysqlLogo from "./logo-mysql.png";
@@ -53,25 +52,7 @@ bring out the best software professional in you.
                 </p>                
               </>
             }
-          />             
-          <SponsorCard
-            imageSrc={leadingedjeLogo}
-            title="Leading EDJE"
-            href="http://leadingedje.com/"
-            logoWidth={340}
-            logoHeight={60}
-            description={
-              <>
-                <p>
-                At Leading EDJE, we like to have fun, collaborate, and work on new and interesting technical solutions. With a focus on providing a great culture, where the technically driven can excel, our team members enjoy the benefits of collaborating with smart colleagues who embrace challenges and are passionate about what they do.
-                </p>
-                <p>
-                We are quality focused and work hard to get the job done right. Our team members are forward thinking, continuously strive for self-improvement, and keep up to date with the latest technology and trends in the industry.
-                Not only are EDJERs honest and trustworthy, we are truthful with ourselves as well. We understand our strengths and opportunities for improvement. We are patient with respect to working with others and in ensuring we focus on quality and do the right thing, not the “right now thing”
-                </p>                
-              </>
-            }
-          />           
+          />       
           <SponsorCard
             imageSrc={mysqlLogo}
             title="MySQL"
