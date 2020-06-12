@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../../components/layout";
 import SponsorCard from "../../components/SponsorCard";
-import improvingLogo from "./improving.png";
 import manningBooks from "./Manning.svg";
 import mysqlLogo from "./logo-mysql.png";
 import wecancodeitlogo from "./WeCanCodeIT.png";
+import outsystemslogo from "./outsystems.png";
 import Alternate from "../../components/Alternate";
 import Heading from "../../components/Heading";
 import { Link } from "../../components/Button";
@@ -53,6 +53,22 @@ bring out the best software professional in you.
               </>
             }
           />       
+          <SponsorCard
+            imageSrc={outsystemslogo}
+            title="OutSystems"
+            href="https://www.outsystems.com/"
+            logoWidth={300}
+            logoHeight={90}
+            description={
+              <>
+                <p>
+                Thousands of customers worldwide trust OutSystems, the number one platform for rapid, full stack application development. Engineers with an obsessive attention to detail crafted every aspect of the OutSystems platform to help organizations build enterprise-grade apps and transform their business faster. 
+                OutSystems is the only solution that combines the power of low-code development with advanced mobile capabilities, enabling visual development of entire application portfolios that easily integrate with existing systems.  
+                </p>
+            
+              </>
+            }
+          />      
           <SponsorCard
             imageSrc={mysqlLogo}
             title="MySQL"

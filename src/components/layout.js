@@ -47,19 +47,19 @@ const Layout = ({ children, hideHeading = false }) => (
             <Header siteTitle={data.site.siteMetadata.title} Link={Link}>
               <Nav>
                 <NavItem>
-                  <Link to="vision">Vision</Link>
+                  <Link to="/vision">Vision</Link>
                 </NavItem>
                 <NavItem>
-                  <Link to="codeofconduct">COC</Link>
+                  <Link to="/codeofconduct">COC</Link>
                 </NavItem>
                 <NavItem>
-                  <Link to="callforspeakers">CFP</Link>
+                  <Link to="/callforspeakers">CFP</Link>
                 </NavItem>
                 <NavItem>
-                  <Link to="sponsors">Sponsors</Link>
+                  <Link to="/sponsors">Sponsors</Link>
                 </NavItem>
                 <NavItem>
-                  <Link to="communityevents">Events</Link>
+                  <Link to="/communityevents">Events</Link>
                 </NavItem>               
               </Nav>
             </Header>

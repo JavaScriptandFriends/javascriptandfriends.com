@@ -34,22 +34,22 @@ const Footer = () => (
     <footer>
         <FirstFlexWrapper>
             <Box px={2}>
-                <a href={"https://twitter.com/JSFriendsConf"} target="_blank" rel="external">
+                <a href={"https://twitter.com/JSFriendsConf"} target="_blank" rel="noopener noreferrer">
                     <img src={twitter} alt="Twitter - JavaScript and Friends"/>
                 </a>
             </Box>
             <Box px={2}>
-                <a href={"https://www.linkedin.com/company/javascript-and-friends/"} target="_blank" rel="external">
+                <a href={"https://www.linkedin.com/company/javascript-and-friends/"} target="_blank" rel="noopener noreferrer">
                     <img src={linkedIn} alt="LinkedIn - JavaScript and Friends"/>
                 </a>
             </Box>
             <Box px={2}>
-                <a href={"https://www.youtube.com/channel/UCz4LNOw6U7ncyOSx73u_YMQ"} target="_blank" rel="external">
+                <a href={"https://www.youtube.com/channel/UCz4LNOw6U7ncyOSx73u_YMQ"} target="_blank" rel="noopener noreferrer">
                     <img src={youTube} alt="YouTube - JavaScript and Friends"/>
                 </a>
             </Box>
             <Box px={2}>
-                <a href={"https://www.twitch.tv/javascriptandfriends"} target="_blank" rel="external">
+                <a href={"https://www.twitch.tv/javascriptandfriends"} target="_blank" rel="noopener noreferrer">
                     <img src={twitch} alt="Twitch - JavaScript and Friends"/>
                 </a>
             </Box>
