@@ -5,12 +5,14 @@ import SpeakerModal from "./SpeakerModal";
 import styled from "styled-components";
 import { Button } from "../Button";
 import { Text } from "../Text";
-
+import twitterImage from "../../images/Twitter-Circle.png";
+import linkedInImage from "../../images/LinkedIn-Circle.png";
 const NameLinks = styled.div`
-  @media (max-width: 560px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  @media (max-width: 250px) {
+    display:flex;
+    flex-direction: column;   
+    text-align: center;
+    justify-content: center;
   }
 `;
 
@@ -32,17 +34,16 @@ const truncate = content =>
     .slice(0, 25)
     .join(" ") + "...";
 
-function Speaker({ Image, name, talk, twitter, linkedin, company, bio }) {
+function Speaker({ Image, name, twitter, linkedin, company, title}) {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div
-      onClick={x => setOpen(true)}
+    <div      
       style={{
         cursor: "pointer",
-        width: 480,
-        minWidth: 300,
-        minHeight: 280,
+        width: 250,
+        minWidth: 250,
+        minHeight: 150,
         margin: "1rem",
         backgroundColor: "#fff",
         borderRadius: 12,
@@ -52,39 +53,14 @@ function Speaker({ Image, name, talk, twitter, linkedin, company, bio }) {
         boxShadow: "6px 9px 3px rgba(0 ,0,0,0.4)"
       }}
     >
-      <Modal
-        isOpen={isOpen}
-        style={{
-          overlay: { background: "rgba(51, 51, 51, 0.71)", overflow: "scroll" },
-          content: {
-            background: "none",
-            border: "none",
-            margin: 0,
-            padding: 0,
-            overflow: "visible"
-          }
-        }}
-        ariaHideApp={false}
-      >
-        <SpeakerModal
-          name={name}
-          talk={talk}
-          setOpen={setOpen}
-          twitter={twitter}
-          linkedin={linkedin}
-          Image={Image}
-          company={company}
-          bio={bio}
-        />
-      </Modal>
-
+     
       <Flex
         flexDirection="row"
         alignItems="center"
         justifyContent="center"
         style={{ padding: "0.5rem", flexWrap: "wrap" }}
       >
-        <div style={{ margin: "0.5rem", flex: 2 }}>
+        <div style={{ margin: "0.5rem", flex: 2,justifyContent:"center" }}>
           <div style={{ width: "100%" }}>
             <div
               style={{
@@ -93,14 +69,13 @@ function Speaker({ Image, name, talk, twitter, linkedin, company, bio }) {
                 width: "125px",
                 height: "125px",
                 margin: "10px auto",
-                boxShadow: "0px 3px 15px rgba(0,0,0,0.2)"
+                boxShadow: "0px 3px 15px rgba(0,0,0,0.2)",                               
               }}
             >
               <Image />
             </div>
-            <NameLinks>
-              <strong>{name}</strong>
-              <br />
+            <NameLinks style={{textAlign: "center"}}>
+              <h4>{name}</h4>             
               <a
                 href={`https://twitter.com/${twitter}`}
                 title={`Go to ${name}'s Twitter`}
@@ -108,7 +83,7 @@ function Speaker({ Image, name, talk, twitter, linkedin, company, bio }) {
                 rel="noopener noreferrer"
                 onclick="setOpen(false);"
               >
-                Twitter
+                 <img src={twitterImage} alt="Twitter - JavaScript and Friends" style={{width: "10%", backgroundColor: "#72b1ff"}}/>
               </a>{" "}
               &nbsp;
               <a
@@ -118,30 +93,12 @@ function Speaker({ Image, name, talk, twitter, linkedin, company, bio }) {
                 rel="noopener noreferrer"
                 onclick="setOpen(false);"
               >
-                LinkedIn
+                <img src={linkedInImage} alt="Twitter - JavaScript and Friends" style={{width: "10%", backgroundColor: "#72b1ff"}}/>
               </a>
             </NameLinks>
           </div>
-        </div>
-
-        <div
-          style={{
-            width: "250px",
-            margin: "0.5rem",
-            flexDirection: "column",
-            alignItems: "space-between",
-            justifyContent: "space-between"
-          }}
-        >
-          <h2 style={{ fontSize: "1rem" }}>{talk.title}</h2>
-          {company && (
-            <strong style={{ fontSize: ".9rem" }}>Company: {company}</strong>
-          )}
-        </div>
-      </Flex>
-      <ActionArea>
-        <Link>Learn more</Link>
-      </ActionArea>
+        </div>       
+      </Flex>      
     </div>
   );
 }

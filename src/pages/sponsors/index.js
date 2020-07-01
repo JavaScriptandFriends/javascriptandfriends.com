@@ -5,6 +5,10 @@ import manningBooks from "./Manning.svg";
 import mysqlLogo from "./logo-mysql.png";
 import wecancodeitlogo from "./WeCanCodeIT.png";
 import outsystemslogo from "./outsystems.png";
+import circleCIlogo from "./circle-logo.png";
+import noStarchlogo from "./nostarch.png";
+import doitleanlogo from "./DIL.png";
+import preciseLogo from "./prlogo.png";
 import Alternate from "../../components/Alternate";
 import Heading from "../../components/Heading";
 import { Link } from "../../components/Button";
@@ -25,7 +29,23 @@ export default class extends React.Component {
         </Link>
         </Heading>
         <br></br>
-          <h1>2020 Sponsors</h1>  
+          <h1>2020 Sponsors</h1>
+          <SponsorCard
+            imageSrc={circleCIlogo}
+            title="CircleCI"
+            href="https://circleci.com"
+            logoWidth={100}
+            logoHeight={90}
+            description={
+              <>
+                <p>
+                CircleCI is the leading continuous integration and delivery platform for teams looking to shorten the distance between idea and delivery. 
+                CircleCI offers support for Linux, macOS, Docker, and Windows, in the cloud or behind your firewall. 
+                Let CircleCI focus on CI/CD, so you can build the next big thing.
+                </p>                           
+              </>
+            }
+          />         
           <SponsorCard
             imageSrc={wecancodeitlogo}
             title="We Can Code IT"
@@ -94,10 +114,25 @@ Oracle drives MySQL innovation, constantly improving MySQL solutions and deliver
           />
           
           <br></br>
-          <h2>Friends</h2>        
+          <h2>Friends</h2>  
+          <div style={{textAlign:"center"}}>
           <a href="https://www.manning.com" target="_blank" rel="noopener noreferrer">
-          <img src={manningBooks} alt="ManningBooks" style={{ width:235, height:40, maxWidth: "100%", maxHeight: "100%" }}/> 
+          <img src={manningBooks} alt="ManningBooks" style={{ width:235, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
           </a>
+          &nbsp;&nbsp;
+          <a href="https://nostarch.com/" target="_blank" rel="noopener noreferrer">
+          <img src={noStarchlogo} alt="No Starch Press" style={{ width:200, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>
+          <br></br>
+          <a href="https://www.doitlean.com/" target="_blank" rel="noopener noreferrer">
+          <img src={doitleanlogo} alt="Do IT Lean" style={{ width:100, height:100, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>
+          <br></br>
+          <a href="http://www.preciseresource.com/" target="_blank" rel="noopener noreferrer">
+          <img src={preciseLogo} alt="Precise Resource" style={{ width:250, height:100, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>
+          </div>      
+         
         </Alternate>
       </Layout>
     );

@@ -4,36 +4,40 @@ import Card from "../components/Card";
 import { Flex } from "@rebass/grid"; 
 import Speaker from "../components/Speaker"; 
 import bobFornalImage from "../components/SpeakerImages/bob-fornal";
-import burtonSmithImage from "../components/SpeakerImages/burton-smith";
-import alisonfalkImage from "../components/SpeakerImages/alison-falk";
-import cassandraImage from "../components/SpeakerImages/cassandra-faris";
-import christineImage from "../components/SpeakerImages/christine";
-import danielImage from "../components/SpeakerImages/daniel";
-import danmillerImage from "../components/SpeakerImages/dan-miller";
-import diegoImage from "../components/SpeakerImages/diego";
-import dustinImage from "../components/SpeakerImages/dustin";
-import jessieImage from "../components/SpeakerImages/jessie-barnett";
-import joeericksonImage from "../components/SpeakerImages/joe-erickson";
-import marcPoulinImage from "../components/SpeakerImages/marc-poulin";
-import martineImage from "../components/SpeakerImages/martine";
-import mattGrovesImage from "../components/SpeakerImages/matt-groves";
-import mikehandImage from "../components/SpeakerImages/mike-hand";
-import nicoleImage from "../components/SpeakerImages/nicole";
-import robRichardImage from "../components/SpeakerImages/rob-richard";
-import robTarrImage from "../components/SpeakerImages/rob-tarr";
-import scottImage from "../components/SpeakerImages/scott-mcallister";
-import toddnussImage from "../components/SpeakerImages/todd-nussbaum";
-import trezyImage from "../components/SpeakerImages/trezy-who";
-import chrisHollandImage from "../components/SpeakerImages/chrisholland";
-import vinceImage from "../components/SpeakerImages/vince";
-import jyotsnaImage from "../components/SpeakerImages/jyotsna-gupta";
-import milufranzImage from "../components/SpeakerImages/milu-franz";
-import aydinImage from "../components/SpeakerImages/aydin-akcasu";
-import dianaimage from "../components/SpeakerImages/diana";
-import asiaImage from "../components/SpeakerImages/asia-r";
+import alexImage from "../components/SpeakerImages/alejandro_mercado";
+import arunImage from "../components/SpeakerImages/arun_michael_dsouza";
+import alexcarrolImage from "../components/SpeakerImages/alex_carroll";
+import ashleyImage from "../components/SpeakerImages/ashley_narcisse";
+import bekahImage from "../components/SpeakerImages/bekah_hawrot_weigel";
+import chrisImage from "../components/SpeakerImages/chris_silivestru";
+import cruxImage from "../components/SpeakerImages/crux_conception";
+import davidNealImage from "../components/SpeakerImages/david_neal";
+import ericbishardImage from "../components/SpeakerImages/eric_bishard";
+import ericPotterImage from "../components/SpeakerImages/eric_potter";
+import ericOlsonImage from "../components/SpeakerImages/erik_j__olson";
 import guyImage from "../components/SpeakerImages/guy";
-import ryanwealImage from "../components/SpeakerImages/ryanwe";
-import austinImage from "../components/SpeakerImages/austin-zell";
+import hakanImage from "../components/SpeakerImages/hakan_silfvernagel";
+import jamieImage from "../components/SpeakerImages/jamie_wright";
+import jeremyImage from "../components/SpeakerImages/jeremy_meiss";
+import joelImage from "../components/SpeakerImages/joel_lord";
+import johnImage from "../components/SpeakerImages/john_sj_anderson";
+import jordanImage from "../components/SpeakerImages/jordan_powell";
+import melanie_mcgeeImage from "../components/SpeakerImages/melanie_mcgee";
+import martineImage from "../components/SpeakerImages/martine";
+import michaelImage from "../components/SpeakerImages/michael";
+import michaelRichardImage from "../components/SpeakerImages/michael_richardson";
+import mikehandImage from "../components/SpeakerImages/mike-hand";
+import robRichardsonImage from "../components/SpeakerImages/rob-richard";
+import robertImage from "../components/SpeakerImages/robert_aboukhalil";
+import russelImage from "../components/SpeakerImages/russell_skaggs";
+import ryanImage from "../components/SpeakerImages/ryan";
+import sarahImage from "../components/SpeakerImages/sarah_dutkiewicz";
+import shodipoImage from "../components/SpeakerImages/shodipo_ayomide";
+import tamasImage from "../components/SpeakerImages/tamas_piros";
+import tylerImage from "../components/SpeakerImages/tyler_blake";
+import vladimirImage from "../components/SpeakerImages/vladimir_repin";
+import deneishaImage from "../components/SpeakerImages/deneisha_franklin";
+import palmidiaImage from "../components/SpeakerImages/palmidia";
 import { Hidden } from '../components/Hidden';
 import Text from "../components/Text";
 import { Link as ButtonLink } from "../components/Button";
@@ -41,12 +45,12 @@ import { Link as ButtonLink } from "../components/Button";
 <Hidden as="h1">Speakers</Hidden>
 <Card>
 <Text>
-Friends join us on Aug-02-2019 from 08:00 AM to 05:30 PM at Quest Conference Center, 8405 Pulsar Pl, Columbus, OH 43240.
+Friends join us on Aug-13-2020 and Aug-14-2020 from 08:00 AM to 05:30 PM.
 </Text>
 </Card>
 <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
 <ButtonLink
-            href="https://www.eventbrite.com/e/javascript-and-friends-conference-registration-60880128102"
+            href="https://www.eventbrite.com/e/javascript-and-friends-conference-2020-registration-109564969774"
             alignSelf="center"
             mr={40}
             target="_blank" rel="noopener noreferrer"
@@ -57,242 +61,183 @@ Friends join us on Aug-02-2019 from 08:00 AM to 05:30 PM at Quest Conference Cen
 
 <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
 
-
-<Speaker name="Asia Rawls" Image={asiaImage} talk={{ title: "Driving User Enthusiasm with Gamification", 
-description: "This talk focuses on meeting business objectives through software development, driven by gamification. Typically, the UX aims to understand the individual’s experience using a product or service. However, it’s time to expound upon this idea and drive the user’s interest through drive and impulse. Is the user motivated or excited through the software application? Do they feel challenged? Are they notified about milestones achieved? Are they compelled and recognized? Does your application only care about when things are going wrong? This talk will focus on different ways to stimulate performance and put users in the zone. There are so many software applications unused because they fail to impact the user emotionally and psychologically."}} 
+<Speaker name="Alex Carroll" Image={alexcarrolImage} 
 twitter="" 
-linkedin="asia-rawls-7a964879" 
-company="Trumble Inc" 
-bio="Asia is a Director of Education at Trumble Inc, in this position Asia trains and educates engineers and production floor members about the internet of things and smart factories. Reveal, which is an intelligent software deployed as SaaS, which allows Asia to coordinate, lead, train, develop and create training material pertaining to data analytics. Asia has worked with brands such as Fiat Chrysler and Magna. In her role, she partnered with plant managers, manufacturing managers, and a diversity of team leaders to achieve collaboration and enthusiasm. Asia managed projects with the responsibility of helping oversee a range of critical projects from conception to delivery. She has assisted with improving KPI metrics, software enhancements and detecting data issues for upgrades. Asia has accomplishments as a Division 1 athlete. She was NCAA All-American at Eastern Michigan University. Later on, she went to complete her Master\'s in Business Administration and a Master\'s in Computer Information Systems, while coaching Division 1 Athletes. While studying for her MBA, she traveled to Nairobi Kenya to give a speech about Global Sustainability, amongst other Jesuit MBA professionals.Moreover, Asia is a large community organizer in Detroit Michigan, Asia offers her spare time to communities serving as a Board of Director under Judith Dianne Jackson Scholarship fund and a community cohort program known as, Contemplative Leaders in Action."
+linkedin="alexandertcarroll" 
+ />
+
+<Speaker name="Alejandro Mercado" Image={alexImage} 
+twitter="alexmarket" 
+linkedin="alexmarket" 
  /> 
 
- <Speaker name="Austin Zellner" Image={austinImage} talk={{ title: "Getting Dangerous with MongoDB", 
-description: "With a simple to use database that provides the flexibility of JSON, combined with the ease of Database as a Service through their Atlas offering. But with so much capability, sometimes it can be a challenge to understand how to get started. In this talk, we'll cover just enough concepts to make you dangerous, while also showing the path of how to grow with mastery with this next generation data platform."}} 
+ <Speaker name="Arun" Image={arunImage} 
+twitter="amdsouza92" 
+linkedin="arunmichaeldsouza" 
+ />
+
+  <Speaker name="Ashley Narcisse" Image={ashleyImage} 
+twitter="_darkfadr" 
+linkedin="anarcisse" 
+ />
+
+<Speaker name="Bekah Hawrot Weigel" Image={bekahImage} 
+twitter="bekahhw" 
+linkedin="bekah-hawrot-weigel" 
+ />
+
+ <Speaker name="Bob Fornal" Image={bobFornalImage} 
+twitter="rfornal" 
+linkedin="rfornal" 
+ />
+
+ <Speaker name="Chris Silivestru" Image={chrisImage} 
 twitter="" 
-linkedin="austin-zellner-b0a8874" 
-company="MongoDB" 
-bio="Austin is a Principal Solution Architect for MongoDB in the Great Lakes region. Prior to evangelizing software, Austin worked as a developer in the insurance, printing, and retail domains, doing projects ranging for ERP, to Knowledge Networks for Estimation, to Mobile Point of Sale. When he is not thinking about data models, he spends his time collecting boardgames and miniatures, reading about history, and basically chasing whatever squirrel crosses his path."
- /> 
-
-<Speaker name="Aydin Akcasu" Image={aydinImage} talk={{ title: "I Told You to Stand Still ! (Motion Detection Web App with JavaScript)", 
-description: "Web browsers are getting more and more powerful. Now you can easily access the camera, and analyze the images. Using only a browser, we will access the camera , using WebRTC (Web Real-Time Communications). We will capture still frames from the streaming video, and analyze the images and create a Motion Detection Web Application, using ONLY JavaScript.We will create an app that will detect if there is motion, the direction, and the magnitude.In this talk, Aydin Akcasu, (who has over 10 years of prior experience in computer vision), demonstrates how easy it is to create a Motion Detector app, using only JavaScript and just your web browser."}} 
-twitter="aakcasu" linkedin="aydin-akcasu-51063" company="Quicken Loans" 
-bio="Aydin Akcasu is a Senior Software Engineer at Quicken Loans, the nations largest mortgage lender, which is based in Detroit, Michigan.He has over 30 years of experience as a software engineer with a wide variety of backgrounds across multiple industries including computer vision, medical devices, supply chain management, advertising, automotive, and Financial Technology. For many years Aydin shared his love of programming at a nearby community college as an adjunct lecturer, and he frequently donates time teaching children concepts of programming.When not writing software, he spends time hacking various technology devices to see how they work. His biggest claim to fame is bicycling solo from Detroit to Seattle, to raise money for the American Diabetes Association (http://RidinWithAydin.com). You can follow Aydin on twitter at @aakcasu."
- /> 
-
-<Speaker name="Alison Falk" Image={alisonfalkImage} talk={{ title: "Sextech- A Valid and Important Technical Field", 
-description: "When it comes to sextech, people often let their imaginations get in the way of the facts. One common reason is that the media likes to focus primarily on VR porn and bang-able robots. In reality these subjects are just a small uncommon sliver on the sextech spectrum. Sextech spans everything from menopause technology and sex ed apps for teens to teledildonics and erotica audiobooks.\r\n\r\nYou encounter it when you use an app to track your menstrual cycle, talk to an A.I. OBGYN chatbot, or simply viewing adult content.\r\n\r\nIn this talk I\'ll describe:\r\n\u2022 briefly what sextech is and is not\r\n\r\n\u2022 the current biases sextech faces and how it detrimentally impacts marginalized groups, leads to sexual abuse and stifles innovation within the industry \r\n\r\n\u2022 why sextech is the most lucrative sector of technology based on growth statistics, use-cases and the human experience.\r\n\r\n\u2022 why adding \u201Ctech\" to the end of \u201Csex\u201D gives us \u201Cpermission\u201D to start dialogue on a taboo topic. The tech sector is uniquely positioned to remove the stigma surrounding one of the most common human experiences, and this is important for eliminating the professional risk associated with working in sextech. Technology enables bright minds to come forward and provide real world solutions to things like human trafficking, STIs, sexual assault, sex-ed, and more.\r\n\r\n\u2022 why being informed on the subject will make you a more well-rounded inclusive technologist and advocate for a more diverse and progressive tech industry"}} 
-twitter="alisonfalkpgh" linkedin="alison-falk" company="Women In Technology Pittsburgh" 
-bio="Alison is the founder of Women In Technology Pittsburgh (WIT PGH) as well as the founder of the first digital magazine on the intersection and disruption of modern tech and human sexuality.She is a front-end software engineer with experience in startup and corporate environments and holds a masters degree in brand management. She is also a cybersecurity masters candidate at the George Washington University and a recipient of the the (ISC)2 Center for Cyber Safety Education award. Alison has been awarded the RedChairPgh scholarship for leadership as a mid-career woman in IT and has been featured in WIRED, Women of Silicon Valley, WomenInTech, Female Tech Leaders, 96Boards, BrightTalk, and more."
- /> 
-
-<Speaker name="Bob Fornal" Image={bobFornalImage} talk={{ title: "TypeScript Features You Can Use Immediately", 
-description: "Whether it is demystifying function overloading or breaking referential transparency we will discuss many obscure and useful features in TypeScript.\
-TypeScript provides several things that we can and should use today, Function Overloading,Breaking Referential Transparency\
-Type Predicates,Inferences,Built-In Generics." }} twitter="rfornal" linkedin="rfornal" company="Leading EDJE" bio="Senior Developer with Leading EDJE:
-Husband, father, and programmer. My focus is on front-end development - JavaScript,CSS,SVG,AngularJS and Angular,React and Ionic."
- />  
-
-<Speaker name="Burton Smith" Image={burtonSmithImage} talk={{ title: "Taming the Front-End - A Guide to Modern Web Development", 
-description: "Web development has become more and more complex. There are so many tools like preprocessors, bundlers, minifiers, transpilers, and task runners to help us build and optimize our code. How do we know where to start?\r\nIn this session, we will take a high-level overview of some of the tools used for web development and give developers a roadmap for understanding the modern web ecosystem." }} twitter="stuffbreaker" linkedin="burton-smith-48132a34" company="Bunzl North America" bio="I have been building software and applications for over 10 years and focus primarily on web and mobile software engineering. At my current company, I work with internal business stakeholders and external customer to build digital products and tools.
-In my free time, I love spending time with my wife and three daughters, practicing martial arts, jamming on my ukulele, and learning new things (usually about software engineering)."
- /> 
-
-<Speaker name="Cassandra Faris" Image={cassandraImage} talk={{ title: "Purposeful Personal Branding", 
-description: "If you have an online presence, you have a personal brand. Most of us didn\'t intend to create a brand when we made our first websites and social media profiles. They were just fun ways to share our lives meet people. Now, they\'re networking and career growth tools. In this talk, you\'ll hear about people whose brands helped them become respected developers, managers, and community leaders. You\'ll learn how to use your online presence to advance your career. You\'ll also pick up best practices, common mistakes, and tips for balancing professional and personal content. Intentional personal branding opens the door to endless opportunities. Come see how to make that happen!" }} 
-twitter="cassandrafaris" 
-linkedin="cassandrafaris" 
-company="AWH" 
-bio="Cassandra Faris is passionate about the human side of technology. She is a Product Owner at AWH, a software consulting company focused on creating products that improve people\'s lives. Her professional background includes technical recruiting, marketing, and employee development. She is an international speaker who specializes in human skills and communication topics for tech professionals. She served as President of the Microsoft and open source conference, DogFoodCon, and is a member of the Per Scholas Advisory Board. She has an MBA in Organizational Leadership. When she\'s not busy with the tech community, she is a tabletop gamer, runner, and soccer fan who travels as much as possible."
- /> 
-
-<Speaker name="Chris Holland" Image={chrisHollandImage} talk={{ title: "Test-Driving Agility into Software", 
-description: "This session will explore how much time and energy we currently waste when writing software, simply to answer two simple questions:* Does my code work?* Did I just break something?. As we explore these pain-points, Test-Driven Development will emerge as a surprisingly efficient workflow putting us in a position to ship code sooner, more often, on a sustained basis.Most of us are surprised by this, as it just seems very counter-intuitive to write a test before even having written any code. Yet, as we explore this workflow, we start uncovering the efficiencies that we gain, and things become fascinating.As a result, we will show what it feels like to write software that responds to change, as a true sensation of agility emerges, driven not by Scrum, but instead, driven by better code." }} 
-twitter="chrisholland" 
-linkedin="chrisholland" 
-company="TriNet" 
-bio="Chris Holland leads a small Software Engineering Team at an HR company. Throughout a career spanning more than 20 years, Chris has held Sr. Engineering and Leadership roles for small and large successful publicly-traded companies such as EarthLink and Internet Brands, serving business models across Content, Commerce, Travel & Finance on a wide variety of technology stacks including PHP,LAMP, Java,J2EE and C# and .Net, catering to audiences over 100 million monthly visitors."
+linkedin="chrissilivestru" 
  />
 
- <Speaker name="Diego Hernandez" Image={diegoImage} talk={{ title: "Strengthening your blocks: A practical guide to UI component testing", 
-description: "As web applications continue to evolve into complex systems, developers today are building more and more UIs with component-based frameworks like React and Vue. As a result, UI testing today is easier than it has ever been before.  But where do you start? If you feel like it is a guessing game, this is the talk for you. In this talk, I will guide you with a practical approach to testing UI components to improve your UI resiliency and ensure it behaves as intended. Code examples will be React components. This talk is for React and non-React developers alike." }} 
-twitter="diego_codes" 
-linkedin="diegoahernandez" 
-company="IBM" 
-bio="Diego Hernandez is a front-end developer at IBM and Software Engineering graduate student at DePaul University in Chicago. He is a trained filmmaker, turned self-taught developer and designer. As a creative person, Diego is always looking for ways to stretch his canvas, in this case, web browsers, to create unique web experiences that tell a story. When he is not coding, you will probably find him attempting to rock climb or in the kitchen trying out a new recipe."
+ <Speaker name="Crux Conception" Image={cruxImage} 
+twitter="CruxConception" 
+linkedin="crux-conception" 
+ />
+ 
+ <Speaker name="David Neal" Image={davidNealImage} 
+twitter="reverentgeek" 
+linkedin="davidneal" 
  />
 
-<Speaker name="Diana Rodríguez" Image={dianaimage} talk={{ title: "No Panic!: Vue + Auth0 + Deployment", 
-description: "Fostering the DevOps culture of collaboration with a simple and very practical example: I created a simple panic button app using Vue.js, there are some basic frontend principles to talk about but what if i expanded how far things can get with this app: adding maps & real time location, sending sms messages to trusted contacts, handling auth and realtime database options, cloud functions, deploying to firebase… and walking the extra mile, deploying this app to GKE?. The sky is the limit. A simple proof that extra knowledge can take you very far without changing your specialty. From your favourite DevOps, sometimes Frontend Developer!" }} 
-twitter="cotufa82" 
-linkedin="nerdattack82" 
-company="Voicethread" 
-bio="Chief DevOps Architect. Google Developer Expert in Web Technologies and Google Cloud Platform. Auth0 Ambassador, Vue Vixens Worldwide Community Organiser. Full time nerd."
- />
-
-<Speaker name="Daniel Ceragioli Abrão" Image={danielImage} talk={{ title: "Javascript State - Homogeneity of Web solutions", 
-description: "From a form validator tool that Javascript used to be, Daniel will present some delightful benefits from its growth to a full-featured language on the past years and demonstrates how flexible, and maintainable a full javascript stack can be by showcasing production running applications in several niches such as IoT, backend and frontend, and task runners.How can a team be positively impacted by choosing a Javascript stack and what are the advantages of investing time and effort on it will be some of the questions Daniel will answer from his engineer perspective." }} 
+ <Speaker name="Deneisha Franklin" Image={deneishaImage} 
 twitter="" 
-linkedin="dcerag" 
-company="IBM" 
-bio="Daniel is a Software engineer focused on Web solutions working at IBM Brazil. Implementing Javascript solutions since 2012, he followed up part of the significant ecosystem change the community had, growing up with a community-based sense. He also mentors students at Udacitys Web technologies courses and contributes with open source projects. In his spare time, Daniel likes to spend some time with his wife and daughter, his cats and playing Counter-Strike with his squad."
+linkedin="deneisha-franklin-8b9b35109" 
+ />
+ 
+
+  <Speaker name="Eric Bishard" Image={ericbishardImage} 
+twitter="httpJunkie" 
+linkedin="eric-b" 
  />
 
-<Speaker name="Dan Miller" Image={danmillerImage} talk={{ title: "5 ways to teach your kids how to program", 
-description: "As a 2nd generation software developer, what could be more exciting than training a THIRD generation software developer! I will share 5 ways I have used to teach my kids programming skills." }} 
-twitter="pointswithacrew" 
-linkedin="thedanmiller" 
-company="" 
-bio="Father of 6, Full stack dev and travel hacker I am a full-stack dev and father of 6 from Cincinnati Ohio. Some have called me the most interesting man in the world. Some uncommon things about me - * have 20 years of full-stack developer experience (most recently in React,Redux and Spring Boot)* have 6 kids* speak English and Spanish (lived 2 years in the Dominican Republic as a 19 year old)* have been on Wheel of Fortune (I finished 2nd and won $5800 for 20 minutes of work)* hold world records for the fastest time to jump in all 5 Great Lakes as well as fastest time to visit all 88 counties of Ohio* was featured on the CBS Sunday Morning show * ran a fantasy sports website with over 20,000 participants* am trying to visit all 3,143 counties in the United States (I am about 62% done)* run a travel hacking blog with over 500,000 monthly pageviews* have over 40 credit cards"
+  <Speaker name="Eric Potter" Image={ericPotterImage} 
+twitter="pottereric" 
+linkedin="eric-potter-07955742" 
  />
 
-<Speaker name="'Tine Zekis" Image={christineImage} talk={{ title: "Curriculum to Command Line: Why Teachers Make Awesome Coders, and What Your Team Can Learn from Them", 
-description: "Perhaps you have heard the oft-quoted statistic that teachers make 1500 decisions per day in their classrooms. How do they do that?! Don't you think a mind with that kind of training would be great at writing algorithms and defining edge cases? Well, it turns out that they are! Find out why former educators make awesome coders, communicators, teammates, and leaders. And, perhaps more importantly, learn what your teams can do to hone those same skills." }} 
-twitter="tinezekis" 
-linkedin="tinezekis" 
-company="Centro" 
-bio="Christine ('Tine) Zekis is an educator-turned-developer working as a Software Engineer in Chicago. She champions Diversity, Equity, and Inclusion in tech, while delivering clean, well-tested code. She aspires to mentor and sponsor other career changers, especially those who are underrepresented in the industry. In her spare time...just kidding: 'Tine has a one-year-old daughter and no spare time."
+ <Speaker name="Erik J. Olson" Image={ericOlsonImage} 
+twitter="amerikjolson" 
+linkedin="iamerikjolson" 
  />
 
-<Speaker name="Guy Royse" Image={guyImage} talk={{ title: "An Introduction to WebAssembly", 
-description: "Want to write a web application? Better get familiar with JavaScript.JavaScript has long been the king of front-end. While there have been various attempts to dethrone it, they have typically involved treating JavaScript as an assembly-language analog that you transpile your code to. This has lead to complex build pipelines that result in JavaScript which the browser has to parse and *you* still have to debug. But what if there were an actual byte-code language you could compile your non-JavaScript code to instead? That is what WebAssembly is. I am going to explain how WebAssembly works and how to use it in this talk. I will cover what it is, how it fits into your application, and how to build and use your own WebAssembly modules. And, I will demo how to build and use those modules with both Rust and the WebAssembly Text Format. That is right, I will be live coding in an assembly language. I will also go over some online resources for other languages and tools that make use of WebAssembly. When we are done, you will have the footing you need to start building applications featuring WebAssembly. So grab a non-JavaScript language, a modern browser, and let us get started!" }} 
+  <Speaker name="Guy Royse" Image={guyImage} 
 twitter="guyroyse" 
 linkedin="groyse" 
-company="ScriptDrop" 
-bio="Guy works for ScriptDrop in Columbus, Ohio. Combining his decades of experience in writing software with a passion for sharing what he has learned, Guy goes out into developer communities and helps others build great software. Teaching and community have long been a focus for Guy. He is President of the Columbus JavaScript Users Group, an organizer for the Columbus Machine Learners, and has even has helped teach programming at a prison in central Ohio. In past lives, Guy has worked as a consultant in a broad range of industries including healthcare, retail, and utilities. He also has spent several years working for a major insurance company in central Ohio. This has given him a broad view of technology application toward business problems. In his personal life, Guy is a hard-boiled geek interested in role-playing games, science fiction, and technology. He also has a slightly less geeky interest in history and linguistics. In his spare time, he volunteers for his local Cub Scout Pack, goes camping, and studies history and linguistics. Guy lives in Ohio with his wife, his three teenage sons, and an entire wall of games."
  />
 
-<Speaker name="Dustin Hershman" Image={dustinImage} talk={{ title: "Building your First gRPC Service in Node.js", 
-description: "gRPC can help minimize the barrier of cross system communication by providing language-agnostic API definitions, backwards and forwards compatible versioning with protocol buffers, and pluggable load balancing and tracing. You will see how to quickly get up and running with the gRPC framework using Node.js from creating a protocol definition, creating meaningful health checks, and securing the endpoint. Additionally, this session will go over best practices and how to take full advantage of what gRPC has to offer" }} 
-twitter="SirDugs" 
-linkedin="dustin-hershman-938953101" 
-company="Budget Dumpster LLC" 
-bio="Dustin started his professional career in IT 5 years ago, working primilarily with JavaScript. He enjoys functional development within JavaScript & Node, and likes to spend his time in Elm and Clojure when possible. He is a very proud dog dad, and is passionate about greyhound rescues."
+ <Speaker name="Hakan Silfvernagel" Image={hakanImage} 
+twitter="agrevlis" 
+linkedin="hakansilfvernagel" 
  />
 
- <Speaker name="Jessie Barnett" Image={jessieImage} talk={{ title: "Building your First gRPC Service in Node.js", 
-description: "gRPC can help minimize the barrier of cross system communication by providing language-agnostic API definitions, backwards and forwards compatible versioning with protocol buffers, and pluggable load balancing and tracing. You will see how to quickly get up and running with the gRPC framework using Node.js from creating a protocol definition, creating meaningful health checks, and securing the endpoint. Additionally, this session will go over best practices and how to take full advantage of what gRPC has to offer" }} 
-twitter="" 
-linkedin="jessiebarnett" 
-company="" 
-bio="Jessie developed a passion for programming after teaching herself HTML, CSS, and JavaScript to make her own Sailor Moon fan site in fifth grade. She began her professional career in IT 8 years ago working with legacy ColdFusion applications and currently spends most of her time working with Golang and Node.js. She has a passion for clean architecture, software quality, and API design. She loves learning new libraries and programming paradigms."
+ <Speaker name="Jamie Wright" Image={jamieImage} 
+twitter="jwright" 
+linkedin="brilliantfantastic" 
  />
 
-<Speaker name="Jyotsna Gupta" Image={jyotsnaImage} talk={{ title: "Building cross-platform browser add-ons using Web Extension API", 
-description: "Browser Add-ons can extend and modify the functionality of a browser. They help us to personalize the browser as per our need. I will be walking through some of the existing add-ons to outline the potential of add-ons. Participants will learn how easily they can develop a Firefox or Chrome add-on or port Firefox add-on to other browsers(Chrome, Opera, Edge,etc.) by having basic knowledge of JavaScript using WebExtensions API." }} 
-twitter="imJenal" 
-linkedin="jyotsna17gupta" 
-company="CoffeeBeans,  Mozilla Techspeaker" 
-bio="Jyotsna is an Open Source Enthusiast, working as a Software Developer in CoffeeBeans, Bangalore. She is a TechSpeaker at Mozilla and volunteers to Mozilla in her free time as an Add-on Content Reviewer & Add-ons Featured Advisory Board Member. She has served on the judging panel for the Firefox Quantum Extensions Challenge. She is also a Firefox Add-ons Mentor and has published a privacy-themed add-on PrivateX. For her contributions to Mozilla, her name is also listed in about:credits and the credits page of every shipped Firefox browser. She energizes herself by playing Badminton, TT, Carrom, Chess, and Basketball. She prefers to spend most of the time in her room, else she feels to travel the world. If you do not see her doing any of the above, then you will find probably find her sleeping and dreaming for hours, maybe day"
+ 
+ <Speaker name="Jeremy Meiss" Image={jeremyImage} 
+twitter="IAmJerdog" 
+linkedin="jeremymeiss" 
+ />
+ 
+ <Speaker name="Joel Lord" Image={joelImage} 
+twitter="joel__lord" 
+linkedin="joel-lord" 
  />
 
-<Speaker name="Joe Erickson" Image={joeericksonImage} talk={{ title: "Create Your Own HTML Tags with Vue and Web Components", 
-description: "While many applications have moved to a full front-end SPA, there are still plenty of sites that will never be run with 100% JavaScript. Does that mean they can\'t join the modern JavaScript party? Will they forever be left out of the fancy JavaScript parade?No! With the Web Component standard and the Vue JavaScript framework, you can have the best of both worlds. This session will show how we can create our own, dynamic HTML tags using the Custom Elements standard and the Vue JavaScript framework. Attendees will learn how to use the Vue CLI to start their projects, create encapsulated, independent JavaScript components, and then turn them into Web Components that can be included on any web page, SPA or not. They will also learn how to get the custom elements to talk to each other, without any extra wiring code." }} 
-twitter="firstclown" 
-linkedin="josepherickson" 
-company="Tech Elevator" 
-bio="Joe Erickson is a web programmer that has been building internet applications for Fortune 100 and small businesses alike for over 20 years. He has built production ready applications in Java, PHP, Perl, C++, Ruby, and JavaScript. Joe is an Instructor at Tech Elevator in Cleveland, OH."
+  <Speaker name="John SJ Anderson" Image={johnImage} 
+twitter="genehack" 
+linkedin="johnsjanderson" 
  />
 
-<Speaker name="Marc Poulin" Image={marcPoulinImage} talk={{ title: "Automated testing as a strategy for onboarding new developers", 
-description: "In this presentation I will talk about how web development teams can empower a junior developer using test driven development. We will look at each practical step I took on my path to become a developer; from learning to test with Puppeteer, Mocha and Chai to using Cypress.io for Nuxt and Vue projects. Finally, I will review the philosophy behind test driven development from writing Gherkin syntax to following the 3Amigos way of working. These strategies will help you integrate a junior developer as a productive member of the team without slowing down senior developers." }} 
-twitter="jack" 
-linkedin="" 
-company="Kafei Interactive" 
-bio="Marc is a junior developer who is new to the software industry. Marc has spent the last year learning about software development and automated testing. He has become a video producer on the side. Outside of work, Marc is usually camping or watching hockey."
+ 
+  <Speaker name="Jordan Powell" Image={jordanImage} 
+twitter="jordanpowell88" 
+linkedin="jpdesigning" 
  />
 
-<Speaker name="Martine Dowden" Image={martineImage} talk={{ title: "I Dont Need No Stinkin Framework - I Dont Need No Stinkin Framework - Mastering Shadow DOM", 
-description: "Want to create components that work regardless of the front-end framework you are using?Tired of throwing away your components when you change front-end frameworks?Wish you could just code it once and reuse it on all of your projects?Me too! Components are a staple of front-end development as they increase development speed, consistency, and reduce the need for repeat code. To create components often we turn to frameworks such as Angular, React, and Vue but we don\'t need to. Using nothing more than HTML and Javascript that is readily available to us in all modern browsers we can create components that work without being tied to any one front-end framework. You will walk away with the knowledge you need to go forth and create your own components, understand how to make them look gorgeous, and what if any limitations there are. Also, find out how you can bring back the blink tag!" }} 
+ <Speaker name="Martine Dowden" Image={martineImage} 
 twitter="Martine_Dowden" 
 linkedin="martinedowden" 
-company="Andromeda" 
-bio="UX,UI Designer & Developer, GDE, MVP. Focusing on web interfaces that are beautiful, functional, and usable, Martine delivers products that adhere to WCAG 2.0 and Section 508 for accessibility and compliance. She approaches User Experience from both Art and Science, drawing from her degrees in Psychology and Visual Communications. Martine has worked as an artist, educator, and consultant since 2005.She stays active in the industry, teaching new developers at Eleven Fifty Academy, attending and speaking at conferences and meetups, and publishing the occasional blog. In 2015 Martines childrens book Programming Languages ABC++ was published by Inedo, and in 2016 the Workbook Edition sold over 20,000 copies."
  />
 
-<Speaker name="Matthew Groves" Image={mattGrovesImage} talk={{ title: "Querying NoSQL with SQL: HAVING Your JSON Cake and SELECTing it too", 
-description: "Until recently, agile business had to choose between the benefits of JSON-based NoSQL databases and the benefits of SQL-based querying. NoSQL provides schema flexibility, high performance, and elastic scaling, while SQL provides expressive, independent data access. Recent convergence allows developers and organizations to have the best of both worlds.Developers need to deliver apps that readily evolve, perform, and scale, all to match changing business needs. Organizations need rapid access to their operational data, using standard analytical tools, for insight into their business. In this session, you will learn the ways that SQL can be applied to NoSQL databases, and what additional features are needed to deal with JSON documents. SQL for JSON, JSON data modeling, indexing, and tool integration will be covered. This session will focus mainly on CosmosDb and Couchbase, but it will also touch on emerging relational approaches to JSON data." }} 
-twitter="mgroves" 
-linkedin="mgroves" 
-company="Couchbase" 
-bio="Matthew D. Groves is a guy who loves to code. It does not matter if it is C#, jQuery, or PHP: he will submit pull requests for anything. He has been coding professionally ever since he wrote a QuickBASIC point-of-sale app for his parent\'s pizza shop back in the 90s. He currently works as a Developer Advocate for Couchbase. His free time is spent with his family, watching the Reds, and getting involved in the developer community. He is the author of AOP in .NET (published by Manning), and is also a Microsoft MVP."
+<Speaker name="Melanie McGee" Image={melanie_mcgeeImage} 
+twitter="MelKMcGee" 
+linkedin="melmcgee" 
  />
 
-<Speaker name="Mike Hand" Image={mikehandImage} talk={{ title: "TerseScript: JavaScript with 6 characters or less", 
-description: "Let us explore the unique properties of JavaScript and learn how to write ANYTHING using only brackets, parentheses, plus, and bang. When you go back to using your full keyboard, you will do it with a better understanding of JavaScript and some of its, um, features. Some of these hacks should NOT be tried at home..." }} 
+ <Speaker name="Michael Leners" Image={michaelImage} 
+twitter="micLeners" 
+linkedin="micleners" 
+ />
+
+<Speaker name="Michael Richardson" Image={michaelRichardImage} 
+twitter="anaccidentaldev" 
+linkedin="accidentaldeveloper" 
+ />
+
+ <Speaker name="Mike Hand" Image={mikehandImage} 
 twitter="_secondhand" 
 linkedin="mike-hand-55152917" 
-company="HMB" 
-bio="Mike has been in software development for over 10 years, working everywhere from top 10 defense contractors, small privately owned companies, freelance, and the world of consulting."
  />
 
-<Speaker name="Milu Franz" Image={milufranzImage} talk={{ title: "Pros and Cons of Using VueJS vs ReactJS", 
-description: "Vue has recently gained significant attention and many developers proficient in React JS are contemplating learning Vue JS as a new skillset. Being so similar in scope, the speakers goal is to provide the audience with enough information about both front-end JavaScript frameworks to facilitate the decision of learning and using either of them in future development projects. In order to achieve this, this presentation will provide a code side-by-side comparison of a simple sign in one-page app created using both VueJS and ReactJS. This comparison will ensure technical accuracy and highlight where one framework outshines the other. Furthermore, this presentation will discuss the similarities and differences of both frameworks in regards to installation, runtime performance, HTML & CSS, scalability, data manipulation, props (passed from parent-to-child and child-to-parent components), event listeners, and available libraries." }} 
-twitter="" 
-linkedin="miluska-franz" 
-company="Mile Two LLC" 
-bio="Milu Franz is an Associate Software Engineer at Mile Two LLC. Milus background as a designer and her pursuance of a computer science degree has allowed her to specialize in taking projects from conception to deployment. In her free time, Milu enjoys lifting heavy weights, practicing Brazilian jiu-jitsu, and baking."
+<Speaker name="Palmidia" Image={palmidiaImage} 
+twitter="Jetzable" 
+linkedin="jetzable" 
  />
 
-<Speaker name="Nicole Archambault" Image={nicoleImage} talk={{ title: "MUD to OOP: Introduction to Object-Oriented Programming with JavaScript!", 
-description: "As a nerdy kid, multi-user dungeons, or MUDs taught me about the concept of Object-Oriented Programming (OOP), long before I even knew what it was!In my talk, I am going to provide some actual examples of MUD objects represented in JavaScript.By bridging the concepts of classes, attributes, and methods with object models in MUDs, new and experienced coders alike can better understand how objects interact, and the problems that objects solve in games." }} 
-twitter="lavie_encode" 
-linkedin="nicolearchambault" 
-company="La Vie en Code" 
-bio="Nicole Archambault is a Boston area front-end web developer, coding career change coach, and EdTech entrepreneur. She is the founder of La Vie en Code, dedicated to new self-taught web developers.Her entire career is centered on optimizing the experience of those who choose to teach themselves programming skills in lieu of a more traditional academic setting, or bootcamp. She has received several awards and recognitions through her work in the developer community, including freeCodeCamp Top Contributor, and has been featured as a Treehouse Success Story. She has been teaching everything she knows via her course + coaching program, 30 Days to Web Development, the La Vie en Code blog, and the La Vie en Code podcast."
- /> 
-
-<Speaker name="Rob Richardson" Image={robRichardImage} talk={{ title: "async and await with Node and Express", 
-description: "Express is the defacto Node web server, but it is built with callbacks. Can we use modern JavaScript like async and await? Let us dive into building routes with modern JavaScript, and how to write tests that prove they work." }} 
+<Speaker name="Rob Richardson" Image={robRichardsonImage} 
 twitter="rob_rich" 
+linkedin="erobrich" 
+ />
+
+<Speaker name="Robert Aboukhalil" Image={robertImage} 
+twitter="RobAboukhalil" 
+linkedin="robertaboukhalil" 
+ />
+
+ <Speaker name="Russell Skaggs" Image={russelImage} 
+twitter="russellskaggs" 
+linkedin="russellskaggs" 
+ />
+
+ <Speaker name="Ryan Cromwell" Image={ryanImage} 
+twitter="cromwellryan" 
+linkedin="cromwellryan" 
+ />
+
+  <Speaker name="Sarah Dutkiewicz" Image={sarahImage} 
+twitter="sadukie" 
+linkedin="sadukie" 
+ />
+
+
+  <Speaker name="Shodipo Ayomide" Image={shodipoImage} 
+twitter="developerayo" 
+linkedin="shodipo-ayomide" 
+ />
+
+ <Speaker name="Tamas Piros" Image={tamasImage} 
+twitter="tpiros" 
+linkedin="tamaspiros" 
+ />
+
+ <Speaker name="Tyler Blake" Image={tylerImage} 
+twitter="TylerBlakeLOU" 
+linkedin="tyler-blake-2637274b" 
+ />
+
+  <Speaker name="Vladimir Repin" Image={vladimirImage} 
+twitter="" 
 linkedin="" 
-company="Richardson & Sons, LLC" 
-bio="Rob Richardson is a software craftsman building web properties in ASP.NET and Node, Angular and React. He is a Microsoft MVP, published author, frequent speaker at conferences, user groups, and community events, and a diligent teacher and student of high quality software development. You can find this and other talks on his blog at robrich.org and follow him on twitter at @rob_rich"
- />
- <Speaker name="Rob Tarr" Image={robTarrImage} talk={{ title: "Test Them JavaScripts", 
-description: "Writing tests for your code is important. It adds value, gives you confidence, and can help you design better software. But where do you start? Adding tests to an already established codebase can be tricky and confusing. Starting from scratch and knowing what to test can feel daunting.In this session we will talk about how to get tests into your codebase, the basics of writing tests for your JavaScript application, and what you should be testing in the first place. You will leave with everything you need to confidently write tests for your next project, or being adding them to your existing codebase." }} 
-twitter="robtarr" 
-linkedin="" 
-company="Sparkbox" 
-bio="I am a developer at Sparkbox in Dayton, Ohio. I mostly spend my days writing JavaScript & HTML. When I am not at work I can usually be found playing with my kids, hacking on NodeBots, on a bike, hanging out with my wife or working on my latest project."
- />
-
-<Speaker name="Ryan Weal " Image={ryanwealImage} talk={{ title: "Using Nuxt to power Raspberry Pi e-ink displays", 
-description: "We stare at glowing screens all day! E-ink displays on the other hand do not have a backlight and thus are perfect for hanging on the wall to display static information. In this talk I discuss planning, researching, and coding for Raspberry Pi. We will look at parsing some public data from the Internet to create an information panel display powered by Vue.js, using Nuxt as a layout engine." }} 
-twitter="ryan_weal" 
-linkedin="rweal" 
-company="Kafei Interactive" 
-bio="Ryan is a vue.js & node.js developer who loves distributed data and hardware projects."
- />
-
- <Speaker name="Scott McAllister" Image={scottImage} talk={{ title: "Building Command-Line Applications with OAuth in Node", 
-description: "Node provided a way to bring JavaScript out of the browser and on to server and desktop. In addition to building web applications, now you can build command line interface applications using JavaScript! Come explore some tools and libraries that will help you in your development, and even learn how to complete an OAuth flow from the command line." }} 
-twitter="stmcallister" 
-linkedin="stmcallister" 
-company="PagerDuty" 
-bio="Scott McAllister has been building web applications in several industries for over a decade. Now he is helping others learn about a wide range of web technologies. When he is not coding, writing or speaking he enjoys long walks with his wife, skipping rocks with his kids, and is happy whenever Real Salt Lake can manage a win."
- /> 
- <Speaker name="Todd Nussbaum" Image={toddnussImage} talk={{ title: "Managing your resource heap - a guide to generations in the workplace", 
-description: "Modern programming languages have a variety of strategies for managing resources on the heap. As a developer, it is important to know the generational behavior and makeup of the heap, and how to manage various aspects of those resources. The same goes for managing people in your organization. As a leader, knowing the generations represented on your team can make you better equipped to relate to your team. In this talk, we will discuss the generations that makeup the modern workplace. We will explore the commonalities and differences of the various generations, and provide strategies for motivating and managing those generations in ways that lead to more efficient and effective teams." }} 
-twitter="tnussbaum" 
-linkedin="tjnussbaum" 
-company="HMB" 
-bio="Todd Nussbaum is director of Application Development at HMB Inc., a technology consulting and IT services company in Columbus, Ohio. With nearly 20 years in the IT industry, he has been a developer, architect, and leader of teams across many verticals and technologies. He has a fondness for good UI design, sensible application architecture, and tinkering with open source technologies. When not at his day job, you can find him on the baseball diamond coaching his two sons, watching his daughter at swimming or gymnastics, or supporting his wife in her pursuit of running greatness."
- />
- <Speaker name="Trezy Who" Image={trezyImage} talk={{ title: "How to Work the Web with Web Workers", 
-description: "Web Workers are often neglected anything beyond handling offline web apps, yet the capacity that they hold for transforming the way se write code in Javascript is huge! I will take a dive into how Web Workers can be used to speed up page loads, restore magic to our lives, and make a little video game character jump around on screen. Boing boing." }} 
-twitter="TrezyCodes" 
-linkedin="trezy" 
-company="Trezy" 
-bio="Trezy is in the consulting arena and he has been helping tech startups get their engineering game faces on for over a decade. He is a serial open source maintainer with a penchant for DevOps, joining the open source teams that need his help the most. Now he has decided to emerge from behind the curtains of consulting to help the world better understand Javascript and CSS while building awesome things"
- />
-
-<Speaker name="Vincenzo Chianese" Image={vinceImage} talk={{ title: "Domain Driven Design, Functional Programming, Types and Typescript", 
-description: "Functional Programming, Monads, Immutability, Type Level Safety and all this good stuff are features easy to find in some programming languages (such as Scala, Elm, PureScript) but they often get ignored or simply living with the conception that these cannot be applied Javascript. Let us demystify this and learn with practical examples (ranging from the frontend to the backend) how Typescripts type system is flexible enough to employ different typical pattern that you would easily find in other programming languages, analyzing their benefits and limitations." }} 
-twitter="D3DVincent" 
-linkedin="vncz" 
-company="Stoplight" 
-bio="Vincenzo Chianese is an Italian Software Developer focused on WebAPIs and User Interfaces.He is an Auth0 Ambassador.He has been working for the last years in API Companies such as Apiary, Oracle, LunchBadger; currently he is working for Stoplight. He is also a prolific speaker and always willing to fly for a conference . In his spare time, he maintains different open source projects, including Express Gateway, an open source API Gateway written in Javascript and running on NodeJS."
  />
 
 </Flex>
