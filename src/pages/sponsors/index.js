@@ -36,8 +36,7 @@ export default class extends React.Component {
           <SponsorCard
             imageSrc={circleCIlogo}
             title="CircleCI"
-            href="https://circleci.com"
-            logoWidth={100}
+            href="https://circleci.com"            
             logoHeight={90}
             description={
               <>
@@ -79,8 +78,7 @@ bring out the best software professional in you.
           <SponsorCard
             imageSrc={outsystemslogo}
             title="OutSystems"
-            href="https://www.outsystems.com/"
-            logoWidth={300}
+            href="https://www.outsystems.com/"          
             logoHeight={90}
             description={
               <>
