@@ -9,6 +9,7 @@ import circleCIlogo from "./circle-logo.png";
 import noStarchlogo from "./nostarch.png";
 import doitleanlogo from "./DIL.png";
 import preciseLogo from "./prlogo.png";
+import lightstepLogo from "./lightstep.png";
 import Alternate from "../../components/Alternate";
 import Heading from "../../components/Heading";
 import { Link } from "../../components/Button";
@@ -76,6 +77,20 @@ bring out the best software professional in you.
             }
           />       
           <SponsorCard
+            imageSrc={lightstepLogo}
+            title="Lightstep"
+            href="https://lightstep.com/"          
+            logoHeight={90}
+            description={
+              <>
+                <p>
+                Lightstep enables teams to detect and resolve regressions quickly, regardless of system scale or complexity. 
+                We integrate seamlessly into daily workflows, whether you are proactively optimizing performance or investigating a root cause so you can quickly get back to building features.
+                </p>            
+              </>
+            }
+          />   
+         <SponsorCard
             imageSrc={outsystemslogo}
             title="OutSystems"
             href="https://www.outsystems.com/"          
@@ -89,7 +104,7 @@ bring out the best software professional in you.
             
               </>
             }
-          />      
+          />   
           <SponsorCard
             imageSrc={mysqlLogo}
             title="MySQL"
