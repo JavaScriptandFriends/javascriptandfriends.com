@@ -4,6 +4,8 @@ import Modal from "react-modal";
 import WorkshopModal from "./WorkshopModal";
 import styled from "styled-components";
 import { Button } from "../Button";
+import twitterImage from "../../images/Twitter-Circle.png";
+import linkedInImage from "../../images/LinkedIn-Circle.png";
 
 const NameLinks = styled.div`
   @media (max-width: 560px) {
@@ -26,53 +28,24 @@ const Link = styled(Button)`
 `;
 
 
-function Workshop({ Image, name, talk, twitter, linkedin, company, bio, registerlink, timing }) {
+function Workshop({ Image, name, talk, twitter, linkedin, timing }) {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div
-      onClick={x => setOpen(true)}
+    <div      
       style={{
         cursor: "pointer",
-        width: 480,
+        width: 900,
         minWidth: 300,
         minHeight: 280,
         margin: "1rem",
-        backgroundColor: "#fff",
-        borderRadius: 12,
+        backgroundColor: "#fff",        
         display: "flex",
         justifyContent: "center",
         flexDirection: "column",
         boxShadow: "6px 9px 3px rgba(0 ,0,0,0.4)"
       }}
-    >
-      <Modal
-        isOpen={isOpen}
-        style={{
-          overlay: { background: "rgba(51, 51, 51, 0.71)", overflow: "scroll" },
-          content: {
-            background: "none",
-            border: "none",
-            margin: 0,
-            padding: 0,
-            overflow: "visible"
-          }
-        }}
-        ariaHideApp={false}
-      >
-        <WorkshopModal
-          name={name}
-          talk={talk}
-          setOpen={setOpen}
-          twitter={twitter}
-          linkedin={linkedin}
-          Image={Image}
-          company={company}
-          bio={bio}
-          registerlink = {registerlink}
-          timing = {timing}
-        />
-      </Modal>
+    >    
 
       <Flex
         flexDirection="row"
@@ -80,8 +53,24 @@ function Workshop({ Image, name, talk, twitter, linkedin, company, bio, register
         justifyContent="center"
         style={{ padding: "0.5rem", flexWrap: "wrap" }}
       >
-        <div style={{ margin: "0.5rem", flex: 2 }}>
-          <div style={{ width: "100%" }}>
+        <div
+          style={{ 
+            flex:1,           
+            margin: "0.5rem",
+            flexDirection: "column",
+            alignItems: "space-between",
+            justifyContent: "space-between"
+          }}
+        >
+          <h2 style={{ fontSize: "1rem" }}>{talk.title}</h2>
+          
+          <br></br>
+           {talk.description && (
+            <strong style={{ fontSize: ".7rem" }}>{talk.description}</strong>
+          )}
+        </div>
+        <div style={{ flex:"0.5 30px" }}>
+          <div style={{ flex: "1 30px" }}>
             <div
               style={{
                 borderRadius: "100%",
@@ -94,9 +83,8 @@ function Workshop({ Image, name, talk, twitter, linkedin, company, bio, register
             >
               <Image />
             </div>
-            <NameLinks>
-              <strong>{name}</strong>
-              <br />
+            <NameLinks style={{textAlign: "center"}}>
+              <h4>{name}</h4>             
               <a
                 href={`https://twitter.com/${twitter}`}
                 title={`Go to ${name}'s Twitter`}
@@ -104,44 +92,24 @@ function Workshop({ Image, name, talk, twitter, linkedin, company, bio, register
                 rel="noopener noreferrer"
                 onclick="setOpen(false);"
               >
-                Twitter
+                 <img src={twitterImage} alt="Twitter - JavaScript and Friends" style={{width: "10%", backgroundColor: "#72b1ff"}}/>
               </a>{" "}
               &nbsp;
               <a
-                href={`https://www.linkedin.com/${linkedin}`}
+                href={`https://www.linkedin.com/in/${linkedin}`}
                 title={`Go to ${name}'s LinkedIn`}
                 target="_blank"
                 rel="noopener noreferrer"
                 onclick="setOpen(false);"
               >
-                LinkedIn
+                <img src={linkedInImage} alt="Twitter - JavaScript and Friends" style={{width: "10%", backgroundColor: "#72b1ff"}}/>
               </a>
             </NameLinks>
           </div>
         </div>
 
-        <div
-          style={{
-            width: "250px",
-            margin: "0.5rem",
-            flexDirection: "column",
-            alignItems: "space-between",
-            justifyContent: "space-between"
-          }}
-        >
-          <h2 style={{ fontSize: "1rem" }}>{talk.title}</h2>
-          {company && (
-            <strong style={{ fontSize: ".9rem" }}>Company: {company}</strong>
-          )}
-          <br></br>
-           {timing && (
-            <strong style={{ fontSize: ".9rem" }}>Time: {timing}</strong>
-          )}
-        </div>
-      </Flex>
-      <ActionArea>
-        <Link>Learn more</Link>
-      </ActionArea>
+        
+      </Flex>      
     </div>
   );
 }
