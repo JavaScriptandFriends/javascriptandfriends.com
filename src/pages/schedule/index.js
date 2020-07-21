@@ -14,14 +14,14 @@ const scheduleTime = () => (
     <div style={{align:'center'}}>
         <table>
             <tr>
-                <th>Time</th>
+                <th colspan="2">Time</th>
                 <th>Session Title</th>
                 <th>Speaker Name</th>
                 <th>Track</th>
             </tr>
             {schdeuleData.map((data, index) => {
                 return<tr key={`SessionTitle_${index}`}>
-                    <td>
+                    <td colspan="2">
                         <Text>{data.USEST}</Text>
                     </td>
             <td>
