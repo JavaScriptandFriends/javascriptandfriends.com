@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { Flex } from "@rebass/grid";
-import Modal from "react-modal";
-import WorkshopModal from "./WorkshopModal";
 import styled from "styled-components";
 import { Button } from "../Button";
 import twitterImage from "../../images/Twitter-Circle.png";
@@ -29,7 +27,6 @@ const Link = styled(Button)`
 
 
 function Workshop({ Image, name, talk, twitter, linkedin, timing }) {
-  const [isOpen, setOpen] = useState(false);
 
   return (
     <div      
@@ -106,9 +103,7 @@ function Workshop({ Image, name, talk, twitter, linkedin, timing }) {
               </a>
             </NameLinks>
           </div>
-        </div>
-
-        
+        </div>        
       </Flex>      
     </div>
   );

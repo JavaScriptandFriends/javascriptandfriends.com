@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Flex } from "@rebass/grid";
-import Modal from "react-modal";
-import SpeakerModal from "./SpeakerModal";
 import styled from "styled-components";
 import { Button } from "../Button";
-import { Text } from "../Text";
 import twitterImage from "../../images/Twitter-Circle.png";
 import linkedInImage from "../../images/LinkedIn-Circle.png";
 const NameLinks = styled.div`
@@ -28,15 +25,7 @@ const Link = styled(Button)`
   cursor: pointer;
 `;
 
-const truncate = content =>
-  content
-    .split(" ")
-    .slice(0, 25)
-    .join(" ") + "...";
-
 function Speaker({ Image, name, twitter, linkedin, company, title}) {
-  const [isOpen, setOpen] = useState(false);
-
   return (
     <div      
       style={{
