@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import { Flex } from "@rebass/Grid";
+import { Flex } from "@rebass/grid";
 import Modal from "react-modal";
 import TeamModal from "./TeamModal";
 import styled from "styled-components";
-import { Button } from "rebass";
-import { Text } from "../Text";
 import twitterImage from "../../images/Twitter-Circle.png";
 import linkedInImage from "../../images/LinkedIn-Circle.png";
 
@@ -22,12 +20,6 @@ const ImgLink = styled.div`
     justify-content: space-around;    
   }
 `;
-
-const truncate = content =>
-  content
-    .split(" ")
-    .slice(0, 25)
-    .join(" ") + "...";
 
 function Team({ Image, name, twitter, linkedin, bio }) {
     const [isOpen, setOpen] = useState(false);
