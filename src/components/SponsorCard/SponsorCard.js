@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Box } from "rebass";
-import Heading from "../Heading/Heading";
 import { Link } from "../Button";
 import Text from "../Text";
 
@@ -16,12 +15,6 @@ const LocalBox = styled(Box)`
 
 const Image = styled.div``;
 
-const ExternalLink = styled.a`
-  color: ${props => props.theme.colors.mainBackground} !important;
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: bold;
-`;
 
 const Description = styled.div``;
 export default function SponsorCard({

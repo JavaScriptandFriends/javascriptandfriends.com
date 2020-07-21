@@ -11,17 +11,20 @@ const scheduleTime = () => (
     <h1>Schedule</h1>
     <h3>Conference Day - Aug-14-2020</h3>
     <p>TimeZone - US Eastern Time</p>
-    <div style={{align:'center'}}>
+    <div style={{align:'center', overflowX:'auto'}}>
         <table>
+            <thead>
             <tr>
-                <th colspan="2">Time</th>
+                <th colSpan="2">Time</th>
                 <th>Session Title</th>
                 <th>Speaker Name</th>
                 <th>Track</th>
             </tr>
+            </thead>
+            <tbody>
             {schdeuleData.map((data, index) => {
                 return<tr key={`SessionTitle_${index}`}>
-                    <td colspan="2">
+                    <td colSpan="2">
                         <Text>{data.USEST}</Text>
                     </td>
             <td>
@@ -35,6 +38,7 @@ const scheduleTime = () => (
             </td>
                 </tr>
             })}
+            </tbody>
         </table>
     </div>
     <h6>Schedule subject to change.</h6>

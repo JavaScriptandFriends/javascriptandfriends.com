@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Flex } from "@rebass/grid";
-import Modal from "react-modal";
-import WorkshopModal from "./WorkshopModal";
 import styled from "styled-components";
 import { Button } from "../Button";
 import twitterImage from "../../images/Twitter-Circle.png";
 import linkedInImage from "../../images/LinkedIn-Circle.png";
+import Text from "../../components/Text";
 
 const NameLinks = styled.div`
   @media (max-width: 560px) {
@@ -29,7 +28,6 @@ const Link = styled(Button)`
 
 
 function Workshop({ Image, name, talk, twitter, linkedin, timing }) {
-  const [isOpen, setOpen] = useState(false);
 
   return (
     <div      
@@ -62,12 +60,13 @@ function Workshop({ Image, name, talk, twitter, linkedin, timing }) {
             justifyContent: "space-between"
           }}
         >
-          <h2 style={{ fontSize: "1rem" }}>{talk.title}</h2>
-          
+          <h2 style={{ fontSize: "1rem" }}>{talk.title}</h2>          
+          <Text><strong style={{ fontSize: ".7rem" }}>Time:</strong><strong style={{ fontSize: ".7rem" }}>{timing}</strong></Text>
           <br></br>
            {talk.description && (
             <strong style={{ fontSize: ".7rem" }}>{talk.description}</strong>
           )}
+          
         </div>
         <div style={{ flex:"0.5 30px" }}>
           <div style={{ flex: "1 30px" }}>
@@ -106,9 +105,7 @@ function Workshop({ Image, name, talk, twitter, linkedin, timing }) {
               </a>
             </NameLinks>
           </div>
-        </div>
-
-        
+        </div>        
       </Flex>      
     </div>
   );
