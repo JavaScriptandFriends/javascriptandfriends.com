@@ -9,8 +9,12 @@ const scheduleTime = () => (
         <Alternate style={{ border: 0 }}>
        <div style={{ maxWidth: `100%`, margin: `1.45rem` ,justifyContent: 'center'}}>
     <h1>Schedule</h1>
-    <h3>Conference Day - Aug-14-2020</h3>
-    <p>TimeZone - US Eastern Time</p>
+    <h3>Workshop Day - Aug-13-2020</h3>  
+    <Text>Please check the workshop page for details.</Text>
+    <br></br>
+    <h3>Conference Day - Aug-14-2020</h3>    
+    <Text>Each talk is scheduled for around 50 min. TimeZone - US Eastern Time</Text>
+    <br></br>
     <div style={{align:'center', overflowX:'auto'}}>
         <table>
             <thead>

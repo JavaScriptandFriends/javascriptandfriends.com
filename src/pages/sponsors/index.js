@@ -10,6 +10,7 @@ import noStarchlogo from "./nostarch.png";
 import doitleanlogo from "./DIL.png";
 import preciseLogo from "./prlogo.png";
 import lightstepLogo from "./lightstep.png";
+import callibritylogo from "./callibrity.png";
 import Alternate from "../../components/Alternate";
 import Heading from "../../components/Heading";
 import { Link } from "../../components/Button";
@@ -146,6 +147,10 @@ Oracle drives MySQL innovation, constantly improving MySQL solutions and deliver
           <br></br>
           <a href="http://www.preciseresource.com/" target="_blank" rel="noopener noreferrer">
           <img src={preciseLogo} alt="Precise Resource" style={{ width:250, height:100, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>
+          <br></br>
+          <a href="https://www.callibrity.com/" target="_blank" rel="noopener noreferrer">
+          <img src={callibritylogo} alt="Callibrity" style={{ height:175, maxWidth: "100%", maxHeight: "100%" }}/> 
           </a>
           </div>      
          
