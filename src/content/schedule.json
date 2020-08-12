@@ -4,47 +4,11 @@
         "SessionTitle" :"JavaScript: Past, Present and Future - KeyNote",
         "SpeakerName": "David Neal",
         "TrackLink":"Track1"    
-    },
-    {
-        "USEST" :"11:00 AM",
-        "SessionTitle" :"Speaker Panel with our Guest Speakers",
-        "SpeakerName": "Multiple",
-        "TrackLink":"Track1"    
-    },
+    },    
     {
         "USEST" :"9:00 AM",
         "SessionTitle" :"Aha, Now I Get TDD! A LEGO-based Introduction to Test-Driven Development (TDD)",
         "SpeakerName": "Melanie McGee",
-        "TrackLink":"Track1"    
-    },
-    {
-        "USEST" :"10:00 AM",
-        "SessionTitle" :"Anti-aging: Keeping your code young and thriving",
-        "SpeakerName": "Chris Silivestru",
-        "TrackLink":"Track1"   
-    },
-    {
-        "USEST" :"01:00 PM",
-        "SessionTitle" :"Testing complex interfaces and visualizations",
-        "SpeakerName": "Ted Pennings",
-        "TrackLink":"Track1"   
-    },
-    {
-        "USEST" :"02:00 PM",
-        "SessionTitle" :"Automated Testing All The Things with Cypress",
-        "SpeakerName": "Jordan Powell",
-        "TrackLink":"Track1"    
-    },
-    {
-        "USEST" :"03:00 PM",
-        "SessionTitle" :"Founder's Journey: Jerry Valentine - Renter Mentor",
-        "SpeakerName": "Jerry Valentine",
-        "TrackLink":"Track1"    
-    },
-    {
-        "USEST" :"04:00 PM",
-        "SessionTitle" :"Clean Code: Am I doing it right?",
-        "SpeakerName": "Palmidia Jetzabel Garay Dávila",
         "TrackLink":"Track1"    
     },
     {
@@ -54,69 +18,9 @@
         "TrackLink":"Track2"    
     },
     {
-        "USEST" :"10:00 AM",
-        "SessionTitle" :"The Coder’s Journey: Community and Gatekeepers",
-        "SpeakerName": "Bekah Hawrot Weigel",
-        "TrackLink":"Track2"   
-    },
-    {
-        "USEST" :"01:00 PM",
-        "SessionTitle" :"5 QUICK Ways We Can Reduce Bias In Tech!",
-        "SpeakerName": "Deneisha Franklin",
-        "TrackLink":"Track2"    
-    },
-    {
-        "USEST" :"02:00 PM",
-        "SessionTitle" :"Making the Leap to Tech Lead",
-        "SpeakerName": "Ryan Cromwell",
-        "TrackLink":"Track2"  
-    },
-    {
-        "USEST" :"03:00 PM",
-        "SessionTitle" :"On Mentoring Junior Developers",
-        "SpeakerName": "Sarah Dutkiewicz",
-        "TrackLink":"Track2"    
-    },
-    {
-        "USEST" :"04:00 PM",
-        "SessionTitle" :"Million Dollar Journey: Finding clients to fund your new agency",
-        "SpeakerName": "Erik J. Olson",
-        "TrackLink":"Track2"    
-    },
-    {
         "USEST" :"9:00 AM",
         "SessionTitle" :"Why you should consider Web Assembly in your next frontend project",
         "SpeakerName": "Håkan Silfvernagel",
-        "TrackLink":"Track3"   
-    },
-    {
-        "USEST" :"10:00 AM",
-        "SessionTitle" :"Back To The Future",
-        "SpeakerName": "Bob Fornal and Bill Churchill",
-        "TrackLink":"Track3"
-    },
-    {
-        "USEST" :"01:00 PM",
-        "SessionTitle" :"WebAssembly: JavaScript's new BFF",
-        "SpeakerName": "Robert Aboukhalil",
-        "TrackLink":"Track3"  
-    },
-    {
-        "USEST" :"02:00 PM",
-        "SessionTitle" :"Mobile Wars: The Rise of Cross Platform Apps",
-        "SpeakerName": "Tyler Blake",
-        "TrackLink":"Track3"    
-    },
-    {
-        "USEST" :"03:00 PM",
-        "SessionTitle" :"Building a Realtime Websocket API",
-        "SpeakerName": "Jamie Wright",
-        "TrackLink":"Track3"  
-    },
-    {
-        "USEST" :"04:00 PM",
-        "SessionTitle" :"Lip Sync to the Async in JavaScript",
-        "SpeakerName": "Bob Fornal",
         "TrackLink":"Track3"   
     },
     {
@@ -126,69 +30,9 @@
         "TrackLink":"Track4"    
     },
     {
-        "USEST" :"10:00 AM",
-        "SessionTitle" :"TerseScript: JavaScript with 6 characters or less",
-        "SpeakerName": "Mike Hand",
-        "TrackLink":"Track4"  
-    },
-    {
-        "USEST" :"01:00 PM",
-        "SessionTitle" :"Azure DevOps for Developers",
-        "SpeakerName": "Sarah Dutkiewicz",
-        "TrackLink":"Track4"  
-    },
-    {
-        "USEST" :"02:00 PM",
-        "SessionTitle" :"Understanding Probabilistic Data Structures with 112,092 UFO Sightings",
-        "SpeakerName": "Guy Royse",
-        "TrackLink":"Track4"    
-    },
-    {
-        "USEST" :"03:00 PM",
-        "SessionTitle" :"Using the Gamepad API for a better gaming experience on the web",
-        "SpeakerName": "Arun Michael Dsouza",
-        "TrackLink":"Track4"    
-    },
-    {
-        "USEST" :"04:00 PM",
-        "SessionTitle" :"What's going on in there? Know what's happening in your software with Application Insights.",
-        "SpeakerName": "Eric Potter",
-        "TrackLink":"Track4"   
-    },
-    {
         "USEST" :"9:00 AM",
         "SessionTitle" :"GraphQl Observability",
         "SpeakerName": "Ashley Narcisse",
-        "TrackLink":"Track5"   
-    },
-    {
-        "USEST" :"10:00 AM",
-        "SessionTitle" :"Couchbase and the RAGE Stack",
-        "SpeakerName": "Eric Bishard",
-        "TrackLink":"Track5"    
-    },
-    {
-        "USEST" :"01:00 PM",
-        "SessionTitle" :"Render Agnostic Architecture",
-        "SpeakerName": "Vladimir Repin",
-        "TrackLink":"Track5"    
-    },
-    {
-        "USEST" :"02:00 PM",
-        "SessionTitle" :"Demystifying CI/CD",
-        "SpeakerName": "Jeremy Meiss",
-        "TrackLink":"Track5"    
-    },
-    {
-        "USEST" :"03:00 PM",
-        "SessionTitle" :"Create Robust Deployments for your SPA and API",
-        "SpeakerName": "Rob Richardson",
-        "TrackLink":"Track5"  
-    },
-    {
-        "USEST" :"04:00 PM",
-        "SessionTitle" :"From Zero To Hero: The Coder's Archetypal Journey",
-        "SpeakerName": "Alex Carroll",
         "TrackLink":"Track5"   
     },
     {
@@ -199,9 +43,81 @@
     },
     {
         "USEST" :"10:00 AM",
+        "SessionTitle" :"Why does code always rot: Looking at code without looking at code",
+        "SpeakerName": "Chris Silivestru",
+        "TrackLink":"Track1"   
+    },
+    {
+        "USEST" :"10:00 AM",
+        "SessionTitle" :"The Coder’s Journey: Community and Gatekeepers",
+        "SpeakerName": "Bekah Hawrot Weigel",
+        "TrackLink":"Track2"   
+    },
+     {
+        "USEST" :"10:00 AM",
+        "SessionTitle" :"Back To The Future",
+        "SpeakerName": "Bob Fornal and Bill Churchill",
+        "TrackLink":"Track3"
+    },
+    {
+        "USEST" :"10:00 AM",
+        "SessionTitle" :"TerseScript: JavaScript with 6 characters or less",
+        "SpeakerName": "Mike Hand",
+        "TrackLink":"Track4"  
+    },
+    {
+        "USEST" :"10:00 AM",
+        "SessionTitle" :"Couchbase and the RAGE Stack",
+        "SpeakerName": "Eric Bishard",
+        "TrackLink":"Track5"    
+    },
+    {
+        "USEST" :"10:00 AM",
         "SessionTitle" :"Architecting for Accessibility",
         "SpeakerName": "Martine Dowden",
         "TrackLink":"Track6"   
+    },
+    {
+        "USEST" :"11:00 AM",
+        "SessionTitle" :"Speaker Panel - How to stay relevant in tech and what is the future path one should consider?",
+        "SpeakerName": "Multiple",
+        "TrackLink":"Track1"    
+    },
+    {
+        "USEST" :"12:00 PM",
+        "SessionTitle" :"Community Hallway Interactions in Slack",
+        "SpeakerName": "",
+        "TrackLink":"Track1"    
+    },
+    {
+        "USEST" :"01:00 PM",
+        "SessionTitle" :"Testing complex interfaces and visualizations",
+        "SpeakerName": "Ted Pennings",
+        "TrackLink":"Track1"   
+    },
+    {
+        "USEST" :"01:00 PM",
+        "SessionTitle" :"5 QUICK Ways We Can Reduce Bias In Tech!",
+        "SpeakerName": "Deneisha Franklin",
+        "TrackLink":"Track2"    
+    },
+    {
+        "USEST" :"01:00 PM",
+        "SessionTitle" :"WebAssembly: JavaScript's new BFF",
+        "SpeakerName": "Robert Aboukhalil",
+        "TrackLink":"Track3"  
+    },
+     {
+        "USEST" :"01:00 PM",
+        "SessionTitle" :"Azure DevOps for Developers",
+        "SpeakerName": "Sarah Dutkiewicz",
+        "TrackLink":"Track4"  
+    },
+    {
+        "USEST" :"01:00 PM",
+        "SessionTitle" :"Render Agnostic Architecture",
+        "SpeakerName": "Vladimir Repin",
+        "TrackLink":"Track5"    
     },
     {
         "USEST" :"01:00 PM",
@@ -211,15 +127,106 @@
     },
     {
         "USEST" :"02:00 PM",
+        "SessionTitle" :"Automated Testing All The Things with Cypress",
+        "SpeakerName": "Jordan Powell",
+        "TrackLink":"Track1"    
+    },
+     {
+        "USEST" :"02:00 PM",
+        "SessionTitle" :"Making the Leap to Tech Lead",
+        "SpeakerName": "Ryan Cromwell",
+        "TrackLink":"Track2"  
+    },
+    {
+        "USEST" :"02:00 PM",
+        "SessionTitle" :"Mobile Wars: The Rise of Cross Platform Apps",
+        "SpeakerName": "Tyler Blake",
+        "TrackLink":"Track3"    
+    },
+     {
+        "USEST" :"02:00 PM",
+        "SessionTitle" :"Understanding Probabilistic Data Structures with 112,092 UFO Sightings",
+        "SpeakerName": "Guy Royse",
+        "TrackLink":"Track4"    
+    },
+    {
+        "USEST" :"02:00 PM",
+        "SessionTitle" :"Demystifying CI/CD",
+        "SpeakerName": "Jeremy Meiss",
+        "TrackLink":"Track5"    
+    },
+     {
+        "USEST" :"02:00 PM",
         "SessionTitle" :"Styling your React.js components for reuse",
         "SpeakerName": "Shodipo Ayomide",
         "TrackLink":"Track6"    
+    },    
+    {
+        "USEST" :"03:00 PM",
+        "SessionTitle" :"Founder's Journey: Jerry Valentine - Renter Mentor",
+        "SpeakerName": "Jerry Valentine",
+        "TrackLink":"Track1"    
+    },
+    {
+        "USEST" :"03:00 PM",
+        "SessionTitle" :"On Mentoring Junior Developers",
+        "SpeakerName": "Sarah Dutkiewicz",
+        "TrackLink":"Track2"    
+    },
+     {
+        "USEST" :"03:00 PM",
+        "SessionTitle" :"Building a Realtime Websocket API",
+        "SpeakerName": "Jamie Wright",
+        "TrackLink":"Track3"  
+    },
+   
+     {
+        "USEST" :"03:00 PM",
+        "SessionTitle" :"Using the Gamepad API for a better gaming experience on the web",
+        "SpeakerName": "Arun Michael Dsouza",
+        "TrackLink":"Track4"    
+    },
+     {
+        "USEST" :"03:00 PM",
+        "SessionTitle" :"Create Robust Deployments for your SPA and API",
+        "SpeakerName": "Rob Richardson",
+        "TrackLink":"Track5"  
     },
     {
         "USEST" :"03:00 PM",
         "SessionTitle" :"The ABCs of Architecting Better CSS",
         "SpeakerName": "Russell Skaggs",
         "TrackLink":"Track6"    
+    },    
+    {
+        "USEST" :"04:00 PM",
+        "SessionTitle" :"Clean Code: Am I doing it right?",
+        "SpeakerName": "Palmidia Jetzabel Garay Dávila",
+        "TrackLink":"Track1"    
+    },
+    {
+        "USEST" :"04:00 PM",
+        "SessionTitle" :"Million Dollar Journey: Finding clients to fund your new agency",
+        "SpeakerName": "Erik J. Olson",
+        "TrackLink":"Track2"    
+    },
+    {
+        "USEST" :"04:00 PM",
+        "SessionTitle" :"Lip Sync to the Async in JavaScript",
+        "SpeakerName": "Bob Fornal",
+        "TrackLink":"Track3"   
+    },
+    {
+        "USEST" :"04:00 PM",
+        "SessionTitle" :"What's going on in there? Know what's happening in your software with Application Insights.",
+        "SpeakerName": "Eric Potter",
+        "TrackLink":"Track4"   
+    },
+    {
+        "USEST" :"04:00 PM",
+        "SessionTitle" :"From Zero To Hero: The Coder's Archetypal Journey",
+        "SpeakerName": "Alex Carroll",
+        "TrackLink":"Track5"   
     },
     {
         "USEST" :"04:00 PM",
