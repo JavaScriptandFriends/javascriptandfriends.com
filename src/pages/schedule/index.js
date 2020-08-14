@@ -39,13 +39,13 @@ const trackSort = (a, b) => {
 }
 
 const getInitialTimezone = () => {
-    const stored = window.localStorage?.getItem?.(TIMEZONE_STORAGE_KEY)
+    const stored = typeof window !== 'undefined' && window.localStorage?.getItem?.(TIMEZONE_STORAGE_KEY)
     return stored || DEFAULT_TIMEZONE
 }
 
 const persistTimezone = (timezone) =>{
     // eslint-disable-next-line
-    window.localStorage?.setItem?.(TIMEZONE_STORAGE_KEY, timezone)
+    typeof window !== 'undefined' && window.localStorage?.setItem?.(TIMEZONE_STORAGE_KEY, timezone)
 }
 
 const updateTimezone = (schedule, timezone) =>
