@@ -101,31 +101,33 @@ export default class scheduleTime extends Component {
             <h3>Conference Day - Aug-14-2020</h3>
             <Text>Each talk is scheduled for around 50 min. TimeZone - {this.state.timezone}</Text>
             <br></br>
-            <div style={{align: 'left'}}>
-                Sort by:
-                <select id="sort" onChange={this.sortChange}>
-                    <option value="time">Time</option>
-                    <option value="track">Track</option>
-                </select>
-                <br></br>
-                Filter Tracks:
-                <select id="filter" onChange={this.filterChange}>
-                    <option value="all">All Tracks</option>
-                    <option value="Track1">Track 1</option>
-                    <option value="Track2">Track 2</option>
-                    <option value="Track3">Track 3</option>
-                    <option value="Track4">Track 4</option>
-                    <option value="Track5">Track 5</option>
-                    <option value="Track6">Track 6</option>
-                </select>
-                <br></br>
-                Timezone:
-                <select id="timezone" onChange={this.timezoneChange} value={this.state.timezone}>
-                    {Object.entries(TIMEZONES).map(([key, text]) => (
-                        <option key={key} value={key}>{text}</option>
-                    ))}
-                </select>
-            </div>
+            {typeof window !== 'undefined' && ( // not SSR
+                <div style={{align: 'left'}}>
+                    Sort by:
+                    <select id="sort" onChange={this.sortChange}>
+                        <option value="time">Time</option>
+                        <option value="track">Track</option>
+                    </select>
+                    <br></br>
+                    Filter Tracks:
+                    <select id="filter" onChange={this.filterChange}>
+                        <option value="all">All Tracks</option>
+                        <option value="Track1">Track 1</option>
+                        <option value="Track2">Track 2</option>
+                        <option value="Track3">Track 3</option>
+                        <option value="Track4">Track 4</option>
+                        <option value="Track5">Track 5</option>
+                        <option value="Track6">Track 6</option>
+                    </select>
+                    <br></br>
+                    Timezone:
+                    <select id="timezone" onChange={this.timezoneChange} value={this.state.timezone}>
+                        {Object.entries(TIMEZONES).map(([key, text]) => (
+                            <option key={key} value={key}>{text}</option>
+                        ))}
+                    </select>
+                </div>
+            )}
             <div style={{align:'center', overflowX:'auto'}}>
                 <table>
                     <thead>
