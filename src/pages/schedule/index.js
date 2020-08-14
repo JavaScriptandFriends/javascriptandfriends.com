@@ -121,8 +121,15 @@ export default class scheduleTime extends Component {
                 <br></br>
                 Timezone:
                 <select id="timezone" onChange={this.timezoneChange}>
-                    {Object.entries(TIMEZONES).map(([key, text]) => (
-                        <option key={key} value={key} selected={this.state.timezone === key}>{text}</option>
+                    {Object.entries(TIMEZONES).map(([key, text],i) => (
+                        <option
+                            key={key}
+                            value={key}
+                            // do not set a selected state in SSR
+                            selected={typeof window !== 'undefined' && key === this.state.timezone}
+                        >
+                            {text}
+                        </option>
                     ))}
                 </select>
             </div>
