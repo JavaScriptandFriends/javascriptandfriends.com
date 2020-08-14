@@ -148,7 +148,7 @@ export default class scheduleTime extends Component {
                         }
                         return<tr key={`SessionTitle_${index}`} className={filterClass}>
                             <td colSpan="2">
-                                <Text>{data.time.format('H:mm A')}</Text>
+                                <Text>{data.time.format('h:mm A')}</Text>
                             </td>
                     <td>
                         <Text>{data.SessionTitle}</Text>
