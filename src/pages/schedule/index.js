@@ -5,7 +5,7 @@ import Alternate from "../../components/Alternate";
 import rawScheduleData from "../../content/schedule.json";
 import Text from "../../components/Text";
 
-const DEFAULT_TIMEZONE = 'EST'
+const DEFAULT_TIMEZONE = 'US/Eastern'
 const TIMEZONE_STORAGE_KEY = 'schedule.timezone'
 
 const SCHEDULE_WITH_TIMES_PARSED = rawScheduleData.map((entry) => ({
