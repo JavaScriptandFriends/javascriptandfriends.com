@@ -33,6 +33,7 @@ const trackSort = (a, b) => {
 export default class scheduleTime extends Component {
     constructor(props) {
         super(props);
+        this.scheduleData = scheduleData;
         this.state = {
             schedule: scheduleData.sort(timeSort)
         };
@@ -42,14 +43,13 @@ export default class scheduleTime extends Component {
 
     sortChange(e) {
         this.setState({
-            schedule: scheduleData.sort(e.target.value === "time" ? timeSort : trackSort)
+            schedule: this.scheduleData.sort(e.target.value === "time" ? timeSort : trackSort)
         });
     }
 
     filterChange(e) {
-        // let schedule = scheduleData.filter(data => data.TrackLink === e.target.value).sort(timeSort);
         this.setState({
-            schedule: scheduleData.filter(data => data.TrackLink === e.target.value).sort(timeSort)
+            schedule: this.scheduleData.filter(data => data.TrackLink === e.target.value).sort(timeSort)
         });
     }
 
