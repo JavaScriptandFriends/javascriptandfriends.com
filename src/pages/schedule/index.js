@@ -10,7 +10,7 @@ const TIMEZONE_STORAGE_KEY = 'schedule.timezone'
 
 const SCHEDULE_WITH_TIMES_PARSED = rawScheduleData.map((entry) => ({
     ...entry,
-    time: moment(`2020-08-14 ${entry.USEST} EDT`)
+    time: moment(`2020-08-14 ${entry.USEDT} EDT`)
 }))
 
 const TIMEZONES = {
