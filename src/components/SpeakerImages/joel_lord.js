@@ -12,21 +12,24 @@ import Img from "gatsby-image";
  * - `gatsby-image`: https://gatsby.app/gatsby-image
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
-
+import img from "../../images/Joel_Lord.gif";
+// const Image = () => (
+//   <StaticQuery
+//     query={graphql`
+//       query {
+//         placeholderImage: file(relativePath: { eq: "Joel_Lord.gif" }) {
+//           childImageSharp {
+//             fluid(maxWidth: 300) {
+//               ...GatsbyImageSharpFluid_withWebp_tracedSVG
+//             }
+//           }
+//         }
+//       }
+//     `}
+//     render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+//   />
+// );
 const Image = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        placeholderImage: file(relativePath: { eq: "Joel_Lord.jpg" }) {
-          childImageSharp {
-            fluid(maxWidth: 300) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
-      }
-    `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
-  />
-);
+  <img src={img} height="125px" />
+)
 export default Image;
