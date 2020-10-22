@@ -128,32 +128,8 @@ Oracle drives MySQL innovation, constantly improving MySQL solutions and deliver
                 </p>                
               </>
             }
-          />
-          
-          <br></br>
-          <h2>Friends</h2>  
-          <div style={{textAlign:"center"}}>
-          <a href="https://www.manning.com" target="_blank" rel="noopener noreferrer">
-          <img src={manningBooks} alt="ManningBooks" style={{ width:235, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          &nbsp;&nbsp;
-          <a href="https://nostarch.com/" target="_blank" rel="noopener noreferrer">
-          <img src={noStarchlogo} alt="No Starch Press" style={{ width:200, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          <br></br>
-          <a href="https://www.doitlean.com/" target="_blank" rel="noopener noreferrer">
-          <img src={doitleanlogo} alt="Do IT Lean" style={{ width:100, height:100, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          <br></br>
-          <a href="http://www.preciseresource.com/" target="_blank" rel="noopener noreferrer">
-          <img src={preciseLogo} alt="Precise Resource" style={{ width:250, height:100, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          <br></br>
-          <a href="https://www.callibrity.com/" target="_blank" rel="noopener noreferrer">
-          <img src={callibritylogo} alt="Callibrity" style={{ height:175, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>
-          </div>      
-         
+          />      
+                   
         </Alternate>
       </Layout>
     );
