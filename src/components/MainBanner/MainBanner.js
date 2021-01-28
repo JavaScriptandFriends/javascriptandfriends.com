@@ -26,7 +26,10 @@ function MainBanner({ children }) {
         <Flex justifyContent="center" flexDirection="column">
           <Heading size={1} color="light" my={0} fontSize={6}>
             JavaScript &amp; Friends Conference
-          </Heading>          
+          </Heading> 
+          <Text color="highlight" my={10}>                         
+            Workshop Day   | &nbsp;Aug-19-2021 - Virtual                  
+          </Text>
           <Text color="highlight" my={10}>
             Conference Day | &nbsp;Aug-20-2021 - Columbus,Ohio<br/>                   
           </Text>           
