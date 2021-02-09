@@ -56,7 +56,7 @@ const Footer = () => (
         </FirstFlexWrapper>
         <FlexWrapper>
             <Box width={1} textAlign={["center"]}>
-                <CopyrightText>Copyright © 2020 JavaScript &amp; Friends.</CopyrightText>
+                <CopyrightText>Copyright © 2021 JavaScript &amp; Friends.</CopyrightText>
             </Box>
         </FlexWrapper>
     </footer>
