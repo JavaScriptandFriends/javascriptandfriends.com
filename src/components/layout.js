@@ -49,6 +49,9 @@ const Layout = ({ children, hideHeading = false }) => (
                 <NavItem>
                   <Link to="/vision">Vision</Link>
                 </NavItem>
+                <NavItem>                
+                  <Link to="callforspeakers">CFP</Link>
+                </NavItem>
                 <NavItem>
                   <Link to="/codeofconduct">COC</Link>
                 </NavItem>                          
