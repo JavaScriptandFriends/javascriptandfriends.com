@@ -32,7 +32,14 @@ function MainBanner({ children }) {
           </Text>
           <Text color="highlight" my={10}>
             Conference Day | &nbsp;Aug-20-2021 - Columbus,Ohio<br/>                   
-          </Text>           
+          </Text>
+          <Link
+          borderColor="alternateHeading"
+          backgroundColor="rgba(0,0,0,0)"         
+          to="/callforspeakers"
+          color="highlight">
+          Call for Speakers Open - Apply Now
+          </Link>              
           {children}
         </Flex>
       </Box>
