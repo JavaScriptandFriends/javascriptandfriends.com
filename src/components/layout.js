@@ -50,7 +50,7 @@ const Layout = ({ children, hideHeading = false }) => (
                   <Link to="/vision">Vision</Link>
                 </NavItem>
                 <NavItem>                
-                  <Link to="callforspeakers">CFP</Link>
+                  <Link to="/callforspeakers">CFP</Link>
                 </NavItem>
                 <NavItem>
                   <Link to="/codeofconduct">COC</Link>
