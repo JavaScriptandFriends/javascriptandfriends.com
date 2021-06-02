@@ -48,10 +48,7 @@ const Layout = ({ children, hideHeading = false }) => (
               <Nav>
                 <NavItem>
                   <Link to="/vision">Vision</Link>
-                </NavItem>
-                <NavItem>                
-                  <Link to="/callforspeakers">CFP</Link>
-                </NavItem>
+                </NavItem>               
                 <NavItem>
                   <Link to="/codeofconduct">COC</Link>
                 </NavItem>                          
