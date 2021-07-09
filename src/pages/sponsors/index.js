@@ -3,6 +3,9 @@ import Layout from "../../components/layout";
 import SponsorCard from "../../components/SponsorCard";
 import Alternate from "../../components/Alternate";
 import Heading from "../../components/Heading";
+import improvingLogo from "./improving.png";
+import authlogo from "./auth0.png";
+import scoutlogo from "./scoutlogo.png";
 import { Link } from "../../components/Button";
 export default class extends React.Component {
   render() {
@@ -23,6 +26,43 @@ export default class extends React.Component {
         >
           Learn More
         </Link>
+        <br></br>
+        <br></br>
+        <SponsorCard
+            imageSrc={authlogo}
+            title="auth0"
+            href="https://a0.to/jsandfriends21"
+            logoWidth={200}            
+            description={
+              <>
+                <p>
+                Auth0 is an easy to implement, adaptable authentication and authorization platform. Whether you’re a developer looking to innovate or a security professional looking to mitigate, we make identity work for everyone.  
+Basically, we make your login box awesome.
+                </p>
+                             
+              </>
+            }
+          />
+          <SponsorCard
+            imageSrc={scoutlogo}
+            title="Scout APM"
+            href="https://ter.li/qt1k5b"
+            logoWidth={200}            
+            description={
+              <>
+                <p>
+                Scout APM is leading-edge application performance monitoring designed to help Javascript developers quickly find and fix performance issues without having to deal with the headache or overhead of enterprise-platform feature bloat. With a developer-centric UI and tracing logic ties bottlenecks to source code, you can quickly pinpoint and resolve performance abnormalities like N+1 queries, slow database queries, memory bloat, and more. Scout's real-time alerting and weekly digest emails let you rest easy knowing Scout's on watch and resolving performance issues before your customers ever see them. See for yourself why developers worldwide call Scout their best friend ﻿and try our APM free for 14-days, no credit card needed! 
+                </p>                             
+              </>
+            }
+          />
+        <br></br>
+        <h2>Friends</h2>  
+          <div style={{textAlign:"center"}}>
+          <a href="https://improving.com/" target="_blank" rel="noopener noreferrer">
+          <img src={improvingLogo} alt="Improving" style={{ width:235, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>          
+          </div>      
         </Alternate>
       </Layout>
     );
