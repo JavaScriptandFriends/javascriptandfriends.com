@@ -3,12 +3,7 @@ import Layout from "../components/layout";
 import Card from "../components/Card"; 
 import { Flex } from "@rebass/grid"; 
 import Workshop from "../components/Workshop"; 
-import alexImage from "../components/SpeakerImages/alejandro_mercado";
-import ericbishardImage from "../components/SpeakerImages/eric_bishard";
-import tamasImage from "../components/SpeakerImages/tamas_piros";
-import michaelImage from "../components/SpeakerImages/michael";
-import outsystemsImage from "../components/SpeakerImages/outsystems";
-import joelImage from "../components/SpeakerImages/joel_lord";
+
 
 import { Hidden } from '../components/Hidden';
 import Text from "../components/Text";
@@ -35,45 +30,7 @@ Not able to attend a workshop live, we will share the recordings of all paid wor
 <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
 
 
-<Workshop name="Tamas Piros" Image={tamasImage} 
-twitter="tpiros" 
-linkedin="tamaspiros" 
-talk={{ title: "Real life JAMstack", 
-description: "Is it possible to develop and deploy a production ready app during a conference workshop? The answer is of course yes! During the workshop we will create an e-commerce website utilising the JAMstack - a buzz word of late which describes a different way of developing and deploying sites. JAMstack sites spearhead better performance \, easier deployment and the usage of APIs. Attendees will be able to learn about the key concepts such as server-side rendering \,static site generation and be familiar with headless CMS." }} 
- timing ="9.00 AM EDT to 01.00 PM EDT"
- /> 
- 
-<Workshop name="OutSystems Team" Image={outsystemsImage} 
-twitter="" 
-linkedin="" 
-talk={{ title: "Javascript Without Javascript", 
-description: "Join this workshop to learn how a low-code development platform can simplify the delivery of modern web and mobile applications and remove many of the tedious tasks associated with hand-coding. To set the stage we will build a progressive web app (PWA) from scratch letting you direct key aspects of the application. When done\, you will have the app to play with on your device. From there we will go under the covers and show you how the code was generated and then demonstrate how to expand the project with some custom javascript.  We promise we will keep it fun and engaging." }} 
- timing ="9.30 AM EDT to 1.00 PM EDT"
- />
- 
- <Workshop name="Joel Lord" Image={joelImage} 
-twitter="joel__lord" 
-linkedin="joel-lord" 
-talk={{ title: "Hands-on Intro to Kubernetes (and OpenShift) for Developers", 
-description: "Learn to build and deploy cloud-native Node.js applications on Kubernetes and OpenShift through a series of hands-on lab examples.This interactive session involves using kubectl\, oc\, curl\, and common command-line tools to interact with Kubernetes APIs. By the end of this lab, you\’ll be deploying\, scaling\, and automating JS-based distributed solutions using containers\, Kubernetes\, and other popular open source tools for distributed computing.These examples are designed to show JS developers how to maintain speed and productivity with a container-based development workflow." }} 
-timing ="1.30 PM EDT to 5.30 PM EDT"
- />
 
- <Workshop name="Eric Bishard" Image={ericbishardImage} 
-twitter="httpJunkie" 
-linkedin="eric-b" 
-talk={{ title: "Let’s Build an App with React", 
-description: "Building a complete application with React can be challenging and this workshop is geared at teaching all the basic concepts and fundamentals including new features like React Hooks, React Router and using new features like Suspense. We step through how to create a custom build using Webpack and babel then build a frame consisting of menus and use of responsive behavior ad finally create a master-detail page using React Router and the SpaceX API complete with data fetching.In four hours we will go from beginner to intermediate knowledge of React each attendee will have a full instructional repo they can take home and continue learning or go over the details from the workshop in step-by-step detail at a slower pace on their own." }} 
-timing ="1.30 PM EDT to 5.30 PM EDT"
- />
-
-<Workshop name="Alejandro Mercado" Image={alexImage} 
-twitter="alexmarket" 
-linkedin="alexmarket" 
-talk={{ title: "Should I build or should I not? An approach to JavaScript DevOps or the newly called WebOps.", 
-description: "The term DevOps is everywhere. But is not a job description\, DevOps is a set of practices that combines software development (Dev) and information-technology operations (Ops) which aims to shorten the systems development life cycle and provide continuous delivery and integration with high software quality.As JavaScript Devs (front\, back or full stack) we can usually think that we have nothing to do with the infrastructure or operations\, wrong. Your code your responsibility.In this workshop we are going to see how a traditional web developer can assume DevOps functions avoiding some common mistakes or the well know burn out.I\'ll show how to deliver into production a web based app\, fast & furious. Showing some alternatives and Node JS based tools. Finally I would like to show how GitLab can contribute to make you life easier. Lot of fun and learning guarantee." }} 
- timing ="3.30 PM EDT to 5.30 PM EDT"
- />
 
 </Flex>
 
