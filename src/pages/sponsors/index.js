@@ -7,7 +7,7 @@ import improvingLogo from "./improving.png";
 import authlogo from "./auth0.png";
 import scoutlogo from "./scoutlogo.png";
 import cloudinarylogo from "./cloudinary.png";
-import daughertylogo from "./daugherty.svg";
+import daughertylogo from "./Daugherty.svg";
 import { Link } from "../../components/Button";
 export default class extends React.Component {
   render() {
