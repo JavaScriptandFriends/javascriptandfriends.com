@@ -7,6 +7,7 @@ import improvingLogo from "./improving.png";
 import authlogo from "./auth0.png";
 import scoutlogo from "./scoutlogo.png";
 import cloudinarylogo from "./cloudinary.png";
+import daughertylogo from "./daugherty.svg";
 import { Link } from "../../components/Button";
 export default class extends React.Component {
   render() {
@@ -66,6 +67,19 @@ Basically, we make your login box awesome.
               <>
                 <p>
                 Cloudinary provides developers with powerful media API to upload, store, manage, optimize, transform and deliver images and videos. Developers utilize and easily integrate Cloudinary’s media experience platform via SDKs, widgets, add-ons into web and mobile apps built using all popular tech stacks. Cloudinary enables developers to deliver dynamic, high-performance, personalized media experiences on any device. <a href="https://discord.gg/MediaDevs" target="_blank" rel="noopener noreferrer">Join the community of media developers</a> 
+                </p>                             
+              </>
+            }
+          />
+           <SponsorCard
+            imageSrc={daughertylogo}
+            title="Daugherty Business Solutions"
+            href="http://careers.daugherty.com/"
+            logoWidth={200}            
+            description={
+              <>
+                <p>
+                For over 35 years, Daugherty has been committed to driving innovation, growth and customer satisfaction across the nation while making a positive difference in the community. With software engineering, data analytics, business advisory services, and technology and delivery leadership, Daugherty delivers significant business results quickly and effectively. Leveraging proprietary tools, techniques, and virtual and regional development centers, Daugherty is a preferred strategic advisor and partner for the Fortune 500, helping customers achieve better and more predictable outcomes for mission-critical initiatives.
                 </p>                             
               </>
             }
