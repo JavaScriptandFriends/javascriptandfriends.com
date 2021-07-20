@@ -8,6 +8,7 @@ import authlogo from "./auth0.png";
 import scoutlogo from "./scoutlogo.png";
 import cloudinarylogo from "./cloudinary.png";
 import daughertylogo from "./Daugherty.svg";
+import onesignallogo from "./onesignal.jpg";
 import { Link } from "../../components/Button";
 export default class extends React.Component {
   render() {
@@ -89,6 +90,11 @@ Basically, we make your login box awesome.
           <div style={{textAlign:"center"}}>
           <a href="https://improving.com/" target="_blank" rel="noopener noreferrer">
           <img src={improvingLogo} alt="Improving" style={{ width:235, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>          
+          </div>  
+          <div style={{textAlign:"center"}}>
+          <a href="https://onesignal.com/" target="_blank" rel="noopener noreferrer">
+          <img src={onesignallogo} alt="OneSignal" style={{ width:235, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
           </a>          
           </div>      
         </Alternate>
