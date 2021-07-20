@@ -26,7 +26,6 @@ import jesseweigelImage from "../components/SpeakerImages/jesse_weigel";
 import kevinImage from "../components/SpeakerImages/kevin_gilpin";
 import michaeledelmanImage from "../components/SpeakerImages/michael_edelman";
 import nikhilImage from "../components/SpeakerImages/nikhil_kumaran_s";
-import olamideImage from "../components/SpeakerImages/olamide_makinde";
 import olowoniwaImage from "../components/SpeakerImages/olowoniwa";
 import particiovargasImage from "../components/SpeakerImages/patricio_vargas";
 import ramonhuidobroImage from "../components/SpeakerImages/ramon_huidobro";
@@ -54,7 +53,16 @@ Workshop Day - Aug-19-2021 - Virtual
 Conference Day - Aug-20-2021 - Quest Conference Center, Columbus, Ohio
 </Text>
 </Card>
-
+<Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
+<ButtonLink
+            href="https://www.eventbrite.com/e/javascript-and-friends-conference-2021-tickets-163395816285"
+            alignSelf="center"
+            mr={40}
+            target="_blank" rel="noopener noreferrer"
+          >
+            REGISTER
+          </ButtonLink>          
+</Flex>  
 <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
 
 <Speaker name="Alex Carroll" Image={alexcarrolImage} 
@@ -177,13 +185,7 @@ twitter="iNikhilKumaran"
 linkedin="nikhilkumaran" 
  />
 
-
- <Speaker name="Olamide Makinde" Image={olamideImage} 
-twitter="tiaraoluwanimi_" 
-linkedin="olamide-makinde-nimi" 
- />
-
- <Speaker name="Olowoniwa Gabriel Ayokunle" Image={olowoniwaImage} 
+<Speaker name="Olowoniwa Gabriel Ayokunle" Image={olowoniwaImage} 
 twitter="" 
 linkedin="" 
  />

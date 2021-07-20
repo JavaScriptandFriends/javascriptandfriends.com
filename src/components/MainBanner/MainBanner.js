@@ -31,8 +31,15 @@ function MainBanner({ children }) {
             Workshop Day   | &nbsp;Aug-19-2021 - Virtual                  
           </Text>
           <Text color="highlight" my={10}>
-            Conference Day | &nbsp;Aug-20-2021 - Columbus,Ohio<br/>                   
-          </Text>                      
+            Conference Day | &nbsp;Aug-20-2021 - Quest Conference Center, Columbus, Ohio<br/>                   
+          </Text> 
+          <Link
+          borderColor="alternateHeading"
+          backgroundColor="rgba(0,0,0,0)"         
+          to="https://www.eventbrite.com/e/javascript-and-friends-conference-2021-tickets-163395816285"
+          color="highlight">
+          Registrations Open Now
+          </Link>                      
           {children}
         </Flex>
       </Box>
