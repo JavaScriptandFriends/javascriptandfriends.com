@@ -9,7 +9,9 @@ import scoutlogo from "./scoutlogo.png";
 import cloudinarylogo from "./cloudinary.png";
 import daughertylogo from "./Daugherty.svg";
 import onesignallogo from "./onesignal.png";
+import nostarchlogo from "./nostarchpress.png";
 import { Link } from "../../components/Button";
+import { Flex } from "@rebass/grid"; 
 export default class extends React.Component {
   render() {
     return (
@@ -86,17 +88,29 @@ Basically, we make your login box awesome.
             }
           />
         <br></br>
-        <h2>Friends</h2>  
-          <div style={{textAlign:"center"}}>
-          <a href="https://improving.com/" target="_blank" rel="noopener noreferrer">
+        <h2>Friends</h2>
+        <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
+  
+          
+          <a href="https://improving.com/" target="_blank" rel="noopener noreferrer">  
+          &nbsp;        
           <img src={improvingLogo} alt="Improving" style={{ width:235, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
           </a>          
-          </div>  
-          <div style={{textAlign:"center"}}>
+        
+         
           <a href="https://onesignal.com/" target="_blank" rel="noopener noreferrer">
+          &nbsp;   
           <img src={onesignallogo} alt="OneSignal" style={{ width:235, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>          
-          </div>      
+          </a>    
+
+          <a href="https://nostarch.com/" target="_blank" rel="noopener noreferrer">
+          &nbsp;   
+          <img src={nostarchlogo} alt="no starch press" style={{ width:260, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a>       
+
+          
+         
+        </Flex>    
         </Alternate>
       </Layout>
     );
