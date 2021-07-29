@@ -187,7 +187,7 @@
         "Room":"Morgan2"
     },
     {
-        "USEDT" :"9:30 AM",
+        "USEDT" :"2:10 PM",
         "SessionTitle" :"Machine learning in the browser using TensorFlow.js",
         "SessionDescription":"In order to start out with machine learning you typically would need to learn Python, Tensorflow, Jupyter Notebook etc. But what if you could run your machine learning straight in the browser. This can be done through Tensorflow.js. In this session you will get an introduction so that you can use it in your own projects.\r\n\r\nThis session will give you an introduction to what Machine learning is and what types of problem you can solve. TensorFlow as a library will be introduced and then TensorFlow.js will be presented with a focus on how you can use a machine learning model in your JavaScript application. \r\n\r\nNext, we will build an image classification web app that uses a predefined TensorFlow model. \r\n\r\nFinally, some examples on how TensorFlow.js is used in commercial applications will be given. \r\n\r\n",
         "SpeakerName": "Håkan Silfvernagel",
@@ -208,7 +208,7 @@
         "Room":"Wright1"
     },
     {
-        "USEDT" :"2:10 PM",
+        "USEDT" :"9:30 AM",
         "SessionTitle" :"Angular 101",
         "SessionDescription":"Want to learn about one of the hottest Single Page Application frameworks on the web today?  Come to this presentation to learn how you can use Angular to improve your application and make your users experience better.  We\u2019ll teach you the basics of creating an Angular project, how to build an Angular component, and how to communicate between different pieces of your application.",
         "SpeakerName": "Jeffry Houser",
