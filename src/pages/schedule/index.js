@@ -111,6 +111,7 @@ export default class scheduleTime extends Component {
             <br></br>
             <h3>Conference Day - Aug-20-2021</h3>
             <Text>Each talk is scheduled for around 50 min. TimeZone - {this.state.timezone}</Text>
+            <Text>Rooms Wright1 and Wright2 have speakers joining virtually.</Text>
             <br></br>
             {typeof window !== 'undefined' && ( // not SSR
                 <div style={{align: 'left'}}>
