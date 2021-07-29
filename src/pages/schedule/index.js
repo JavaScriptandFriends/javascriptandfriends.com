@@ -26,16 +26,16 @@ console.log(SCHEDULE_WITH_TIMES_PARSED[0].time.format())
 
 const timeSort = (a, b) => {
     if (a.time.unix() === b.time.unix()) {
-        return a.TrackLink > b.TrackLink ? 1 : -1;
+        return a.Room > b.Room ? 1 : -1;
     }
     return a.time.unix() > b.time.unix() ? 1 : -1;
 }
 
 const trackSort = (a, b) => {
-    if (a.TrackLink === b.TrackLink) {
+    if (a.Room === b.Room) {
         return a.time.unix() > b.time.unix() ? 1 : -1;
     }
-    return a.TrackLink > b.TrackLink ? 1 : -1;
+    return a.Room > b.Room ? 1 : -1;
 }
 
 const getInitialTimezone = () => {
@@ -59,8 +59,9 @@ export default class scheduleTime extends Component {
     constructor(props) {
         super(props);
         const timezone = getInitialTimezone();
+        this.scheduleData = updateTimezone(SCHEDULE_WITH_TIMES_PARSED, timezone).sort(timeSort);
         this.state = {
-            schedule: updateTimezone(SCHEDULE_WITH_TIMES_PARSED, timezone).sort(timeSort),
+            schedule:  this.scheduleData,
             timezone,
         };
         this.sortChange = this.sortChange.bind(this);
@@ -70,14 +71,24 @@ export default class scheduleTime extends Component {
 
     sortChange(e) {
         this.setState({
-            schedule: Array.from(this.state.schedule).sort(e.target.value === "time" ? timeSort : trackSort)
+            schedule: this.scheduleData.sort(e.target.value === "time" ? timeSort : trackSort)
         });
     }
 
     filterChange(e) {
-        this.setState({
-            schedule: this.state.schedule.filter(data => data.TrackLink === e.target.value).sort(timeSort)
-        });
+        if(e.target.value === "all")
+        {
+            const currenttimezone = getInitialTimezone();
+            this.setState({
+                schedule: updateTimezone(SCHEDULE_WITH_TIMES_PARSED, currenttimezone).sort(timeSort)
+            });
+        }
+        else
+        {
+            this.setState({
+                schedule: this.scheduleData.filter(data => data.Room === e.target.value).sort(timeSort)
+            });
+        }       
     }
 
     timezoneChange(e) {
@@ -95,33 +106,35 @@ export default class scheduleTime extends Component {
                 <Alternate style={{ border: 0 }}>
                <div style={{ maxWidth: `100%`, margin: `1.45rem` ,justifyContent: 'center'}}>
             <h1>Schedule</h1>
-            <h3>Workshop Day - Aug-13-2020</h3>
+            <h3>Workshop Day - Aug-19-2021</h3>
             <Text>Please check the workshop page for details.</Text>
             <br></br>
-            <h3>Conference Day - Aug-14-2020</h3>
+            <h3>Conference Day - Aug-20-2021</h3>
             <Text>Each talk is scheduled for around 50 min. TimeZone - {this.state.timezone}</Text>
             <br></br>
             {typeof window !== 'undefined' && ( // not SSR
                 <div style={{align: 'left'}}>
                     Sort by:
-                    <select id="sort" onChange={this.sortChange}>
+                    <select id="sort"  onBlur={this.sortChange} onChange={this.sortChange}>
                         <option value="time">Time</option>
-                        <option value="track">Track</option>
+                        <option value="room">Room</option>
                     </select>
                     <br></br>
-                    Filter Tracks:
-                    <select id="filter" onChange={this.filterChange}>
-                        <option value="all">All Tracks</option>
-                        <option value="Track1">Track 1</option>
-                        <option value="Track2">Track 2</option>
-                        <option value="Track3">Track 3</option>
-                        <option value="Track4">Track 4</option>
-                        <option value="Track5">Track 5</option>
-                        <option value="Track6">Track 6</option>
+                    Filter Rooms:
+                    <select id="filter" onBlur={this.filterChange} onChange={this.filterChange}>
+                        <option value="all">All Rooms</option>
+                        <option value="Edison">Edison</option>
+                        <option value="Glenn">Glenn</option>
+                        <option value="Resnik">Resnik</option>
+                        <option value="Armstrong">Armstrong</option>
+                        <option value="Morgan1">Morgan-1</option>
+                        <option value="Morgan2">Morgan-2</option>
+                        <option value="Wright1">Wright-1</option>
+                        <option value="Wright2">Wright-2</option>
                     </select>
                     <br></br>
                     Timezone:
-                    <select id="timezone" onChange={this.timezoneChange} value={this.state.timezone}>
+                    <select id="timezone"  onBlur={this.timezoneChange} onChange={this.timezoneChange} value={this.state.timezone}>
                         {Object.entries(TIMEZONES).map(([key, text]) => (
                             <option key={key} value={key}>{text}</option>
                         ))}
@@ -133,9 +146,9 @@ export default class scheduleTime extends Component {
                     <thead>
                     <tr>
                         <th colSpan="2">Time</th>
-                        <th>Session Title</th>
+                        <th>Session Details</th>
                         <th>Speaker Name</th>
-                        <th>Track</th>
+                        <th>Room</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -147,17 +160,20 @@ export default class scheduleTime extends Component {
                             }
                         }
                         return<tr key={`SessionTitle_${index}`} className={filterClass}>
-                            <td colSpan="2">
-                                <Text>{data.time.format('H:mm A')}</Text>
+                            <td colSpan="2" style={{width:'auto'}}>
+                                <Text>{data.time.format('h:mm A')}</Text>
                             </td>
-                    <td>
-                        <Text>{data.SessionTitle}</Text>
+                    <td style={{width:'auto'}}>
+                        <Text>Title : {data.SessionTitle}</Text>
+                        <br></br>
+                        <Text>{data.SessionDescription}</Text>
+                        <br></br>
                     </td>
-                    <td>
+                    <td style={{width:'auto'}}>
                         <Text>{data.SpeakerName}</Text>
                     </td>
-                    <td>
-                        <Text>{data.TrackLink}</Text>
+                    <td style={{width:'auto'}}>
+                        <Text>{data.Room}</Text>
                     </td>
                         </tr>
                     })}
