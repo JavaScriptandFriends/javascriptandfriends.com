@@ -1,6 +1,6 @@
 [
     {
-        "USEDT" :"07:00 AM",
+        "USEDT" :"7:00 AM",
         "SessionTitle" :"Registration and Breakfast",
         "SpeakerName": "",
         "Room":"Lobby and Edison"
@@ -12,42 +12,42 @@
         "Room":"Edison"
     },
     {
-        "USEDT" :"08:30 AM",
+        "USEDT" :"8:30 AM",
         "SessionTitle" :"The Dawning of a New Age for Fullstack React- KeyNote",
         "SessionDescription":"New fullstack frameworks like Blitz.js and RedwoodJS are ushering us into a new era for fullstack development. They are mixing old concepts and ideas with cutting edge technologies to make fullstack developers more productive than ever. Watch this talk to go on a journey through time and get excited about what lies ahead.",
         "SpeakerName": "Brandon Bayer",
         "Room":"Edison"
     },
     {
-        "USEDT" :"09:30 AM",
+        "USEDT" :"9:30 AM",
         "SessionTitle" :"TypeScript - Beyond the Basics",
         "SessionDescription":"\"TypeScript enables web developers to improve the clarity and reliability of their code. It also enables more powerful tools for writing code. This led to its rapid rise in popularity. But what can it do for you beyond just adding types to your variables and parameters? In this talk, we look at some of the more advanced features in the language that can help you deliver valuable solutions in less time.\r\n\r\nIn this session, we will look at features such as:\r\n* union types\r\n* intersection types\r\n* mixins\r\n* generics\r\n\r\nWe will also look at some of the new features in TypeScript 3.3 and 3.4. \"\r\n",
         "SpeakerName": "Eric Potter",
         "Room":"Glenn"
     },
     {
-        "USEDT" :"01:00 PM",
+        "USEDT" :"1:00 PM",
         "SessionTitle" :"Knowing Your Limitations: The key to improving your software design decisions",
         "SessionDescription":"Two of the hardest challenges in software development are building the right thing and building the thing right. The first problem comes from a lack of understanding of what users want. The second comes from the fact that the complexities of software make it challenging to build high-quality applications. \r\n\r\nIt might not surprise you that humility increases empathy for users, which helps us make sure we\\'re building the right thing. However, did you know that Dijkstra once said humility was also a key to producing high-quality software?\r\n\r\nWe will look at practical ways intellectual humility can help you be a better software developer. I will show you how humility drives you to use abstraction to manage complexity. I will show you have it enables you to find alternative solutions to problems. And I will show you how it helps you focus on the needs of the user.\r\n\r\nIn the modern software landscape, humility is a tool that can level you up as a developer. It deserves a place in your toolbox.\"\r\n",
         "SpeakerName": "Eric Potter",
         "Room":"Glenn"
     },
     {
-        "USEDT" :"02:10 PM",
+        "USEDT" :"2:10 PM",
         "SessionTitle" :"One Codebase to Rule Them All - Using React Native Everywhere",
         "SessionDescription":"With React Native and tools like React Native Web, React Native Dom, and React XP it is possible to share nearly all of the same code between web, iOS, android, and windows apps. With the addition of Electron, that same codebase can be used to create Mac and Linux apps too! This talk will go through some of the leading approaches and provide real world examples of production apps using these technologies. \r\n",
         "SpeakerName": "Jesse Weigel",
         "Room":"Glenn"
     },
     {
-        "USEDT" :"04:30 PM",
+        "USEDT" :"4:30 PM",
         "SessionTitle" :"Testing your React Native App - The Cypress way",
         "SessionDescription":"\"Testing \r\nIn this talk, I will give a brief and beginner-friendly\r\n- introduction on what exactly is Cypress\r\n- explain the Cypress Test Runner\r\n- how to write your first test\r\n- explain how this has changed the way I test by giving real-life production examples\r\n\r\nYou will walk away with knowledge about what is Cypress and how you can use them in your React Native projects\"\r\n",
         "SpeakerName": "Janhavi Dahihande",
         "Room":"Glenn"
     },
     {
-        "USEDT" :"09:30 AM",
+        "USEDT" :"9:30 AM",
         "SessionTitle" :"Let us Talk About Front-End Build Tools",
         "SessionDescription":"First, let us examine a custom-built site build tool. Then, we will move to Angular, Vue, and React and examine their build tools. Finally, we will look at the build tools themselves and how they can be customized as they are fit into CI\/CD pipelines.\r\n",
         "SpeakerName": "Bob Fornal",
@@ -61,35 +61,35 @@
         "Room":"Armstrong"
     },
     {
-        "USEDT" :"01:00 PM",
+        "USEDT" :"1:00 PM",
         "SessionTitle" :"A Better Developer Experience with Ottoman JS",
         "SessionDescription":"A basic walkthrough of Ottoman JS, a Couchbase ODM for Node.js featuring info on JSON Data Modeling, schema, validation, working with a document database, code samples, and demo of a REST API built with Ottoman and other related tools.\r\n",
         "SpeakerName": "Eric Bishard",
         "Room":"Armstrong"
     },
     {
-        "USEDT" :"02:10 PM",
+        "USEDT" :"2:10 PM",
         "SessionTitle" :"JavaScript and the MySQL Shell",
         "SessionDescription":"The new MySQL Shell has three input modes -- SQL (Structures Query Language), Python, and JavaScript. Not only can you use your favorite JavaScript libraries to interact with your data but you can extend the shell with your own JavaScript reports and write your own plugin routines.\r\n",
         "SpeakerName": "Dave Stokes",
         "Room":"Armstrong"
     },
      {
-        "USEDT" :"03:20 PM",
+        "USEDT" :"3:20 PM",
         "SessionTitle" :"Developing Spidey Senses : Anomaly Detection for javascript apps",
         "SessionDescription":"Anomaly detection is the process of identifying unexpected items or events in data sets. It\u2019s about detecting the deviation from expected pattern of a dataset. It\u2019s like having \u201Cspidey senses\u201D for your apps that can detect when there\u2019s danger or something is not right. Attend this session and learn about using anomaly detection in javascript and Cognitive Services API, become a superhero and save the day.\r\n",
         "SpeakerName": "Ron Dagdag",
         "Room":"Armstrong"
     },
     {
-        "USEDT" :"04:30 PM",
+        "USEDT" :"4:30 PM",
         "SessionTitle" :"Documentation: The Missing Pieces",
         "SessionDescription":"Document all the things, they say! But are we documenting for ALL the PEOPLE? It seems that most documentation is written for the intermediate and above devs, the devs who have been around, and the devs who are already comfortable with programming.\r\n\r\nBut what about the true beginners, the career-transitioners, or those crossing domains? Most documentation is certainly not written for them! \r\n\r\nIn this talk, we will explore \r\n- Common oversights and assumptions most documentation has built-in by default\r\n- Techniques that make our documentation more approachable for all kinds of people\r\n- How to strengthen our technical writing skills to ensure, to the best of our ability, that every anticipated reader of our documentation never feels lost or frustrated. \r\n\r\nBy the end of this talk, you will leave and never write documentation in the same way again...and that is a good thing!\"\r\n",
         "SpeakerName": "Adrienne Tacke",
         "Room":"Armstrong"
     },
     {
-        "USEDT" :"09:30 AM",
+        "USEDT" :"9:30 AM",
         "SessionTitle" :"Welcome to the Jungle: Evolving Your Product Information Ecosystem",
         "SessionDescription":"Although creation and maintenance of an \"information ecosystem\" can be resource-intensive, the return on investment is almost always worthwhile. The need to understand how we use, or fail to use, information has never been more critical. The content and structure of the information we provide is a major component of the evolving conversation between our businesses and our customers and teammates. It influences how they think about our products and services. It tells them what to expect from us in the future. And it invites or limits interaction between our teams and the communities that we support. In sum, it provides perhaps the most tangible snapshot of our team\u2019s mission, vision, strategy, and culture. \r\n",
         "SpeakerName": "Michael Edelman",
@@ -103,21 +103,21 @@
         "Room":"Resnik"
     },
     {
-        "USEDT" :"03:20 PM",
+        "USEDT" :"3:20 PM",
         "SessionTitle" :"How to increase your user engagement in your React app",
         "SessionDescription":"It\u2019s no secret that engaging with your users will help you retain them, have more sales, and increase the user experience(UX). One of the most popular ways to engage your users is via push notifications. In this talk, you will learn about the benefits of push notifications, how to integrate them into your React applications, and some of the most common scenarios of engagement with push notifications to take your customer engagement to the next level.\r\n",
         "SpeakerName": "William Shepherd",
         "Room":"Resnik"
     },
     {
-        "USEDT" :"04:30 PM",
+        "USEDT" :"4:30 PM",
         "SessionTitle" :"Navigating the back roads of your Javascript app to gain situational awareness and improve your flow",
         "SessionDescription":"Developers spend an inordinate amount of time wading through huge file trees, fixing failing test cases, waiting for code reviews and having meetings. To ship secure, high quality code, we need effective strategies to understand what code actually does, determine which code is relevant, and share this knowledge with our team. In this talk, Kevin will demo how to create and use interactive code maps to enhance code issues and merge requests; thereby lightening the load of code reviews, and helping teams better communicate and deliver their best quality software. Attendees will walk away with a clear understanding of how to use a free, open source framework that behaves like Google Maps for developers by recording code execution into JSON files, and generating interactive diagrams and useful code analysis -- right in existing code editors. In particular, Kevin will show how to use interactive software navigation to identify key points of interest in a Javascript app, and better understand how the app\u2019s functions, web services, data stores, security, I\/O, and dependent services all work together. \r\n",
         "SpeakerName": "Kevin Gilpin",
         "Room":"Resnik"
     },
     {
-        "USEDT" :"09:30 AM",
+        "USEDT" :"9:30 AM",
         "SessionTitle" :"Web for all. The power of progressive web apps",
         "SessionDescription":"As web performance and user experience across both mobile and desktop devices continue to increase in importance, so do progressive web apps (PWAs). PWAs are becoming more popular because they have lots of enhancements that help your application perform better and they make apps accessible even to users with limited internet connection. In this talk, you are going to learn the advantages of using PWAs and how to turn your web application into a PWA.\r\n",
         "SpeakerName": "Patricio Vargas",
@@ -131,63 +131,63 @@
         "Room":"Morgan1"
     },
     {
-        "USEDT" :"02:10 PM",
+        "USEDT" :"2:10 PM",
         "SessionTitle" :"Proactive Practice: Tips for Clean Code Success",
         "SessionDescription":"Getting an entire team to write consistent, clean code is a challenge. Proactively stopping messy code from creeping into your codebase can be even harder. Pickup some tips to help your team succeed as we go through best practices, project architecture, and soft skills!\r\n",
         "SpeakerName": "Alex Carroll",
         "Room":"Morgan1"
     },
      {
-        "USEDT" :"03:20 PM",
+        "USEDT" :"3:20 PM",
         "SessionTitle" :"Asynchronous JavaScript: Livin' On A Prayer",
         "SessionDescription":"There is a unique world where Single-Threaded JavaScript manages to be much more. JavaScript interacts with its environment in ways that allow it to handle Asynchronous activities. Using several detailed code examples, we will examine these examples in a unique way to show how these interactions truly work.\r\n\r\nThis talk has been also called, \"\"JavaScript Enjoys Your Tears\"\" and \"\"Lip Sync To The Async\"\". If you are an experienced developer or new to the field, there is something in this presentation for you.\r\n\r\nThis session takes a look at how JavaScript manages Asynchronous events and some of the ways developer decisions may work for, or against them.\r\n\r\nThis discussion will examine the ways that JavaScript coordinates and manages events using several coding examples and we can determine which are the good, the bad, and ... the ugly.\"\r\n",
         "SpeakerName": "Bob Fornal",
         "Room":"Morgan1"
     },
     {
-        "USEDT" :"04:30 PM",
+        "USEDT" :"4:30 PM",
         "SessionTitle" :"Dungeons, Dragons, and Graph Databases",
         "SessionDescription":"Are you an adventurer? Do you want gold? Experience? Levels? Of course you do! And where do you get these things? The dungeon, where else? That wonderful container of all things adventurous! But, unfortunately, dungeons aren\\'t setup for the convenience of adventurers who wish to extract these fine things. It\u2019s almost as if the dungeon master just made the dungeon up at random. And so you wander about and you get what you get.\r\n\r\nBut you\u2019re also a developer. You could build a database of all the rooms with their shiny and monstrous content. Then you could query it and find the optimal route to get the gold and the experience and the levels. But how would you model this data and write these queries? The rooms. The corridors. The monsters. The sparkling hoozits. That\u2019s a lot of entities to relate to each other. And that\u2019s gonna be a monster of a SQL query. Whoa\u2013look at that JOIN! Better get my text editor ready.\r\n\r\nOr, you could use a graph database. A graph database allows you to model these relationships simply and intuitively with nodes and edges. Being schema-free, you can evolve your graph as you encounter new things such as traps or secret doors. And, using the Cypher query language, you can write elegant and easy to understand queries that find the best routes to get the stuff adventures desire most.\r\n\r\nIn this talk, I\u2019ll use the aforementioned example to introduce you to the concepts of graph databases. I\u2019ll compare how to solve this problem with a relational database and how a graph database makes it easier. I\u2019ll show you how to query and modify your graph. And, as no talk would be complete without a live demo, I\u2019ll do it all using a real-time procedurally generated random dungeon (I am a dungeon master after all).\r\n\r\nSo come, have a flagon of mead as you learn about graph databases, optimize your dungeon crawl, and equip another weapon in your quest for better software!\"\r\n",
         "SpeakerName": "Guy Royse",
         "Room":"Morgan1"
     },
     {
-        "USEDT" :"09:30 AM",
+        "USEDT" :"9:30 AM",
         "SessionTitle" :"Finding Bigfoot with Redis + RediSearch",
         "SessionDescription":"Bigfoot has been a staple of American folklore since the 19th century. Many are convinced that Bigfoot is real. Others suggest he\u2019s merely a cultural phenomenon. And some just want to believe. There is even a group, the Bigfoot Field Researchers Organization, that tracks Bigfoot sightings and makes the reports available online. And they have thousands of reports.\r\n\r\nI want to explore this delightful data but, unfortunately, it\u2019s been made for the convenience of humans and not computers. While this makes it easy for me to read, searching for reports can be a bit of a challenge. Some of the data is tidy and computer friendly\u2014like the latitude and longitude. Other bits are really for us humans\u2014like the eyewitness accounts. So, how can I find the Bigfoot sightings that interest me most with data structured like this?\r\n\r\nWell, I\u2019ll show you! In this talk, I\u2019ll load these Bigfoot sightings into Redis and use RediSearch to index them, making it easy to query both the computer friendly bits and the human friendly bits. I\u2019ll also show you how to search on fields, find keywords within text, find nearby Bigfoot sightings using geolocation data, and run queries that aggregate these searches.\r\n\r\nWhen we\u2019re done, you\u2019ll know how to quickly search, query, and aggregate data in Redis using RediSearch. You can use this newfound power for boring old corporate data, but I\u2019m going to use it to find Bigfoot!\"\r\n",
         "SpeakerName": "Guy Royse",
         "Room":"Morgan2"
     },
     {
-        "USEDT" :"01:00 PM",
+        "USEDT" :"1:00 PM",
         "SessionTitle" :"Is there #Stress in the world of #Tech? (A SoftSkillTalk)",
         "SessionDescription":"Note:\r\nThis is not a Technical talk however, by the time we near this event, the world will be attempting to get back to normal. Workers will have some form of stress and anxiety.\r\n\r\nNo matter what profession you\u2019re in, our jobs can contain various stress factors unknown to individuals looking from the outside.\r\n\r\nThis is a lecture-based on research that recommends corporations should devote themselves to IT-specific employee assistance agendas.Working as a Developer, Specialist, Designer, Engineer, Expert, Manager, and Technician demands a high level of precision over an extended period, and any slight lapse in one\\'s job could be disastrous.\r\n\r\nMy method of humor and affection is titled the \u201Cdr. Dre method.\u201D \r\nAttendees will learn to:\r\n\r\n*D.  DOWNLOAD the cause of your Stress.\r\n*R.  Use a mental ROUTER to direct the stress to a secure site in your mind.\r\n*D.  Learn to DELETE future Stress elements.\r\n*R.  REBOOT yourself and focus on positive aspects.\r\n*E.  ENCRYPT your mind to secure the positive parts. \r\n\r\nThe pressure of working in computer technology can be a dream for the observers and a nightmare for the workers.\r\n\r\nWorking in the world of technology can be a great experience, which Developers, Specialists, Designers, Engineers, Experts, Managers, and Technicianscreate and dive each time they start working.\r\n\r\nThe lecture offers solutions to support individuals afflicted by stress within the IT community: employee input, better task content, amplified job control, equal production values, career expansion, enhanced peer socialization, and more excellent workplace ergonomics.\r\n\r\nKey Takeaways:\r\n\u2022Overall alertness- regarding the onset of stress\r\n\u2022Stress at one\u2019s place of employment\r\n\u2022Mentally supporting yourself\r\n\u2022Recognize the best method in a tense setting.",
         "SpeakerName": "Crux Conception, M. Psych",
         "Room":"Morgan2"
     },
      {
-        "USEDT" :"02:10 PM",
+        "USEDT" :"2:10 PM",
         "SessionTitle" :"Identity 101: A JS Developer’s Guide to App Security",
         "SessionDescription":"Authentication, Authorization, IAM, Permissions, JWTs... umm what? Identity is a universe of terms and practices that take some time to learn. It can also be scary to implement because no one wants to be the developer that did something wrong and now their app is hacked. This talk is designed to review common identity buzzwords and practices. My hope is that I can give you enough information to know where to research and which questions to ask to the time you are dealing with identity items. \r\n",
         "SpeakerName": "Tyler Clark",
         "Room":"Morgan2"
     },
     {
-        "USEDT" :"03:20 PM",
+        "USEDT" :"3:20 PM",
         "SessionTitle" :"JavaScript Worker Procs, Communication, and Storage Features",
         "SessionDescription":"\"JavaScript has become one of the dominant languages on the web.  To enable a richer client experience, JavaScript utilizes worker processes that expedite AJAX calls with little complexity, and web sockets for bi-directional communication. In addition, JavaScript APIs are now available to facilitate user\u2019s geographical location access.  In this session, we\u2019ll review these features and discuss how they can be applied to any modern web site.\r\n\uF097\tWeb Workers\r\n\uF097\tWeb Sockets\r\n\uF097\tGeoLocation\r\n\uF097\tWeb Storage\r\n\uF097\tModernizr\"\r\n",
         "SpeakerName": "Sam Nasr",
         "Room":"Morgan2"
     },
      {
-        "USEDT" :"04:30 PM",
+        "USEDT" :"4:30 PM",
         "SessionTitle" :"Team Dynamics & Communication Skills (Team Project Productivity & Leadership)",
         "SessionDescription":"Key Takeaways:\r\n\u2022Creative Problem Solving\r\n\u2022Customer Service & Support\r\n\u2022Generational Gaps & Workplace Diversity\r\n\u2022Goal Setting\r\n\u2022Leadership and Influence\r\n\u2022Employee Efficiency\r\n\u2022Using Group Dynamics\r\n\u2022The loss of translation in a text\/email.\r\n\u2022The value of how things are said\r\n\u2022How someone hears a word\r\n\r\n\r\nAttendees will discover the influence of communications places into action while using your everyday people skills, added with a unique style of active listening.\r\n\r\nThis is ideal for Software Engineering, Developing & Programming team projects.\r\n\r\n\u2022This speech has relevant takeaways your attendees can apply to their occupations.\r\n\u2022The speech is clear regarding the topics that will be addressed.\r\n\u2022The speech demonstrates step by step the passage this lecture will take your attendees on.\r\n\r\n\u2022This concept has proven to advanced degrees of success in administration performance and team concept awareness.  \r\n\r\n\u2022The approach derives from my experience as an adjunct professor (psychology & group dynamics) and experience as an interrogator\/profiler and hostage negotiator.\r\n\r\n\u2022This research and practice will assist companies, organizations, and groups by merging psychology in consort with Active Listening Skills (ALS), resulting in an accelerated--advanced technique devised to build rapport and enhanced teambuilding methods.\r\n\r\n\u2022This presentation will allow businesses to use the Team Project Model to help their team members cooperate, focusing on utilizing distinctive intensities within individual elements among team members. \r\n\r\n\u2022By using Active Listening Skills (ALS), a method developed by the FBI, every team member will increase productivity regarding their specific missions. When united, the team members will form successful finalization of their team goal.  By applying ALS, the team\u2019s entire task will result from a collective productive representation of their work.",
         "SpeakerName": "Crux Conception, M. Psych",
         "Room":"Morgan2"
     },
     {
-        "USEDT" :"09:30 AM",
+        "USEDT" :"9:30 AM",
         "SessionTitle" :"Machine learning in the browser using TensorFlow.js",
         "SessionDescription":"In order to start out with machine learning you typically would need to learn Python, Tensorflow, Jupyter Notebook etc. But what if you could run your machine learning straight in the browser. This can be done through Tensorflow.js. In this session you will get an introduction so that you can use it in your own projects.\r\n\r\nThis session will give you an introduction to what Machine learning is and what types of problem you can solve. TensorFlow as a library will be introduced and then TensorFlow.js will be presented with a focus on how you can use a machine learning model in your JavaScript application. \r\n\r\nNext, we will build an image classification web app that uses a predefined TensorFlow model. \r\n\r\nFinally, some examples on how TensorFlow.js is used in commercial applications will be given. \r\n\r\n",
         "SpeakerName": "Håkan Silfvernagel",
@@ -201,21 +201,21 @@
         "Room":"Wright1"
     },
     {
-        "USEDT" :"01:00 PM",
+        "USEDT" :"1:00 PM",
         "SessionTitle" :"Measuring Project Health in Open Source",
         "SessionDescription":"Human health is complex - it is not something we can buy; it is something we have to earn! This exact approach goes for open source projects and their communities. A truly dedicated and loyal fanbase cannot be bought; it has to be nurtured. But what do we mean when we call a community and the open source project \"\"healthy\"\"? This question is what we are trying to answer at Facebook!\r\n\r\nIn this talk, we will look at the approach that Facebook Open Source team takes to measure the current state of Facebook open source projects, and how we use these metrics to prioritize and to direct our DevRel focus. Ultimately, we aim to show how by looking at information about your open source communities, your team can concentrate on the quality of the projects instead of only the quantity of repositories that you make public.\r\n\r\n",
         "SpeakerName": "Dmitry Vinnik",
         "Room":"Wright1"
     },
     {
-        "USEDT" :"02:10 PM",
+        "USEDT" :"2:10 PM",
         "SessionTitle" :"Angular 101",
         "SessionDescription":"Want to learn about one of the hottest Single Page Application frameworks on the web today?  Come to this presentation to learn how you can use Angular to improve your application and make your users experience better.  We\u2019ll teach you the basics of creating an Angular project, how to build an Angular component, and how to communicate between different pieces of your application.",
         "SpeakerName": "Jeffry Houser",
         "Room":"Wright1"
     },
      {
-        "USEDT" :"03:20 PM",
+        "USEDT" :"3:20 PM",
         "SessionTitle" :"Just go for it: The story of dance-mat.js",
         "SessionDescription":"Side projects can be daunting if you are new to them. It takes discipline to get started, and even more so to finish. And what is even more daunting is that finishing is only the beginning of maintenance.\r\n\r\nIn this talk, I will relate my adventures coming up with dance-mat.js, the project for making a Dance Dance Revolution controller with Raspberry Pi, a yoga mat, conductive paint, and Node.js.\r\n",
         "SpeakerName": "Ramón Huidobro",
@@ -223,14 +223,14 @@
     },
 
      {
-        "USEDT" :"04:30 PM",
+        "USEDT" :"4:30 PM",
         "SessionTitle" :"Why you should consider Web Assembly in your next frontend project",
         "SessionDescription":"During the last decades a growing trend has been to put more and more functionality into the client by using the latest and greatest JavaScript framework. But what if we could be using native code in the browser in order to run computations faster and potentially reuse code from the backend in the frontend. \r\n\r\nEnter Web Assembly. Web assembly is a new web standard which enables you to run native code as part of your current JavaScript framework. This talk will give you a thorough understanding of what web assembly is and how you can use it in your project. \r\n\r\nWe will cover a practical example writing our web assembly using Rust. We will go through everything from writing your web assembly code to publish it as a npm package and finally use it in an existing web application.\r\n\r\n",
         "SpeakerName": "Håkan Silfvernagel",
         "Room":"Wright1"
     },
      {
-        "USEDT" :"09:30 AM",
+        "USEDT" :"9:30 AM",
         "SessionTitle" :"Stepping Up - Becoming a leader in your team",
         "SessionDescription":"One of the most difficult transitions to make is from being a member of the team, to owning your former teammates performance reviews. It is awkward. It is stressful. And you can do it!\r\n\r\nIn this session, we will take a look at some of the challenges of making this transition and how you can face them head on!",
         "SpeakerName": "Jason St-Cyr",
@@ -244,21 +244,21 @@
         "Room":"Wright2"
     },
     {
-        "USEDT" :"03:20 PM",
+        "USEDT" :"3:20 PM",
         "SessionTitle" :"Mobile Debugging Made Easy with Flipper",
         "SessionDescription":"As a developer, where do you think you spend most of your time doing? In most cases, the answer would be debugging. \r\n\r\nWhenever something breaks, getting to the root cause can only be done by debugging through logs, reporting systems, and other tools.\r\n\r\nBut what if it was not that complex and unpleasant? Flipper, an extensible mobile app debugger, aims to make the developer experience a lot better! Flipper inspects, visualizes, and controls your apps from a simple desktop interface. \r\n\r\nIn this talk, we will learn how to debug Android, iOS, and React Native apps with Flipper. Then, we will build a new plugin for Flipper to show how flexible the platform actually is.",
         "SpeakerName": "Dmitry Vinnik",
         "Room":"Wright2"
     },
     {
-        "USEDT" :"02:10 PM",
+        "USEDT" :"2:10 PM",
         "SessionTitle" :"Engineering Change: How to Revolutionize Your Projects from the Inside Out",
         "SessionDescription":"We have all had those projects: the technical debt is rampant, the stakeholders won\\'t listen to reason, and you (the engineer) know there is a better way. But what if you are exactly the right person to make things better? In this session we will discuss how to implement engineering-driven change into your projects and your organization. Learn how to use the ADKAR method to identify problems, formulate a plan, and evangelize them into fruition.\r\n",
         "SpeakerName": "Aaron Ladage",
         "Room":"Wright2"
     },    
     {
-        "USEDT" :"05:30 PM",
+        "USEDT" :"5:30 PM",
         "SessionTitle" :"Closing and GiveAway",
         "SpeakerName": "JavaScript and Friends",
         "Room":"Edison"
