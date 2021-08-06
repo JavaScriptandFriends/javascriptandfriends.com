@@ -79,7 +79,7 @@
         "SessionTitle" :"Developing Spidey Senses : Anomaly Detection for javascript apps",
         "SessionDescription":"Anomaly detection is the process of identifying unexpected items or events in data sets. It\u2019s about detecting the deviation from expected pattern of a dataset. It\u2019s like having \u201Cspidey senses\u201D for your apps that can detect when there\u2019s danger or something is not right. Attend this session and learn about using anomaly detection in javascript and Cognitive Services API, become a superhero and save the day.\r\n",
         "SpeakerName": "Ron Dagdag",
-        "Room":"Armstrong"
+        "Room":"Wright2"
     },
     {
         "USEDT" :"4:30 PM",
@@ -242,14 +242,7 @@
         "SessionDescription":"This session will highlight over 15 examples of the frequently used functionalities that you can achieve by writing significantly less code. Furthermore, it will help you understand the best practices in JavaScript as well as throw light on using the latest features of the language optimally, which will, in turn, make your code more performant, readable, and easy to maintain.",
         "SpeakerName": "Bhavya Mehta and Nikhil Kumaran",
         "Room":"Wright2"
-    },
-    {
-        "USEDT" :"3:20 PM",
-        "SessionTitle" :"Mobile Debugging Made Easy with Flipper",
-        "SessionDescription":"As a developer, where do you think you spend most of your time doing? In most cases, the answer would be debugging. \r\n\r\nWhenever something breaks, getting to the root cause can only be done by debugging through logs, reporting systems, and other tools.\r\n\r\nBut what if it was not that complex and unpleasant? Flipper, an extensible mobile app debugger, aims to make the developer experience a lot better! Flipper inspects, visualizes, and controls your apps from a simple desktop interface. \r\n\r\nIn this talk, we will learn how to debug Android, iOS, and React Native apps with Flipper. Then, we will build a new plugin for Flipper to show how flexible the platform actually is.",
-        "SpeakerName": "Dmitry Vinnik",
-        "Room":"Wright2"
-    },
+    },    
     {
         "USEDT" :"2:10 PM",
         "SessionTitle" :"Engineering Change: How to Revolutionize Your Projects from the Inside Out",
