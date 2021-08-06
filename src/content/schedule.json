@@ -108,14 +108,7 @@
         "SessionDescription":"It\u2019s no secret that engaging with your users will help you retain them, have more sales, and increase the user experience(UX). One of the most popular ways to engage your users is via push notifications. In this talk, you will learn about the benefits of push notifications, how to integrate them into your React applications, and some of the most common scenarios of engagement with push notifications to take your customer engagement to the next level.\r\n",
         "SpeakerName": "William Shepherd",
         "Room":"Resnik"
-    },
-    {
-        "USEDT" :"4:30 PM",
-        "SessionTitle" :"Navigating the back roads of your Javascript app to gain situational awareness and improve your flow",
-        "SessionDescription":"Developers spend an inordinate amount of time wading through huge file trees, fixing failing test cases, waiting for code reviews and having meetings. To ship secure, high quality code, we need effective strategies to understand what code actually does, determine which code is relevant, and share this knowledge with our team. In this talk, Kevin will demo how to create and use interactive code maps to enhance code issues and merge requests; thereby lightening the load of code reviews, and helping teams better communicate and deliver their best quality software. Attendees will walk away with a clear understanding of how to use a free, open source framework that behaves like Google Maps for developers by recording code execution into JSON files, and generating interactive diagrams and useful code analysis -- right in existing code editors. In particular, Kevin will show how to use interactive software navigation to identify key points of interest in a Javascript app, and better understand how the app\u2019s functions, web services, data stores, security, I\/O, and dependent services all work together. \r\n",
-        "SpeakerName": "Kevin Gilpin",
-        "Room":"Resnik"
-    },
+    },   
     {
         "USEDT" :"9:30 AM",
         "SessionTitle" :"Web for all. The power of progressive web apps",
