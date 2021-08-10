@@ -162,7 +162,7 @@ export default class scheduleTime extends Component {
                         }
                         return<tr key={`SessionTitle_${index}`} className={filterClass}>
                             <td colSpan="2" style={{width:'auto'}}>
-                                <Text>{data.time.format('hh:mm A')}</Text>
+                                <Text>{data.time.format('h:mm A')}</Text>
                             </td>
                     <td style={{width:'auto'}}>
                         <Text>Title : {data.SessionTitle}</Text>
