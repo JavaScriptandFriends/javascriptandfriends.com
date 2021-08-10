@@ -127,10 +127,9 @@ export default class scheduleTime extends Component {
                         <option value="all">All Rooms</option>
                         <option value="Edison">Edison</option>
                         <option value="Glenn">Glenn</option>
-                        <option value="Resnik">Resnik</option>
-                        <option value="Armstrong">Armstrong</option>
                         <option value="Morgan1">Morgan-1</option>
                         <option value="Morgan2">Morgan-2</option>
+                        <option value="Morgan3">Morgan-3</option>
                         <option value="Wright1">Wright-1</option>
                         <option value="Wright2">Wright-2</option>
                     </select>
@@ -163,7 +162,7 @@ export default class scheduleTime extends Component {
                         }
                         return<tr key={`SessionTitle_${index}`} className={filterClass}>
                             <td colSpan="2" style={{width:'auto'}}>
-                                <Text>{data.time.format('h:mm A')}</Text>
+                                <Text>{data.time.format('hh:mm A')}</Text>
                             </td>
                     <td style={{width:'auto'}}>
                         <Text>Title : {data.SessionTitle}</Text>

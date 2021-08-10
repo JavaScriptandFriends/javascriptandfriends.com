@@ -19,60 +19,60 @@
         "Room":"Edison"
     },
     {
-        "USEDT" :"9:30 AM",
+        "USEDT" :"1:00 PM",
         "SessionTitle" :"TypeScript - Beyond the Basics",
-        "SessionDescription":"\"TypeScript enables web developers to improve the clarity and reliability of their code. It also enables more powerful tools for writing code. This led to its rapid rise in popularity. But what can it do for you beyond just adding types to your variables and parameters? In this talk, we look at some of the more advanced features in the language that can help you deliver valuable solutions in less time.\r\n\r\nIn this session, we will look at features such as:\r\n* union types\r\n* intersection types\r\n* mixins\r\n* generics\r\n\r\nWe will also look at some of the new features in TypeScript 3.3 and 3.4. \"\r\n",
+        "SessionDescription":"TypeScript enables web developers to improve the clarity and reliability of their code. It also enables more powerful tools for writing code. This led to its rapid rise in popularity. But what can it do for you beyond just adding types to your variables and parameters? In this talk, we look at some of the more advanced features in the language that can help you deliver valuable solutions in less time.\r\n\r\nIn this session, we will look at features such as:\r\n* union types\r\n* intersection types\r\n* mixins\r\n* generics\r\n\r\nWe will also look at some of the new features in TypeScript 3.3 and 3.4.",
         "SpeakerName": "Eric Potter",
-        "Room":"Glenn"
+        "Room":"Morgan1"
     },
     {
-        "USEDT" :"1:00 PM",
+        "USEDT" :"10:40 AM",
         "SessionTitle" :"Knowing Your Limitations: The key to improving your software design decisions",
         "SessionDescription":"Two of the hardest challenges in software development are building the right thing and building the thing right. The first problem comes from a lack of understanding of what users want. The second comes from the fact that the complexities of software make it challenging to build high-quality applications. \r\n\r\nIt might not surprise you that humility increases empathy for users, which helps us make sure we\\'re building the right thing. However, did you know that Dijkstra once said humility was also a key to producing high-quality software?\r\n\r\nWe will look at practical ways intellectual humility can help you be a better software developer. I will show you how humility drives you to use abstraction to manage complexity. I will show you have it enables you to find alternative solutions to problems. And I will show you how it helps you focus on the needs of the user.\r\n\r\nIn the modern software landscape, humility is a tool that can level you up as a developer. It deserves a place in your toolbox.\"\r\n",
         "SpeakerName": "Eric Potter",
-        "Room":"Glenn"
+        "Room":"Morgan2"
     },
     {
-        "USEDT" :"2:10 PM",
+        "USEDT" :"4:30 PM",
         "SessionTitle" :"One Codebase to Rule Them All - Using React Native Everywhere",
         "SessionDescription":"With React Native and tools like React Native Web, React Native Dom, and React XP it is possible to share nearly all of the same code between web, iOS, android, and windows apps. With the addition of Electron, that same codebase can be used to create Mac and Linux apps too! This talk will go through some of the leading approaches and provide real world examples of production apps using these technologies. \r\n",
         "SpeakerName": "Jesse Weigel",
-        "Room":"Glenn"
+        "Room":"Morgan3"
     },
     {
         "USEDT" :"4:30 PM",
         "SessionTitle" :"Testing your React Native App - The Cypress way",
-        "SessionDescription":"\"Testing \r\nIn this talk, I will give a brief and beginner-friendly\r\n- introduction on what exactly is Cypress\r\n- explain the Cypress Test Runner\r\n- how to write your first test\r\n- explain how this has changed the way I test by giving real-life production examples\r\n\r\nYou will walk away with knowledge about what is Cypress and how you can use them in your React Native projects\"\r\n",
+        "SessionDescription":"In this talk, I will give a brief and beginner-friendly\r\n- introduction on what exactly is Cypress\r\n- explain the Cypress Test Runner\r\n- how to write your first test\r\n- explain how this has changed the way I test by giving real-life production examples\r\n\r\nYou will walk away with knowledge about what is Cypress and how you can use them in your React Native projects.",
         "SpeakerName": "Janhavi Dahihande",
-        "Room":"Glenn"
+        "Room":"Morgan1"
     },
     {
         "USEDT" :"9:30 AM",
         "SessionTitle" :"Let us Talk About Front-End Build Tools",
         "SessionDescription":"First, let us examine a custom-built site build tool. Then, we will move to Angular, Vue, and React and examine their build tools. Finally, we will look at the build tools themselves and how they can be customized as they are fit into CI\/CD pipelines.\r\n",
         "SpeakerName": "Bob Fornal",
-        "Room":"Armstrong"
+        "Room":"Morgan2"
     },
     {
         "USEDT" :"10:40 AM",
         "SessionTitle" :"Making Apps Listen and React with LUIS (Language Understanding Intelligent Service)",
         "SessionDescription":"Language Understanding Intelligence Service (LUIS) is part of Azure\\'s Cognitive Services.  It is built on the interactive machine learning and language understanding research from Microsoft Research.  Luis provides the capability to understand a person\u2019s natural language and respond with actions specified by application code.  In this session we will examine how this powerful feature can be integrated into applications, offering a more natural interaction with a device.\r\n",
         "SpeakerName": "Sam Nasr",
-        "Room":"Armstrong"
+        "Room":"Glenn"
     },
     {
         "USEDT" :"1:00 PM",
         "SessionTitle" :"A Better Developer Experience with Ottoman JS",
         "SessionDescription":"A basic walkthrough of Ottoman JS, a Couchbase ODM for Node.js featuring info on JSON Data Modeling, schema, validation, working with a document database, code samples, and demo of a REST API built with Ottoman and other related tools.\r\n",
         "SpeakerName": "Eric Bishard",
-        "Room":"Armstrong"
+        "Room":"Glenn"
     },
     {
-        "USEDT" :"2:10 PM",
+        "USEDT" :"3:20 PM",
         "SessionTitle" :"JavaScript and the MySQL Shell",
         "SessionDescription":"The new MySQL Shell has three input modes -- SQL (Structures Query Language), Python, and JavaScript. Not only can you use your favorite JavaScript libraries to interact with your data but you can extend the shell with your own JavaScript reports and write your own plugin routines.\r\n",
         "SpeakerName": "Dave Stokes",
-        "Room":"Armstrong"
+        "Room":"Morgan3"
     },
      {
         "USEDT" :"3:20 PM",
@@ -86,28 +86,42 @@
         "SessionTitle" :"Documentation: The Missing Pieces",
         "SessionDescription":"Document all the things, they say! But are we documenting for ALL the PEOPLE? It seems that most documentation is written for the intermediate and above devs, the devs who have been around, and the devs who are already comfortable with programming.\r\n\r\nBut what about the true beginners, the career-transitioners, or those crossing domains? Most documentation is certainly not written for them! \r\n\r\nIn this talk, we will explore \r\n- Common oversights and assumptions most documentation has built-in by default\r\n- Techniques that make our documentation more approachable for all kinds of people\r\n- How to strengthen our technical writing skills to ensure, to the best of our ability, that every anticipated reader of our documentation never feels lost or frustrated. \r\n\r\nBy the end of this talk, you will leave and never write documentation in the same way again...and that is a good thing!\"\r\n",
         "SpeakerName": "Adrienne Tacke",
-        "Room":"Armstrong"
+        "Room":"Wright2"
+    },
+    {
+        "USEDT" :"1:00 PM",
+        "SessionTitle" :"Why dread the science of hacking?",
+        "SessionDescription":"Why hack into something when you could just ask for access? Undetectable by firewalls and antivirus software, social engineering relies on human fault to gain access to sensitive spaces;\r\n\r\nEvery big organization has a layer by layer defense of data. If all the controls are well placed and active, then also it is vulnerable. One of the biggest failures in this is either you can bypass the controls or start penetrating the layers. Once you penetrate the first layer successfully, the next layer will be easier. Most of the defense mechanisms fail because of Human error or Social Engineering which brings about the conclusion \u201CHuman is the weakest chain in security\u201D.\r\n\r\nLet\u2019s focus a little bit on hackers, many view us with the power to hack anything in mere seconds. While that is frequently true on websites due to how cruddy things are programmed, things are getting better.\r\nAt the end of this session, I would have successfully explained the science of hacking, misconceptions of hacking, and finally, a quick demo on how the best developers can be victims of hacking.",
+        "SpeakerName": "Olowoniwa Gabriel Ayokunle",
+        "Room":"Wright2"
     },
     {
         "USEDT" :"9:30 AM",
         "SessionTitle" :"Welcome to the Jungle: Evolving Your Product Information Ecosystem",
         "SessionDescription":"Although creation and maintenance of an \"information ecosystem\" can be resource-intensive, the return on investment is almost always worthwhile. The need to understand how we use, or fail to use, information has never been more critical. The content and structure of the information we provide is a major component of the evolving conversation between our businesses and our customers and teammates. It influences how they think about our products and services. It tells them what to expect from us in the future. And it invites or limits interaction between our teams and the communities that we support. In sum, it provides perhaps the most tangible snapshot of our team\u2019s mission, vision, strategy, and culture. \r\n",
         "SpeakerName": "Michael Edelman",
-        "Room":"Resnik"
+        "Room":"Morgan3"
     },
     {
         "USEDT" :"10:40 AM",
         "SessionTitle" :"Building a Design system",
         "SessionDescription":"Design systems have been generating a lot of hype lately and rightfully so! They can provide better user experiences, promote best practices, and help you develop products faster. But, before you open your favorite design tool or code editor to start throwing things together, there are some things you need to identify and document to prevent issues.\r\n",
         "SpeakerName": "Burton Smith",
-        "Room":"Resnik"
+        "Room":"Morgan3"
     },
     {
-        "USEDT" :"3:20 PM",
+        "USEDT" :"1:00 PM",
+        "SessionTitle" :"Introduction to React Native",
+        "SessionDescription":"This course will be an introduction to React Native, a cross-platform mobile development framework. We will discuss the realities of development with React Native, guidelines for when you might want to use React Native for your project and dig into some code together!",
+        "SpeakerName": "Cale Riggs",
+        "Room":"Morgan3"
+    },
+    {
+        "USEDT" :"2:10 PM",
         "SessionTitle" :"How to increase your user engagement in your React app",
         "SessionDescription":"It\u2019s no secret that engaging with your users will help you retain them, have more sales, and increase the user experience(UX). One of the most popular ways to engage your users is via push notifications. In this talk, you will learn about the benefits of push notifications, how to integrate them into your React applications, and some of the most common scenarios of engagement with push notifications to take your customer engagement to the next level.\r\n",
         "SpeakerName": "William Shepherd",
-        "Room":"Resnik"
+        "Room":"Morgan3"
     },   
     {
         "USEDT" :"9:30 AM",
@@ -138,18 +152,18 @@
         "Room":"Morgan1"
     },
     {
-        "USEDT" :"4:30 PM",
+        "USEDT" :"2:10 PM",
         "SessionTitle" :"Dungeons, Dragons, and Graph Databases",
         "SessionDescription":"Are you an adventurer? Do you want gold? Experience? Levels? Of course you do! And where do you get these things? The dungeon, where else? That wonderful container of all things adventurous! But, unfortunately, dungeons aren\\'t setup for the convenience of adventurers who wish to extract these fine things. It\u2019s almost as if the dungeon master just made the dungeon up at random. And so you wander about and you get what you get.\r\n\r\nBut you\u2019re also a developer. You could build a database of all the rooms with their shiny and monstrous content. Then you could query it and find the optimal route to get the gold and the experience and the levels. But how would you model this data and write these queries? The rooms. The corridors. The monsters. The sparkling hoozits. That\u2019s a lot of entities to relate to each other. And that\u2019s gonna be a monster of a SQL query. Whoa\u2013look at that JOIN! Better get my text editor ready.\r\n\r\nOr, you could use a graph database. A graph database allows you to model these relationships simply and intuitively with nodes and edges. Being schema-free, you can evolve your graph as you encounter new things such as traps or secret doors. And, using the Cypher query language, you can write elegant and easy to understand queries that find the best routes to get the stuff adventures desire most.\r\n\r\nIn this talk, I\u2019ll use the aforementioned example to introduce you to the concepts of graph databases. I\u2019ll compare how to solve this problem with a relational database and how a graph database makes it easier. I\u2019ll show you how to query and modify your graph. And, as no talk would be complete without a live demo, I\u2019ll do it all using a real-time procedurally generated random dungeon (I am a dungeon master after all).\r\n\r\nSo come, have a flagon of mead as you learn about graph databases, optimize your dungeon crawl, and equip another weapon in your quest for better software!\"\r\n",
         "SpeakerName": "Guy Royse",
-        "Room":"Morgan1"
+        "Room":"Glenn"
     },
     {
         "USEDT" :"9:30 AM",
         "SessionTitle" :"Finding Bigfoot with Redis + RediSearch",
         "SessionDescription":"Bigfoot has been a staple of American folklore since the 19th century. Many are convinced that Bigfoot is real. Others suggest he\u2019s merely a cultural phenomenon. And some just want to believe. There is even a group, the Bigfoot Field Researchers Organization, that tracks Bigfoot sightings and makes the reports available online. And they have thousands of reports.\r\n\r\nI want to explore this delightful data but, unfortunately, it\u2019s been made for the convenience of humans and not computers. While this makes it easy for me to read, searching for reports can be a bit of a challenge. Some of the data is tidy and computer friendly\u2014like the latitude and longitude. Other bits are really for us humans\u2014like the eyewitness accounts. So, how can I find the Bigfoot sightings that interest me most with data structured like this?\r\n\r\nWell, I\u2019ll show you! In this talk, I\u2019ll load these Bigfoot sightings into Redis and use RediSearch to index them, making it easy to query both the computer friendly bits and the human friendly bits. I\u2019ll also show you how to search on fields, find keywords within text, find nearby Bigfoot sightings using geolocation data, and run queries that aggregate these searches.\r\n\r\nWhen we\u2019re done, you\u2019ll know how to quickly search, query, and aggregate data in Redis using RediSearch. You can use this newfound power for boring old corporate data, but I\u2019m going to use it to find Bigfoot!\"\r\n",
         "SpeakerName": "Guy Royse",
-        "Room":"Morgan2"
+        "Room":"Glenn"
     },
     {
         "USEDT" :"1:00 PM",
@@ -168,7 +182,7 @@
     {
         "USEDT" :"3:20 PM",
         "SessionTitle" :"JavaScript Worker Procs, Communication, and Storage Features",
-        "SessionDescription":"\"JavaScript has become one of the dominant languages on the web.  To enable a richer client experience, JavaScript utilizes worker processes that expedite AJAX calls with little complexity, and web sockets for bi-directional communication. In addition, JavaScript APIs are now available to facilitate user\u2019s geographical location access.  In this session, we\u2019ll review these features and discuss how they can be applied to any modern web site.\r\n\uF097\tWeb Workers\r\n\uF097\tWeb Sockets\r\n\uF097\tGeoLocation\r\n\uF097\tWeb Storage\r\n\uF097\tModernizr\"\r\n",
+        "SessionDescription":"JavaScript has become one of the dominant languages on the web.  To enable a richer client experience, JavaScript utilizes worker processes that expedite AJAX calls with little complexity, and web sockets for bi-directional communication. In addition, JavaScript APIs are now available to facilitate user\u2019s geographical location access.  In this session, we\u2019ll review these features and discuss how they can be applied to any modern web site.\r\n\uF097\tWeb Workers\r\n\uF097\tWeb Sockets\r\n\uF097\tGeoLocation\r\n\uF097\tWeb Storage\r\n\uF097\tModernizr.",
         "SpeakerName": "Sam Nasr",
         "Room":"Morgan2"
     },

@@ -9,7 +9,10 @@ import scoutlogo from "./scoutlogo.png";
 import cloudinarylogo from "./cloudinary.png";
 import daughertylogo from "./Daugherty.svg";
 import onesignallogo from "./onesignal.png";
+import liferaftlogo from "./lr-logo-primary.png";
 import nostarchlogo from "./nostarchpress.png";
+import leadingedjelogo from "./Leading_Edge_Logo.jpg";
+import thunkablelogo from "./thunkable.png";
 import { Link } from "../../components/Button";
 import { Flex } from "@rebass/grid"; 
 export default class extends React.Component {
@@ -87,6 +90,21 @@ Basically, we make your login box awesome.
               </>
             }
           />
+           <SponsorCard
+            imageSrc={leadingedjelogo}
+            title="Leading EDJE"
+            href="https://www.leadingedje.com/"
+            logoWidth={200}            
+            description={
+              <>
+                <p>
+                At Leading EDJE, we like to have fun, collaborate, and work on new and interesting technical solutions. With a focus on providing a great culture, where the technically driven can excel, our team members enjoy the benefits of collaborating with smart colleagues who embrace challenges and are passionate about what they do.
+We are quality-focused and work hard to get the job done right. Our team members are forward-thinking, continuously strive for self-improvement, and keep up to date with the latest technology and trends in the industry.
+If you are interested in joining a fun team with a focus on continuous learning and growth, come visit us at our booth.
+                </p>                             
+              </>
+            }
+          />
         <br></br>
         <h2>Friends</h2>
         
@@ -112,7 +130,21 @@ Basically, we make your login box awesome.
           </a> 
           </div>             
           &nbsp;  
-          &nbsp;        
+          &nbsp;  
+          <div style={{justifyContent:"center" }}>
+          <a href="https://www.liferaft.co/company/" target="_blank" rel="noopener noreferrer">         
+          <img src={liferaftlogo} alt="Liferaft" style={{ width:260, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a> 
+          </div>             
+          &nbsp;  
+          &nbsp;       
+          <div style={{justifyContent:"center" }}>
+          <a href="https://thunkable.com/#/" target="_blank" rel="noopener noreferrer">         
+          <img src={thunkablelogo} alt="thunkable" style={{ width:200,height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a> 
+          </div>             
+          &nbsp;  
+          &nbsp;          
         </Flex>  
         </Alternate>
       </Layout>
