@@ -113,6 +113,7 @@ export default class scheduleTime extends Component {
             <Text>Each talk is scheduled for around 50 min. TimeZone - {this.state.timezone}</Text>
             <Text>There will be a 20 min break between each session.Rooms will be cleaned after every session.</Text>
             <Text>Rooms Wright1 and Wright2 have speakers joining virtually.</Text>
+            <Text>Please use Chrome or Edge Browser to view the schedule.</Text>
             <br></br>
             {typeof window !== 'undefined' && ( // not SSR
                 <div style={{align: 'left'}}>
