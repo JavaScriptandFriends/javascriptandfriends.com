@@ -31,7 +31,7 @@ function MainBanner({ children }) {
             Workshop Day   | &nbsp;Aug-19-2021 - Virtual                  
           </Text>
           <Text color="highlight" my={10}>
-            Conference Day | &nbsp;Aug-20-2021 - Quest Conference Center, Columbus, Ohio<br/>                   
+            Conference Day | &nbsp;Aug-20-2021 - Virtual<br/>                   
           </Text> 
           <Link
           borderColor="alternateHeading"
