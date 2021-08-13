@@ -110,10 +110,9 @@ export default class scheduleTime extends Component {
             <Text>Please check the workshop page for details.</Text>
             <br></br>
             <h3>Conference Day - Aug-20-2021</h3>
-            <Text>Each talk is scheduled for around 50 min. TimeZone - {this.state.timezone}</Text>
-            <Text>There will be a 20 min break between each session.Rooms will be cleaned after every session.</Text>
-            <Text>Rooms Wright1 and Wright2 have speakers joining virtually.</Text>
+            <Text>Each talk is scheduled for around 50 min. TimeZone - {this.state.timezone}</Text>            
             <Text>Please use Chrome or Edge Browser to view the schedule.</Text>
+            <Text>All talks will be delivered virtually and live by the speakers.</Text>
             <br></br>
             {typeof window !== 'undefined' && ( // not SSR
                 <div style={{align: 'left'}}>
