@@ -112,7 +112,7 @@ export default class scheduleTime extends Component {
             <h3>Conference Day - Aug-20-2021</h3>
             <Text>Each talk is scheduled for around 50 min. TimeZone - {this.state.timezone}</Text>            
             <Text>Please use Chrome or Edge Browser to view the schedule.</Text>
-            <Text>All talks will be delivered through our YouTube Channel and live by the speakers.</Text>
+            <Text>All talks will be delivered through our <a href="https://www.youtube.com/channel/UCz4LNOw6U7ncyOSx73u_YMQ/featured" target="_blank" rel="noopener noreferrer">YouTube Channel</a> and live by the speakers.</Text>
             <br></br>
             {typeof window !== 'undefined' && ( // not SSR
                 <div style={{align: 'left'}}>
