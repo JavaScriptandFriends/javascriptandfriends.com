@@ -13,6 +13,7 @@ import liferaftlogo from "./lr-logo-primary.png";
 import nostarchlogo from "./nostarchpress.png";
 import leadingedjelogo from "./Leading_Edge_Logo.jpg";
 import thunkablelogo from "./thunkable.png";
+import couchbaselogo from "./couchbase-logo.png";
 import { Link } from "../../components/Button";
 import { Flex } from "@rebass/grid"; 
 export default class extends React.Component {
@@ -144,7 +145,14 @@ If you are interested in joining a fun team with a focus on continuous learning 
           </a> 
           </div>             
           &nbsp;  
-          &nbsp;          
+          &nbsp;
+          &nbsp;  
+          &nbsp;       
+          <div style={{justifyContent:"center" }}>
+          <a href="https://www.couchbase.com/" target="_blank" rel="noopener noreferrer">         
+          <img src={couchbaselogo} alt="Couchbase" style={{ width:200,height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
+          </a> 
+          </div>          
         </Flex>  
         </Alternate>
       </Layout>

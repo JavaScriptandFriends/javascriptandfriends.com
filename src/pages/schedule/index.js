@@ -10,7 +10,7 @@ const TIMEZONE_STORAGE_KEY = 'schedule.timezone'
 
 const SCHEDULE_WITH_TIMES_PARSED = rawScheduleData.map((entry) => ({
     ...entry,
-    time: moment(`2020-08-14 ${entry.USEDT} EDT`)
+    time: moment(`2021-08-20T${entry.USEDT}`)
 }))
 
 const TIMEZONES = {
@@ -112,7 +112,7 @@ export default class scheduleTime extends Component {
             <h3>Conference Day - Aug-20-2021</h3>
             <Text>Each talk is scheduled for around 50 min. TimeZone - {this.state.timezone}</Text>            
             <Text>Please use Chrome or Edge Browser to view the schedule.</Text>
-            <Text>All talks will be delivered virtually and live by the speakers.</Text>
+            <Text>All talks will be delivered through our YouTube Channel and live by the speakers.</Text>
             <br></br>
             {typeof window !== 'undefined' && ( // not SSR
                 <div style={{align: 'left'}}>
@@ -124,14 +124,13 @@ export default class scheduleTime extends Component {
                     <br></br>
                     Filter Rooms:
                     <select id="filter" onBlur={this.filterChange} onChange={this.filterChange}>
-                        <option value="all">All Rooms</option>
-                        <option value="Edison">Edison</option>
-                        <option value="Glenn">Glenn</option>
-                        <option value="Morgan1">Morgan-1</option>
-                        <option value="Morgan2">Morgan-2</option>
-                        <option value="Morgan3">Morgan-3</option>
-                        <option value="Wright1">Wright-1</option>
-                        <option value="Wright2">Wright-2</option>
+                        <option value="all">All Rooms</option>                        
+                        <option value="Track1">Track-1</option>
+                        <option value="Track2">Track-2</option>
+                        <option value="Track3">Track-3</option>
+                        <option value="Track4">Track-4</option>
+                        <option value="Track5">Track-5</option>
+                        <option value="Track6">Track-6</option>
                     </select>
                     <br></br>
                     Timezone:
