@@ -32,14 +32,7 @@ function MainBanner({ children }) {
           </Text>
           <Text color="highlight" my={10}>
             Conference Day | &nbsp;Aug-20-2021 - Virtual<br/>                   
-          </Text> 
-          <Link
-          borderColor="alternateHeading"
-          backgroundColor="rgba(0,0,0,0)"         
-          to="https://www.eventbrite.com/e/javascript-and-friends-conference-2021-tickets-163395816285?discount=JSFriendsLimited2021"
-          color="highlight">
-          Registrations Open Now
-          </Link>                      
+          </Text>                    
           {children}
         </Flex>
       </Box>
