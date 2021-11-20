@@ -8,12 +8,7 @@ import authlogo from "./auth0.png";
 import scoutlogo from "./scoutlogo.png";
 import cloudinarylogo from "./cloudinary.png";
 import daughertylogo from "./Daugherty.svg";
-import onesignallogo from "./onesignal.png";
-import liferaftlogo from "./lr-logo-primary.png";
-import nostarchlogo from "./nostarchpress.png";
 import leadingedjelogo from "./Leading_Edge_Logo.jpg";
-import thunkablelogo from "./thunkable.png";
-import couchbaselogo from "./couchbase-logo.png";
 import { Link } from "../../components/Button";
 import { Flex } from "@rebass/grid"; 
 export default class extends React.Component {
@@ -23,7 +18,7 @@ export default class extends React.Component {
      
         <Alternate style={{ border: 0 }}>
         <Heading color="alternateHeading" size={2}>
-          Interested in sponsoring JavaScript and Friends Conference 2021? 
+          Interested in sponsoring JavaScript and Friends Conference 2022? 
         </Heading>
         <br></br>         
         <br></br>  
@@ -115,44 +110,8 @@ If you are interested in joining a fun team with a focus on continuous learning 
           <a href="https://improving.com/" target="_blank" rel="noopener noreferrer">                 
           <img src={improvingLogo} alt="Improving" style={{ width:235, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
           </a>    
-          </div>      
-          &nbsp;
-          &nbsp;
-          <div style={{ justifyContent:"center" }}>
-          <a href="https://onesignal.com/" target="_blank" rel="noopener noreferrer">          
-          <img src={onesignallogo} alt="OneSignal" style={{ width:235, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a>    
-          </div>
-          &nbsp;
-          &nbsp;
-          <div style={{justifyContent:"center" }}>
-          <a href="https://nostarch.com/" target="_blank" rel="noopener noreferrer">         
-          <img src={nostarchlogo} alt="no starch press" style={{ width:260, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a> 
-          </div>             
-          &nbsp;  
-          &nbsp;  
-          <div style={{justifyContent:"center" }}>
-          <a href="https://www.liferaft.co/company/" target="_blank" rel="noopener noreferrer">         
-          <img src={liferaftlogo} alt="Liferaft" style={{ width:260, height:80, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a> 
-          </div>             
-          &nbsp;  
-          &nbsp;       
-          <div style={{justifyContent:"center" }}>
-          <a href="https://thunkable.com/#/" target="_blank" rel="noopener noreferrer">         
-          <img src={thunkablelogo} alt="thunkable" style={{ width:200,height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a> 
-          </div>             
-          &nbsp;  
-          &nbsp;
-          &nbsp;  
-          &nbsp;       
-          <div style={{justifyContent:"center" }}>
-          <a href="https://www.couchbase.com/" target="_blank" rel="noopener noreferrer">         
-          <img src={couchbaselogo} alt="Couchbase" style={{ width:200,height:50, maxWidth: "100%", maxHeight: "100%" }}/> 
-          </a> 
-          </div>          
+          </div>     
+                  
         </Flex>  
         </Alternate>
       </Layout>

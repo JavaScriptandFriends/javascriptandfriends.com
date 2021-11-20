@@ -25,13 +25,10 @@ function MainBanner({ children }) {
       >
         <Flex justifyContent="center" flexDirection="column">
           <Heading size={1} color="light" my={0} fontSize={6}>
-            JavaScript &amp; Friends Conference
-          </Heading> 
-          <Text color="highlight" my={10}>                         
-            Workshop Day   | &nbsp;Aug-19-2021 - Virtual                  
-          </Text>
+            JavaScript &amp; Friends Conference 2022
+          </Heading>          
           <Text color="highlight" my={10}>
-            Conference Day | &nbsp;Aug-20-2021 - Virtual<br/>                   
+            Conference Day | &nbsp;Stay Tuned<br/>                   
           </Text>                    
           {children}
         </Flex>
