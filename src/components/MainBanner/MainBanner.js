@@ -28,7 +28,7 @@ function MainBanner({ children }) {
             JavaScript &amp; Friends Conference 2022
           </Heading>          
           <Text color="highlight" my={10}>
-            Conference Day | &nbsp;Stay Tuned<br/>                   
+            Conference Day | &nbsp;July-29-2022 - Quest Conference Center, Columbus, Ohio<br/>                   
           </Text>                    
           {children}
         </Flex>
