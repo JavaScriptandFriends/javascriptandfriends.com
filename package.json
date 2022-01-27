@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Chris Biscardi <chris@christopherbiscardi.com>",
   "dependencies": {
-    "@babel/plugin-syntax-jsx": "^7.8.3",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
     "@mdx-js/mdx": "^0.16.8",
     "@mdx-js/tag": "^0.16.8",
     "@rebass/grid": "^6.1.0",
@@ -20,12 +20,12 @@
     "gatsby-plugin-styled-components": "^3.2.1",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-transformer-sharp": "^2.4.2",
-    "moment-timezone": "^0.5.31",
-    "prop-types": "^15.7.2",
+    "moment-timezone": "^0.5.34",
+    "prop-types": "^15.8.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
-    "react-modal": "^3.11.2",
+    "react-modal": "^3.14.4",
     "rebass": "^3.2.2",
     "styled-components": "^4.4.1",
     "typeface-roboto": "^0.0.54"
@@ -44,12 +44,12 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
+    "@babel/core": "^7.16.12",
     "@storybook/addon-actions": "^4.1.18",
     "@storybook/addon-links": "^4.1.18",
     "@storybook/addons": "^4.1.18",
     "@storybook/react": "^5.3.17",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.2.3",
     "prettier": "^1.19.1"
   },
   "repository": {

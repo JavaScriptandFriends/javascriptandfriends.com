@@ -29,6 +29,9 @@ function MainBanner({ children }) {
           </Heading>          
           <Text color="highlight" my={10}>
             Conference Day | &nbsp;July-29-2022 - Quest Conference Center, Columbus, Ohio<br/>                   
+          </Text> 
+          <Text color="highlight" my={10}>
+            Call For Speakers and Sponsors Open Now<br/>                   
           </Text>                    
           {children}
         </Flex>
