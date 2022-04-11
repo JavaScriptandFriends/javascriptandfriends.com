@@ -9,6 +9,7 @@ import scoutlogo from "./scoutlogo.png";
 import cloudinarylogo from "./cloudinary.png";
 import daughertylogo from "./Daugherty.svg";
 import leadingedjelogo from "./Leading_Edge_Logo.jpg";
+import progresslogo from "./ProgressKendoUI.png";
 import { Link } from "../../components/Button";
 import { Flex } from "@rebass/grid"; 
 export default class extends React.Component {
@@ -48,18 +49,19 @@ Basically, we make your login box awesome.
             }
           />
           <SponsorCard
-            imageSrc={scoutlogo}
-            title="Scout APM"
-            href="https://ter.li/qt1k5b"
+            imageSrc={progresslogo}
+            title="Progress"
+            href="https://www.telerik.com/kendo-ui"
             logoWidth={200}            
             description={
               <>
                 <p>
-                Scout APM is leading-edge application performance monitoring designed to help Javascript developers quickly find and fix performance issues without having to deal with the headache or overhead of enterprise-platform feature bloat. With a developer-centric UI and tracing logic ties bottlenecks to source code, you can quickly pinpoint and resolve performance abnormalities like N+1 queries, slow database queries, memory bloat, and more. Scout's real-time alerting and weekly digest emails let you rest easy knowing Scout's on watch and resolving performance issues before your customers ever see them. See for yourself why developers worldwide call Scout their best friend ﻿and try our APM free for 14-days, no credit card needed! 
-                </p>                             
+                Progress – Telerik, Kendo UI, Fiddler and more! We’re Progress. We make software that developers love. We’ve heard that you’re a big fan of UI components, which is great, because we are too. In fact, we make all the tools developers need to build and test high-performance modern apps with outstanding UI. You can learn all about our developer tools by visiting www.telerik.com. And if you want to hang out sometime, you can find us on twitch throughout the week at <a href="https://twitch.tv/CodeItLive" target="_blank" rel="noopener noreferrer">twitch.tv/CodeItLive</a> talking about all things .NET, JavaScript, testing and debugging! Happy Coding!
+                </p>
+                             
               </>
             }
-          />
+          />         
           <SponsorCard
             imageSrc={cloudinarylogo}
             title="Cloudinary"
@@ -69,6 +71,19 @@ Basically, we make your login box awesome.
               <>
                 <p>
                 Cloudinary provides developers with powerful media API to upload, store, manage, optimize, transform and deliver images and videos. Developers utilize and easily integrate Cloudinary’s media experience platform via SDKs, widgets, add-ons into web and mobile apps built using all popular tech stacks. Cloudinary enables developers to deliver dynamic, high-performance, personalized media experiences on any device. <a href="https://discord.gg/MediaDevs" target="_blank" rel="noopener noreferrer">Join the community of media developers</a> 
+                </p>                             
+              </>
+            }
+          />
+           <SponsorCard
+            imageSrc={scoutlogo}
+            title="Scout APM"
+            href="https://ter.li/qt1k5b"
+            logoWidth={200}            
+            description={
+              <>
+                <p>
+                Scout APM is leading-edge application performance monitoring designed to help Javascript developers quickly find and fix performance issues without having to deal with the headache or overhead of enterprise-platform feature bloat. With a developer-centric UI and tracing logic ties bottlenecks to source code, you can quickly pinpoint and resolve performance abnormalities like N+1 queries, slow database queries, memory bloat, and more. Scout's real-time alerting and weekly digest emails let you rest easy knowing Scout's on watch and resolving performance issues before your customers ever see them. See for yourself why developers worldwide call Scout their best friend ﻿and try our APM free for 14-days, no credit card needed! 
                 </p>                             
               </>
             }
