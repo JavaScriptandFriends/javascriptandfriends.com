@@ -30,9 +30,13 @@ function MainBanner({ children }) {
           <Text color="highlight" my={10}>
             Conference Day | &nbsp;July-29-2022 - Quest Conference Center, Columbus, Ohio<br/>                   
           </Text> 
-          <Text color="highlight" my={10}>
-            Call For Sponsors Open<br/>                   
-          </Text>                    
+         <Link
+          borderColor="alternateHeading"
+          backgroundColor="rgba(0,0,0,0)"         
+          to="https://www.eventbrite.com/e/javascript-and-friends-conference-2022-tickets-322482703447"
+          color="highlight">
+          Registrations Open Now
+          </Link>                    
           {children}
         </Flex>
       </Box>
