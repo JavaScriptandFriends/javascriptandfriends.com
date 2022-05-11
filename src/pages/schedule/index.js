@@ -105,14 +105,10 @@ export default class scheduleTime extends Component {
             <Layout style={{justifyContent:'center'}}>
                 <Alternate style={{ border: 0 }}>
                <div style={{ maxWidth: `100%`, margin: `1.45rem` ,justifyContent: 'center'}}>
-            <h1>Schedule</h1>
-            <h3>Workshop Day - Aug-19-2021</h3>
-            <Text>Please check the workshop page for details.</Text>
-            <br></br>
-            <h3>Conference Day - Aug-20-2021</h3>
+            <h1>Schedule</h1>            
+            <h3>Conference Day - July-29-2022</h3>
             <Text>Each talk is scheduled for around 50 min. TimeZone - {this.state.timezone}</Text>            
-            <Text>Please use Chrome or Edge Browser to view the schedule.</Text>
-            <Text>All talks will be delivered through our <a href="https://www.youtube.com/channel/UCz4LNOw6U7ncyOSx73u_YMQ/featured" target="_blank" rel="noopener noreferrer">YouTube Channel</a> and live by the speakers.</Text>
+            <Text>Please use Chrome or Edge Browser to view the schedule.</Text>            
             <br></br>
             {typeof window !== 'undefined' && ( // not SSR
                 <div style={{align: 'left'}}>
@@ -125,12 +121,12 @@ export default class scheduleTime extends Component {
                     Filter Rooms:
                     <select id="filter" onBlur={this.filterChange} onChange={this.filterChange}>
                         <option value="all">All Rooms</option>                        
-                        <option value="Track1">Track-1</option>
-                        <option value="Track2">Track-2</option>
-                        <option value="Track3">Track-3</option>
-                        <option value="Track4">Track-4</option>
-                        <option value="Track5">Track-5</option>
-                        <option value="Track6">Track-6</option>
+                        <option value="Edison">Edison</option>
+                        <option value="Glenn 1-2">Glenn 1-2</option>
+                        <option value="Morgan 2">Morgan 2</option>
+                        <option value="Wright 2">Wright 2</option>
+                        <option value="Morgan 1">Morgan 1</option>
+                        <option value="Morgan 3">Morgan 3</option>
                     </select>
                     <br></br>
                     Timezone:
