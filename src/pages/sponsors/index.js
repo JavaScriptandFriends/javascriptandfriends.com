@@ -4,12 +4,14 @@ import SponsorCard from "../../components/SponsorCard";
 import Alternate from "../../components/Alternate";
 import Heading from "../../components/Heading";
 import improvingLogo from "./improving.png";
+import mysqlLogo from "./logo-mysql.png";
 import authlogo from "./auth0.png";
 import scoutlogo from "./scoutlogo.png";
 import cloudinarylogo from "./cloudinary.png";
 import daughertylogo from "./Daugherty.svg";
 import leadingedjelogo from "./Leading_Edge_Logo.jpg";
 import progresslogo from "./ProgressKendoUI.png";
+import comresourcelogo from "./comresourcelogo.jpg";
 import { Link } from "../../components/Button";
 import { Flex } from "@rebass/grid"; 
 export default class extends React.Component {
@@ -75,6 +77,7 @@ Basically, we make your login box awesome.
               </>
             }
           />
+                   
            <SponsorCard
             imageSrc={scoutlogo}
             title="Scout APM"
@@ -98,6 +101,22 @@ Basically, we make your login box awesome.
                 <p>
                 For over 35 years, Daugherty has been committed to driving innovation, growth and customer satisfaction across the nation while making a positive difference in the community. With software engineering, data analytics, business advisory services, and technology and delivery leadership, Daugherty delivers significant business results quickly and effectively. Leveraging proprietary tools, techniques, and virtual and regional development centers, Daugherty is a preferred strategic advisor and partner for the Fortune 500, helping customers achieve better and more predictable outcomes for mission-critical initiatives.
                 </p>                             
+              </>
+            }
+          />
+        <SponsorCard
+            imageSrc={comresourcelogo}
+            title="ComResource"
+            href="https://comresource.com/"
+            logoWidth={200}            
+            description={
+              <>
+                <p>
+                ComResource is a technology solutions provider that provides highly skilled people and innovative technology to support and enhance critical business initiatives. Whether the need is Project Management, Full-Stack Development, Automation, Data Analytics or Business Intelligence, our team is uniquely equipped to drive winning solutions that achieve our clients’ business goals.
+                </p> 
+                <p>                
+Our people and our culture are our greatest assets and the reason why ComResource has been named a "Best Place to Work" 7 times over the last decade. Talk to a recruiter today to find out how to join our team.
+                </p>                            
               </>
             }
           />
