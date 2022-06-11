@@ -81,14 +81,7 @@
         "SpeakerName": "Harshil Agrawal",
         "Room": "Morgan 2",
         "USEDT": "10:15:00"
-    },
-    {
-        "SessionTitle": "An Overview of Client-Side Data Storage",
-        "SessionDescription": "Every application needs data, but data can be a bottleneck for web applications both from a performance and offline capability standpoint. In this session, we'll examine how browsers enable websites to store data for your users. We'll look at multiple options, discuss when to use what, and a look at libraries that can make client-side data easier to use.",
-        "SpeakerName": "Raymond Camden",
-        "Room": "Morgan 1",
-        "USEDT": "12:45:00"
-    },
+    },    
     {
         "SessionTitle": "Creating a modular UI component library",
         "SessionDescription": "Most organizations, from individual teams to whole enterprises, need standardized UI look and feel. UI component libraries allow quick development along with standardized UI/UX. However, implementing the brand vision and continuous refinement can be overwhelming if the architecture, both technically and organizationally, is not set correctly at first. \r\n\r\nModular programming is a software design technique that emphasizes separating the functionality of the program into independent, interchangeable modules. That allows quick pivoting and easy spin up of new software while allowing customization for individual product requirements. \r\n\r\nSeparation of responsibilities between product, engineering, and design empowers these individual groups to innovate or create solutions for future or current enhancements. \r\n\r\nCombining these ideas allow organizations of any size to create a UI component library and continuous refinement. \r\n\r\nYou’ll learn:\r\n\r\n•\tHow to identify areas of UI that can be modularized.\r\n•\tHow to layer different stacks of solutions to allow continuous development without dependency hell. \r\n•\tWhat the responsibilities are between product, engineering and design when it comes to a UI component library\r\n•\t Documentation of a newly created UI component library. \r\n",

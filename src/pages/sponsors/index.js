@@ -92,6 +92,20 @@ Basically, we make your login box awesome.
             }
           />
            <SponsorCard
+            imageSrc={mysqlLogo}
+            title="MySQL"
+            href="https://www.mysql.com"
+            logoWidth={170}
+            logoHeight={115}
+            description={
+              <>
+                <p>
+               MySQL is the World’s Most Popular Open Source Database. It powers the most innovative companies including Facebook, Booking, Uber, and Tesla. It is available on-premises and as the MySQL Database Service on Oracle Cloud. For developers, it’s an easy to use, reliable and high-performance database with NoSQL and SQL support. SaaS, ecommerce, financial, telecom, and Fortune 1000 companies rely on the MySQL Enterprise edition advanced security features to protect the privacy of information, prevent data breaches and help meet regulatory requirements such as GDPR, PCI, HIPAA. MySQL High Availability has native HA, fully integrated into the MySQL Server for 99.99% uptime. 
+                </p>                            
+              </>
+            }
+          /> 
+           <SponsorCard
             imageSrc={daughertylogo}
             title="Daugherty Business Solutions"
             href="http://careers.daugherty.com/"
