@@ -12,6 +12,7 @@ import daughertylogo from "./Daugherty.svg";
 import leadingedjelogo from "./Leading_Edge_Logo.jpg";
 import progresslogo from "./ProgressKendoUI.png";
 import comresourcelogo from "./comresourcelogo.jpg";
+import northwoodslogo from "./NorthwoodsLogo.png";
 import { Link } from "../../components/Button";
 import { Flex } from "@rebass/grid"; 
 export default class extends React.Component {
@@ -115,6 +116,22 @@ Basically, we make your login box awesome.
                 <p>
                 For over 35 years, Daugherty has been committed to driving innovation, growth and customer satisfaction across the nation while making a positive difference in the community. With software engineering, data analytics, business advisory services, and technology and delivery leadership, Daugherty delivers significant business results quickly and effectively. Leveraging proprietary tools, techniques, and virtual and regional development centers, Daugherty is a preferred strategic advisor and partner for the Fortune 500, helping customers achieve better and more predictable outcomes for mission-critical initiatives.
                 </p>                             
+              </>
+            }
+          />
+          <SponsorCard
+            imageSrc={northwoodslogo}
+            title="Northwoods"
+            href="https://www.teamnorthwoods.com"
+            logoWidth={200}            
+            description={
+              <>
+                <p>
+                Northwoods is a Dublin based company that makes software solutions that improve the quality of the lives of case managers and social workers in the Human Services field.  Working at Northwoods means being part of a team that’s passionate about our ability to make an impact on the lives of human services professionals and the families they serve.                
+                </p> 
+                <p>                
+                We have been in this space for over 20 years building software and tailoring solutions that delight our users. Constantly improving the way that we build and deliver software to our customers has always been one of our top priorities. Our software teams build, test, and deploy to production multiple times a day with zero fear of failure because of our robust automated test suite. 
+                </p>                            
               </>
             }
           />

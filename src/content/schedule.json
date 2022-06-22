@@ -41,9 +41,9 @@
         "USEDT": "09:00:00"
     },
     {
-        "SessionTitle": "Performance is User Experience: optimizing the frontend for the users",
-        "SessionDescription": "In most computer systems, definition of performance is straight forward enough: do more work per time with less resources. For a frontend web application, this is rarely the case. Frontend applications not only need to be resource-efficient, but must also \"feel\" efficient to the user. This makes performance on the frontend mostly a user experience issue. \r\n\r\nIn this presentation, the following questions will be answered: \r\n- What does performance mean? \r\n- What does it mean in the context of a frontend application? \r\n- Why is frontend performance a user experience issue? \r\n- What metrics should we look at when talking about performance in the frontend? \r\n- How do we measure them? \r\n- How do we optimize the frontend for the user? ",
-        "SpeakerName": "Chinenye Onuegbu",
+        "SessionTitle": "The next wave of web frameworks is BYOJS",
+        "SessionDescription": "Web application development has had many shifts over the lifetime of the web. From server-side applications with a sprinkle of JavaScript to Single Page Applications built entirely with JavaScript. Now we’re heading back to where many new web frameworks build for static first, with JavaScript added as needed. This talk covers building web applications with JavaScript through the lens of Astro, a static site generator where the choice of JavaScript framework is uniquely yours.",
+        "SpeakerName": "Brandon Roberts",
         "Room": "Morgan 3",
         "USEDT": "09:00:00"
     },
@@ -74,14 +74,7 @@
         "SpeakerName": "Sarah Dutkiewicz",
         "Room": "Morgan 3",
         "USEDT": "10:15:00"
-    },
-    {
-        "SessionTitle": "Create an API with four lines of code",
-        "SessionDescription": "APIs have made it easy for us to develop new tools and applications. Sometimes you want to perform small tasks, but there's no API for that. These APIs can be for internal use, or you might want to develop a quick prototype. Spending too much time writing numerous lines of JavaScript code to create that API isn't ideal.\r\nJoin me and learn how I created an API with just four lines of code and how you can too.",
-        "SpeakerName": "Harshil Agrawal",
-        "Room": "Morgan 2",
-        "USEDT": "10:15:00"
-    },    
+    },     
     {
         "SessionTitle": "Creating a modular UI component library",
         "SessionDescription": "Most organizations, from individual teams to whole enterprises, need standardized UI look and feel. UI component libraries allow quick development along with standardized UI/UX. However, implementing the brand vision and continuous refinement can be overwhelming if the architecture, both technically and organizationally, is not set correctly at first. \r\n\r\nModular programming is a software design technique that emphasizes separating the functionality of the program into independent, interchangeable modules. That allows quick pivoting and easy spin up of new software while allowing customization for individual product requirements. \r\n\r\nSeparation of responsibilities between product, engineering, and design empowers these individual groups to innovate or create solutions for future or current enhancements. \r\n\r\nCombining these ideas allow organizations of any size to create a UI component library and continuous refinement. \r\n\r\nYou’ll learn:\r\n\r\n•\tHow to identify areas of UI that can be modularized.\r\n•\tHow to layer different stacks of solutions to allow continuous development without dependency hell. \r\n•\tWhat the responsibilities are between product, engineering and design when it comes to a UI component library\r\n•\t Documentation of a newly created UI component library. \r\n",
@@ -109,14 +102,7 @@
         "SpeakerName": "Bob Fornal",
         "Room": "Morgan 3",
         "USEDT": "12:45:00"
-    },
-    {
-        "SessionTitle": "My tests passed, but why did my code fail?",
-        "SessionDescription": "Writing testable code is important to the success of many software projects. Writing tests that adequately test the code is equally as important. Unfortunately, it is also often difficult to do.\r\n\r\nIn this language and framework agnostic session, we will discuss how to write comprehensive tests so that we won't have broken code even though all our tests pass. We will also talk about some best practices for writing tests and how to break your code up into smaller, more easily testable, chunks.",
-        "SpeakerName": "Scott Stroz",
-        "Room": "Wright 2",
-        "USEDT": "12:45:00"
-    },
+    },    
     {
         "SessionTitle": "Coming to you live! Inclusive, effective, fun live streaming for Devs",
         "SessionDescription": "Adapting to having events online has been a learning experience for us all. How can we keep a constant, steady, interactive experience for our audience?\r\n\r\nIn this talk, we'll cover how we created Open Source Thursdays, including the tools we used, the accessibility considerations, as well as how we've improved it over time. Anyone can be a great live streamer!",
@@ -172,14 +158,7 @@
         "SpeakerName": "Joel Lord",
         "Room": "Morgan 3",
         "USEDT": "15:15:00"
-    },
-    {
-        "SessionTitle": "The Spy of Testadel: a unit-testing medieval tale",
-        "SessionDescription": "When people get started with unit testing, they often get stumped when it comes to testing functions that have side effects. This talk is a gentle introduction to some of the concepts involved in testing side effects. \r\n\r\nThe year is 1452. An uneasy truce between the kingdom of Testadel and the fiefdom of its neighbour, Sir SideEffects, is on the verge of collapse. Follow along as our hero, a court jester aptly named Jest, infiltrates the enemy's camp to gather information, and uncover Sir SideEffects' treachery.\r\n\r\nThrough the clever - I think - use of an allegory, this talk will answer:\r\n- What is the difference between a pure function and a function with side-effects. \r\n- Why testing functions with side-effects is usually harder. \r\n- What strategies can be employed to test functions with side-effects, and their tradeoffs. \r\n- What are spies and how to use them.\r\n- What libraries can help with testing side-effects.",
-        "SpeakerName": "Philippe Vaillancourt",
-        "Room": "Morgan 1",
-        "USEDT": "15:15:00"
-    },
+    },    
     {
         "SessionTitle": "Want to try public speaking? You totally should! Here's how.",
         "SessionDescription": "Yes, public speaking can be incredibly intimidating. Yes, it takes a tremendous amount of work to prepare a great talk.  But most importantly: it is absolutely worth it.\r\n\r\nPublic speaking can have incredible benefits for both learning and career opportunities. It is also a fantastic way to give back to the community.\r\n\r\nWhile public speaking offers unique challenges for each speaker, many speakers encounter the same difficulties in the beginning.\r\n\r\nI'll cover tips on how to get started, how to submit a talk to a conference, how to prepare a talk, and how to encourage others to speak!",
