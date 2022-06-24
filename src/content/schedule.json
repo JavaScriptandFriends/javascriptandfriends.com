@@ -34,6 +34,13 @@
         "USEDT": "09:00:00"
     },
     {
+        "SessionTitle": "Using MySQL Document Store with Node.js",
+        "SessionDescription": "MySQL Document Store offers developers the best features of both a NoSQL database and a traditional SQL based database. In this session we will discuss how we can use Node.js to access a MySQL Document Store, create/remove collections, create/update/remove documents, retrieve, filter, & sort document lists, and leverage raw SQL to retrieve aggregate data for reporting purposes.",
+        "SpeakerName": "Scott Stroz",
+        "Room": "Wright 2",
+        "USEDT": "10:15:00"
+    },
+    {
         "SessionTitle": "Pay the Web Forward",
         "SessionDescription": "Trying to get paid on the Web today, as a creator, is broken and unfair. 70% of ad spend globally goes to only 2 platforms. Until recently, the Web couldn’t natively compete.\r\n\r\nA new W3C Standard proposal, Web Monetization, uses the Interledger Protocol to enable developers like you to make money from your work in an open, native, and seamless way. And all that with as little as a single line of HTML!\r\n\r\nIf you've ever wanted to know all about payments on the web or making money with your website, this talk is for you!",
         "SpeakerName": "Alex Lakatos",
