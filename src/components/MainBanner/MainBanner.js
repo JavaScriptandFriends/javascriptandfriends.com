@@ -25,18 +25,11 @@ function MainBanner({ children }) {
       >
         <Flex justifyContent="center" flexDirection="column">
           <Heading size={1} color="light" my={0} fontSize={6}>
-            JavaScript &amp; Friends Conference 2022
+            JavaScript &amp; Friends Conference 2023
           </Heading>          
           <Text color="highlight" my={10}>
-            Conference Day | &nbsp;July-29-2022 - Quest Conference Center, Columbus, Ohio<br/>                   
-          </Text> 
-         <Link
-          borderColor="alternateHeading"
-          backgroundColor="rgba(0,0,0,0)"         
-          to="https://www.eventbrite.com/e/javascript-and-friends-conference-2022-tickets-322482703447"
-          color="highlight">
-          Registrations Open Now
-          </Link>                    
+            Conference Day | &nbsp;TBD<br/>                   
+          </Text>                            
           {children}
         </Flex>
       </Box>

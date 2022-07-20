@@ -19,7 +19,7 @@ const Image = () => (
       query {
         placeholderImage: file(relativePath: { eq: "chris.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 200) {
+            fluid(maxWidth: 300) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }

@@ -19,7 +19,7 @@ const Image = () => (
       query {
         placeholderImage: file(relativePath: { eq: "brandon.png" }) {
           childImageSharp {
-            fluid(maxWidth: 200) {
+            fluid(maxWidth: 300) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }

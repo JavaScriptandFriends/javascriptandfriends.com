@@ -2,11 +2,13 @@ import { Link } from "gatsby";
 import Layout from "../components/layout"; 
 import Card from "../components/Card"; 
 import { Flex } from "@rebass/grid"; 
-import Team from "../components/Team"; 
+import Speaker from "../components/Speaker";
 import barretImage from "../components/TeamImages/barret";
 import brandonImage from "../components/TeamImages/brandon";
 import chrisImage from "../components/TeamImages/chris";
 import georgeImage from "../components/TeamImages/george";
+import mattImage from "../components/TeamImages/matt";
+import baskarImage from "../components/TeamImages/baskar";
 import { Hidden } from '../components/Hidden';
 import Text from "../components/Text";
 
@@ -14,7 +16,7 @@ import Text from "../components/Text";
 <Hidden as="h1">Team</Hidden>
 <Card justifyContent="center">
 <Text>
-Meet The Team
+Meet The Core Team. Interested in volunteering, feel free to reach out to us.
 </Text>
 
 </Card>      
@@ -22,32 +24,30 @@ Meet The Team
 <Flex flexDirection="row" bg="rgba(234, 234, 234, 0.26)" flexWrap="wrap" alignItems="center" justifyContent="center"  style={{ padding: "2rem" }}>
 
 
-<Team name="Barret"  Image={barretImage} 
-twitter="" 
-linkedin="" 
-bio="Husband, father, gamer, Browns and Buckeyes fan, model railroader, board member of JavaScript and Friends conference. When I am not doing all that other stuff I also occasionally develop applications."
+<Speaker name="Barret"  Image={barretImage} 
+twitter="BarretBlake" 
+linkedin="barretblake" 
 /> 
 
-<Team name="Chris Steele" Image={chrisImage}
-twitter="" 
-linkedin="" 
-bio="Chris Steele grew up in Pataskala, OH and received his Bachelor’s in Computer Information Systems (CIS) at DeVry University and his Master’s in Information Systems Management (MISM) at Keller Graduate School of Management — all while working full-time. Now with 10 years of industry experience, Chris is the Director of Consulting for Improving Enterprises where his main responsibilities consist of career development and oversight of direct reports, business development, talent and acquisition support, and living the Improving values. Chris’ passions include web technologies, professional development, teaching/growing/mentoring others, giving back to the community, fitness, and his family of 6."
+<Speaker name="Brandon" Image={brandonImage} 
+twitter="brockthecodez" 
+linkedin="brandon-rockwell-ba432149" 
 /> 
 
-<Team name="Brandon" Image={brandonImage} 
-twitter="" 
-linkedin="" 
-bio="I am a highly motivated software professional with nearly 7 years of experience working in the industry. My passion is people. I enjoy leading and growing those around me, and am always looking for ways to improve myself and my team.
-My industry experience encompasses a number of different fields, including healthcare, e-commerce, government, and industrial automation. I enjoy solving problems and believe that there is no situation in which I will not give it my all."
-/> 
+<Speaker name="George" Image={georgeImage}
+twitter="walterg2"
+linkedin="walterg2"
+/>
 
-<Team name="George" Image={georgeImage}
-twitter=""
-linkedin=""
-bio="During the daylight hours, George works as a Lead Research Engineer for Northwoods. With more than 20 years of experience in application development, he has become an advocate for building clean, concise code without sacrificing the user experience. He builds applications in an agile environment using a variety of technologies including Java, Groovy, Kotlin, Objective-C, JavaScript, and Ruby. He is also a strong promoter for using Adaptive and Responsive Design in all aspects of web development and pushes the need for developers to become stronger and more affluent in the Web UI stack of technologies.
-After dark, well, that’s a different story...
-Between raising two young kids with his wife, Jen, he enjoys role-playing games, science-fiction, comics, and technology. Any spare time is spent putting the last few touches on a new home and freelancing iOS projects.
-"/>
+<Speaker name="Matt Eland" Image={mattImage}
+twitter="integerman"
+linkedin="matteland"
+/>
+
+<Speaker name="Baskar Rao" Image={baskarImage}
+twitter="baskarmib"
+linkedin="baskarrao-dandlamudi"
+/>
 </Flex>
 
 

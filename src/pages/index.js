@@ -38,15 +38,7 @@ const Root = () => (
             Annual JavaScript and Friends Conference a success. And with your
             contribution, it will be!
           </Text>
-        </TextWrapper>
-        <Link
-          borderColor="alternateHeading"
-          backgroundColor="rgba(0,0,0,0)"
-          color="alternateHeading"
-          href="/callforsponsors"
-        >
-          Learn More
-        </Link>
+        </TextWrapper>       
       </Alternate>
     </Layout>
   </ThemeProvider>

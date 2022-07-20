@@ -20,22 +20,7 @@ export default class extends React.Component {
     return (
       <Layout>
      
-        <Alternate style={{ border: 0 }}>
-        <Heading color="alternateHeading" size={2}>
-          Interested in sponsoring JavaScript and Friends Conference 2022? 
-        </Heading>
-        <br></br>         
-        <br></br>  
-        <Link
-          borderColor="alternateHeading"
-          backgroundColor="rgba(0,0,0,0)"
-          color="alternateHeading"
-          href="/callforsponsors"
-        >
-          Learn More
-        </Link>
-        <br></br>
-        <br></br>
+        <Alternate style={{ border: 0 }}>       
         <SponsorCard
             imageSrc={authlogo}
             title="auth0"
