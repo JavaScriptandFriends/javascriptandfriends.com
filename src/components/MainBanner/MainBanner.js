@@ -28,7 +28,7 @@ function MainBanner({ children }) {
             JavaScript &amp; Friends Conference 2023
           </Heading>          
           <Text color="highlight" my={10}>
-            Conference Day | &nbsp;TBD<br/>                   
+            Conference Day | &nbsp;Aug-25-2023<br/>                   
           </Text>                            
           {children}
         </Flex>
