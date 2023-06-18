@@ -60,10 +60,7 @@ const Layout = ({ children, hideHeading = false }) => (
                 </NavItem>                                                        
                 <NavItem>
                   <Link to="/sponsors">Sponsors</Link>
-                </NavItem>                  
-                <NavItem>
-                  <Link to="/communityevents">Events</Link>
-                </NavItem> 
+                </NavItem>  
                 <NavItem>
                   <Link to="/team">Core Team</Link>
                 </NavItem>               

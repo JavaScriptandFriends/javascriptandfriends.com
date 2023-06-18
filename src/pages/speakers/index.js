@@ -17,7 +17,7 @@ import guyRoyse from "../../components/SpeakerImages/Guy";
 import heathMurphy from "../../components/SpeakerImages/HeathMurphy";
 import marcoIppolito from "../../components/SpeakerImages/MarcoIppolito";
 import mattGroves from "../../components/SpeakerImages/MatthewGroves";
-import ramonHuidobro from "../../components/SpeakerImages/RamonHuidobro";
+import ramonHuidobro from "../../components/SpeakerImages/ramon_huidobro";
 import reyRiel from "../../components/SpeakerImages/ReyRiel";
 import russellSkaggs from "../../components/SpeakerImages/RussellSkaggs";
 import samuelShaw from "../../components/SpeakerImages/SamuelShaw";
