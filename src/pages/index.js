@@ -38,6 +38,9 @@ const Root = () => (
             Annual JavaScript and Friends Conference a success. And with your
             contribution, it will be!
           </Text>
+          <Text pb={40}>
+            <a href="JavaScriptAndFriends2023-SponsorshipProspectus.pdf" download>Download the 2023 Sponsorship Prospectus</a> 
+          </Text>
         </TextWrapper>       
       </Alternate>
     </Layout>

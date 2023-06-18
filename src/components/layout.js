@@ -47,6 +47,12 @@ const Layout = ({ children, hideHeading = false }) => (
             <Header siteTitle={data.site.siteMetadata.title} Link={Link}>
               <Nav>
                 <NavItem>
+                  <Link to="/sessions">Sessions</Link>
+                </NavItem>     
+                <NavItem>
+                  <Link to="/speakers">Speakers</Link>
+                </NavItem>       
+                <NavItem>
                   <Link to="/vision">Vision</Link>
                 </NavItem>               
                 <NavItem>
@@ -54,10 +60,7 @@ const Layout = ({ children, hideHeading = false }) => (
                 </NavItem>                                                        
                 <NavItem>
                   <Link to="/sponsors">Sponsors</Link>
-                </NavItem>                  
-                <NavItem>
-                  <Link to="/communityevents">Events</Link>
-                </NavItem> 
+                </NavItem>  
                 <NavItem>
                   <Link to="/team">Core Team</Link>
                 </NavItem>               
