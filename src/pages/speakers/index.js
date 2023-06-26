@@ -10,14 +10,12 @@ import { Link as ButtonLink } from "../../components/Button";
 import bobFornalImage from "../../components/SpeakerImages/bob-fornal";
 import alexRiviere from "../../components/SpeakerImages/AlexRiviere";
 import chadGreen from "../../components/SpeakerImages/ChadGreen";
-import danJutan from "../../components/SpeakerImages/DanJutan";
 import daveFancher from "../../components/SpeakerImages/DaveFancher";
 import ericPotter from "../../components/SpeakerImages/EricPotter";
 import guyRoyse from "../../components/SpeakerImages/Guy";
 import heathMurphy from "../../components/SpeakerImages/HeathMurphy";
 import marcoIppolito from "../../components/SpeakerImages/MarcoIppolito";
 import mattGroves from "../../components/SpeakerImages/MatthewGroves";
-import ramonHuidobro from "../../components/SpeakerImages/ramon_huidobro";
 import reyRiel from "../../components/SpeakerImages/ReyRiel";
 import russellSkaggs from "../../components/SpeakerImages/RussellSkaggs";
 import samuelShaw from "../../components/SpeakerImages/SamuelShaw";
@@ -49,9 +47,7 @@ export default class Speakers2023 extends Component{
                     <Speaker name="Chad Green" Image={chadGreen} twitter="chadgreen" linkedin="chadwickgreen"  />
                     <Speaker name="Matthew Groves" Image={mattGroves} twitter="mgroves" linkedin="mgroves"  />
                     <Speaker name="Thomas Haver" Image={thomasHaver} twitter="cogsfun" linkedin="thomas-haver"  />
-                    <Speaker name="Ramón Huidobro" Image={ramonHuidobro} twitter="hola_soy_milk" linkedin=""  />
                     <Speaker name="Marco Ippolito" Image={marcoIppolito} twitter="satanacchio" linkedin="marcoippolito2021"  />
-                    <Speaker name="Dan Jutan" Image={danJutan} twitter="jutanium" linkedin=""  />
                     <Speaker name="Shivay Lamba" Image={shivayLamba} twitter="howdevelop" linkedin="shivaylamba"  />
                     <Speaker name="Heath Murphy" Image={heathMurphy} twitter="" linkedin=""  />
                     <Speaker name="Tomas Piaggio" Image={tomasPiaggio} twitter="tomas_piaggio" linkedin="tomas-piaggio"  />
