@@ -5,6 +5,7 @@ import { Flex, Box } from "@rebass/grid";
 import Heading from "../Heading";
 import Text from "../Text";
 import { GatsbyLink as Link } from "../Link";
+import { Link as ButtonLink } from "../../components/Button";
 const Image = styled.img`
   max-width: 100%;
   height: auto;
@@ -32,6 +33,16 @@ function MainBanner({ children }) {
           </Text>                            
           {children}
         </Flex>
+        <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
+            <ButtonLink
+            href="https://www.eventbrite.com/e/javascript-and-friends-conference-2023-tickets-668633670307"
+            alignSelf="center"
+            mr={40}
+            target="_blank" rel="noopener noreferrer"
+          >
+            REGISTER
+          </ButtonLink>          
+            </Flex>  
       </Box>
       <Box width={[1, 1 / 2]}>
         <Image src={mainBannerSrc} alt="" />

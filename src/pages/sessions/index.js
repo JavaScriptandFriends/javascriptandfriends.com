@@ -19,7 +19,16 @@ export default class Sessions2023 extends Component{
         return (
             <Layout style={{justifyContent:'center'}}>
             <h1 style={{color: 'white', textAlign:'center'}}>Sessions - 2023</h1>
-
+            <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
+            <ButtonLink
+            href="https://www.eventbrite.com/e/javascript-and-friends-conference-2023-tickets-668633670307"
+            alignSelf="center"
+            mr={40}
+            target="_blank" rel="noopener noreferrer"
+          >
+            REGISTER
+          </ButtonLink>          
+            </Flex>  
             <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
                 <Session title="State of WebML: Machine learning for frontend devs" speaker="Shivay Lamba" description="" track="Automation & AI" />
                 <Session title="JavaScript Metaprogramming" speaker="Dave Fancher" description="" track="Design & Performance" />
