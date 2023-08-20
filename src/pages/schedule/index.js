@@ -10,7 +10,7 @@ const TIMEZONE_STORAGE_KEY = 'schedule.timezone'
 
 const SCHEDULE_WITH_TIMES_PARSED = rawScheduleData.map((entry) => ({
     ...entry,
-    time: moment(`2021-08-20T${entry.USEDT}-04:00`)
+    time: moment(`2023-08-20T${entry.USEDT}-04:00`)
 }))
 
 const TIMEZONES = {
@@ -106,7 +106,7 @@ export default class scheduleTime extends Component {
                 <Alternate style={{ border: 0 }}>
                <div style={{ maxWidth: `100%`, margin: `1.45rem` ,justifyContent: 'center'}}>
             <h1>Schedule</h1>            
-            <h3>Conference Day - July-29-2022</h3>
+            <h3>Conference Day - August-25-2023</h3>
             <Text>Each talk is scheduled for around 50 min. TimeZone - {this.state.timezone}</Text>            
             <Text>Please use Chrome or Edge Browser to view the schedule.</Text>            
             <br></br>
@@ -122,11 +122,12 @@ export default class scheduleTime extends Component {
                     <select id="filter" onBlur={this.filterChange} onChange={this.filterChange}>
                         <option value="all">All Rooms</option>                        
                         <option value="Edison">Edison</option>
-                        <option value="Glenn 1-2">Glenn 1-2</option>
-                        <option value="Morgan 2">Morgan 2</option>
-                        <option value="Wright 2">Wright 2</option>
-                        <option value="Morgan 1">Morgan 1</option>
-                        <option value="Morgan 3">Morgan 3</option>
+                        <option value="Glenn 1-2 (150)">Glenn 1-2</option>
+                        <option value="Wright 2 (30)">Wright 2</option>
+                        <option value="Wright 1 (50)">Wright 1</option>
+                        <option value="Morgan 1 (50)">Morgan 1</option>
+                        <option value="Morgan 3 (50)">Morgan 3</option>
+                        <option value="Morgan 2 (50)">Morgan 2</option>
                     </select>
                     <br></br>
                     Timezone:

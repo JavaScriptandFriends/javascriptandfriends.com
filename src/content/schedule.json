@@ -1,182 +1,198 @@
 [
     {
-        "USEDT": "11:30:00",
-        "SessionTitle": "Lunch",
+        "SessionTitle": "Registration",
+        "SessionDescription": "Registration and Breakfast",
         "SpeakerName": "",
-        "Room": "Edison"
+        "Room": "Edison",
+        "USEDT": "08:15:00"
     },
     {
-        "USEDT": "08:00:00",
-        "SessionTitle": "The Power of Storytelling: Human Stories in a Digital World - Keynote",
-        "SessionDescription":"As humans, we are hard-wired to respond to stories. In fact, stories may be one the most important tools we have to fight the isolation of modern life. Storytelling powers imagination persuasion, and motivation. It provides a path for meaningful growth and deep connection in our shared humanity. In this talk, I'll share the stories of how I've seen ordinary people like you and me use stories to create extraordinary outcomes in learning, innovation, and growth.",
-        "SpeakerName": "Bekah",
-        "Room": "Edison"
+        "SessionTitle": "Lunch",
+        "SessionDescription": "Lunch and Networking",
+        "SpeakerName": "",
+        "Room": "Edison",
+        "USEDT": "11:45:00"
     },
     {
-        "SessionTitle": "\"It's just simple JavaScript... and other Lies\"",
-        "SessionDescription": "Do the junior and senior developers on your team speak the same language? Can you onboard a junior to your team right now? \r\n\r\nShopify isn’t exactly a small codebase to start your ‘learning journey’. How can you know what “simple JavaScript” is when you are trying to learn React, TypeScript, GraphQL, HTML, CSS, etc ... on the fly. \r\n\r\nJoin in for helpful examples to get the most out of your team, onboard junior developers at scale and maybe even teach the senior devs a thing or two :) ",
-        "SpeakerName": "Taryn Musgrave",
-        "Room": "Glenn 1-2",
-        "USEDT": "09:00:00"
+        "SessionTitle": "Javascript and The Edge",
+        "SessionDescription": "I would like to talk about how deploying Javascript applications in the Edge using Cloudflare simplifies running our code in 285 cities in 100+ countries. All this can be done in less than an hour. I would like to discuss the pros and cons of AWS infrastructure and share how Cloudflare can help us accomplish the same faster. My goal is to explain all the infrastructure concepts with as many analogies as possible with no buzzwords.",
+        "SpeakerName": "Varsha Thirumakil",
+        "Room": "Glenn 1-2 (150)",
+        "USEDT": "08:15:00"
     },
     {
-        "SessionTitle": "A11y with React Components.",
-        "SessionDescription": "React is a tool. Used improperly it can be an inaccessible nightmare. Leveraged wisely it can give you the confidence that components are being implemented in an accessible way. During this talk, I will go through techniques and strategies to make your React Components more accessible.",
-        "SpeakerName": "Russell Skaggs",
-        "Room": "Morgan 2",
-        "USEDT": "09:00:00"
-    },
-    {
-        "SessionTitle": "Component Testing With Cypress",
-        "SessionDescription": "Cypress released it's public beta back in October of 2017.   Not long after, it became the undisputed heavy weight champion of the automated testing world. It made end to end and integration testing actually effective, fast and fun! It had just one problem....Components. Thankfully with Cypress's 10.0 release of Component Testing, that problem no longer exists!  In this talk, you will learn how to get started with Cypress CT and some best practices to start writing component tests in your applications",
-        "SpeakerName": "Jordan Powell",
-        "Room": "Wright 2",
-        "USEDT": "09:00:00"
-    },
-    {
-        "SessionTitle": "Using MySQL Document Store with Node.js",
-        "SessionDescription": "MySQL Document Store offers developers the best features of both a NoSQL database and a traditional SQL based database. In this session we will discuss how we can use Node.js to access a MySQL Document Store, create/remove collections, create/update/remove documents, retrieve, filter, & sort document lists, and leverage raw SQL to retrieve aggregate data for reporting purposes.",
-        "SpeakerName": "Scott Stroz",
-        "Room": "Wright 2",
-        "USEDT": "10:15:00"
-    },
-    {
-        "SessionTitle": "Pay the Web Forward",
-        "SessionDescription": "Trying to get paid on the Web today, as a creator, is broken and unfair. 70% of ad spend globally goes to only 2 platforms. Until recently, the Web couldn’t natively compete.\r\n\r\nA new W3C Standard proposal, Web Monetization, uses the Interledger Protocol to enable developers like you to make money from your work in an open, native, and seamless way. And all that with as little as a single line of HTML!\r\n\r\nIf you've ever wanted to know all about payments on the web or making money with your website, this talk is for you!",
-        "SpeakerName": "Alex Lakatos",
-        "Room": "Morgan 1",
-        "USEDT": "09:00:00"
-    },
-    {
-        "SessionTitle": "The next wave of web frameworks is BYOJS",
-        "SessionDescription": "Web application development has had many shifts over the lifetime of the web. From server-side applications with a sprinkle of JavaScript to Single Page Applications built entirely with JavaScript. Now we’re heading back to where many new web frameworks build for static first, with JavaScript added as needed. This talk covers building web applications with JavaScript through the lens of Astro, a static site generator where the choice of JavaScript framework is uniquely yours.",
-        "SpeakerName": "Brandon Roberts",
-        "Room": "Morgan 3",
-        "USEDT": "09:00:00"
-    },
-    {
-        "SessionTitle": "Teaching Skills for Technical Experts",
-        "SessionDescription": "Bad news: tech folks are not always the most compelling teachers.  (It's not our fault; we're used to teaching computers how to do things, not people!) Good news: teaching people is a learnable skill.  Best news: this talk is a quick primer on educational philosophy, curriculum development, and content delivery for technical experts.  We'll cover learning styles, effective communication, and audience management (aka how to “read the room”), along with an introduction to some free, web-based teaching resources.  Participants will leave ready to share their expertise with the world via more effective conference talks, workshops, and one-on-one mentoring.",
-        "SpeakerName": "Tori Brenneison",
-        "Room": "Wright 1",
-        "USEDT": "09:00:00"
-    },
-    {
-        "SessionTitle": "5 Lessons Learned from a Major Dependency Upgrade",
-        "SessionDescription": "Upgrading dependencies can be a daunting experience. When dealing with numerous moving parts, diagnosing issues can demand a lot of patience. \r\n\r\nI recently had to upgrade a React Native app and learned some valuable lessons, which this talk aims to share.",
-        "SpeakerName": "Ramón Huidobro",
-        "Room": "Morgan 1",
-        "USEDT": "10:15:00"
-    },
-    {
-        "SessionTitle": "Artificial Intelligence & Race: Does AI have issues with racial bias?",
-        "SessionDescription": "Note:\r\nThis is not a technical talk; however, the information delivered will give Programmers and Developers a subjective perception regarding the potential bias surrounding artificial intelligence and its awareness of racial indication.\r\n\r\nMy lecture/case study;  was based on sending the wrong man to prison for a crime he didn’t commit, using Facial Recognition software. \r\n\r\nI began to conduct research and submitted questionnaires and interviews throughout the technology community.  My findings lead me to this presentation.\r\n\r\nKey Takeaways:\r\n\r\n**Implement more training for developers to reduce overt acts of bias.\r\n\r\n**The future of facial recognition and ethnic partiality.\r\n\r\n**The Consequences of inaccurate data.\r\n\r\n**Public data vs. real-life data.\r\n\r\n**Adaptation for Facial Recognition to lessen the unintentional acts of preconceptions.\r\n\r\n**Distinctiveness intelligence to comprehend & resolve.\r\n\r\nThe proposal/lecture/case study; was based on sending the wrong man to prison for a crime he did not commit, using Facial Recognition software.  Some of the most prominent AI facial recognition is that these programs fail to recognize dark-skinned faces and dark skin in general, over fifty percent of the time.  50% is unacceptable and will only further systematic oppression and racism, plaguing people of color worldwide.\r\n\r\nFrom having our speed and traffic violations recorded at every stoplight via a computer-generated AI with facial recognition software to systems that immediately analyze a criminal’s fingerprints, it impacts us in many ways we do not even notice.  Artificial Intelligence is on our streets, in our grocery stores, and even in our homes.  It is an issue we need to address for various reasons, one of the most primary being some AI does not work if an individual is black.\r\n\r\nWe are not yet at a point wherein artificially intelligent robots are after human blood; this is good but does not mean it will ever occur.  While these AI processes may streamline many procedures and increase efficiency regarding certain aspects of modem society, the fact remains if it is used to make life-changing decisions for us, a disparity between appropriately recognizing the color of the subject’s skin is paramount and akin to further propagating the already vast racial disparities experienced around the world.\r\n\r\n•My research indicates that the latest facial recognition software is 99% effective if the subject is white but 80% or less effective when recognizing black faces, specifically black women.  My research found issues rooted within databases that provide a basis for facial recognition.\r\n\r\n•Until such a time that Artificial Intelligence is amended to include and recognize all races, it will remain a facet of institutionalized racism, which continues to threaten the livelihood of the global majority.",
-        "SpeakerName": "Crux Conception, M. Psych",
-        "Room": "Glenn 1-2",
-        "USEDT": "10:15:00"
-    },
-    {
-        "SessionTitle": "Azure DevOps for JavaScript Developers",
-        "SessionDescription": "From pulling code from your repo to automating test runners and deploying code, Azure DevOps offers a lot of automation capabilities to assist in the building, testing, and delivery of JS apps. In this session, we will focus specifically on how Azure DevOps can deploy a React app to Azure, While this covers one framework, we will include resources for using Azure DevOps with other frameworks as well. By the end of this session, you should feel confident in using Azure DevOps to deploy your code.",
-        "SpeakerName": "Sarah Dutkiewicz",
-        "Room": "Morgan 3",
-        "USEDT": "10:15:00"
-    },     
-    {
-        "SessionTitle": "Creating a modular UI component library",
-        "SessionDescription": "Most organizations, from individual teams to whole enterprises, need standardized UI look and feel. UI component libraries allow quick development along with standardized UI/UX. However, implementing the brand vision and continuous refinement can be overwhelming if the architecture, both technically and organizationally, is not set correctly at first. \r\n\r\nModular programming is a software design technique that emphasizes separating the functionality of the program into independent, interchangeable modules. That allows quick pivoting and easy spin up of new software while allowing customization for individual product requirements. \r\n\r\nSeparation of responsibilities between product, engineering, and design empowers these individual groups to innovate or create solutions for future or current enhancements. \r\n\r\nCombining these ideas allow organizations of any size to create a UI component library and continuous refinement. \r\n\r\nYou’ll learn:\r\n\r\n•\tHow to identify areas of UI that can be modularized.\r\n•\tHow to layer different stacks of solutions to allow continuous development without dependency hell. \r\n•\tWhat the responsibilities are between product, engineering and design when it comes to a UI component library\r\n•\t Documentation of a newly created UI component library. \r\n",
-        "SpeakerName": "Sean Lawrenz",
-        "Room": "Morgan 2",
-        "USEDT": "12:45:00"
-    },
-    {
-        "SessionTitle": "Debugging JavaScript Applications",
-        "SessionDescription": "Developers spend up to half their time debugging code, but often struggle to find an effective and efficient debugging process. With the right approach, debugging can actually be a fun learning experience that sheds light on underlying issues and areas of improvement in your codebase.\r\n\r\nThis talk will break down debugging as a process, including defining a bug, approaching the problem, how to use tools and collaboration effectively, and evaluating systemic reasons bugs happen. We'll also walk through some common types of bugs that occur in JavaScript applications to frame how you approach future issues.\r\n\r\nThis talk is helpful for beginners who don't know where to start with debugging, but also contains insights for intermediate-level developers that want to think more systematically about codebase quality.\r\n\r\nStatistic source: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.444.9094&rep=rep1&type=pdf",
-        "SpeakerName": "Cecelia Martinez",
-        "Room": "Wright 1",
-        "USEDT": "12:45:00"
-    },
-    {
-        "SessionTitle": "Failing Successfully",
-        "SessionDescription": "Failure is normal. It’s so normal that many software development teams encourage people to fail and fail fast. Failure is also scary. It makes us feel vulnerable. We may even worry that our jobs, relationships, or goals are on the line. Yet we hear countless stories of people turning failure into success in seemingly magical ways. This session will teach you what’s behind that magic. You’ll discover how to help yourself and others fail successfully. You’ll learn how to reflect on failures and apply those reflections in the future. Because success is hard to see in the midst of failure, we’ll also discuss techniques for surviving the challenging times. With this knowledge, you can use your failures as the building blocks of your own seemingly magical successes. ",
-        "SpeakerName": "Cassandra Faris",
-        "Room": "Glenn 1-2",
-        "USEDT": "12:45:00"
-    },
-    {
-        "SessionTitle": "Katas with a Programmer's Brain",
-        "SessionDescription": "Let's explore what Katas are. How do they apply to programming? What can code katas do for a beginner developer, for an experienced developer? In this talk, we'll examine several code kata sites, code that can be generated as solutions, and how these solutions can help us improve our skill effectively over time.",
+        "SessionTitle": "A Look Inside Observables",
+        "SessionDescription": "RxJS Observables are one of the more complicated topics I've learned over the past few years. This is something I struggled to understand fully for a few years.\r\n\r\nObservables provide support for passing messages between parts of an application. They are a technique for event handling, asynchronous programming, and handling multiple values.\r\n\r\nIn this talk, we will examine what Observables are and how Observables can be implemented in a clean, testable manner using code examples to dig into the fine details.",
         "SpeakerName": "Bob Fornal",
-        "Room": "Morgan 3",
-        "USEDT": "12:45:00"
-    },    
-    {
-        "SessionTitle": "Coming to you live! Inclusive, effective, fun live streaming for Devs",
-        "SessionDescription": "Adapting to having events online has been a learning experience for us all. How can we keep a constant, steady, interactive experience for our audience?\r\n\r\nIn this talk, we'll cover how we created Open Source Thursdays, including the tools we used, the accessibility considerations, as well as how we've improved it over time. Anyone can be a great live streamer!",
-        "SpeakerName": "Ramón Huidobro",
-        "Room": "Morgan 3",
-        "USEDT": "14:00:00"
+        "Room": "Morgan 1 (50)",
+        "USEDT": "08:15:00"
     },
     {
-        "SessionTitle": "Get Respect: How to Get Buy In from the Business Side of Your Employer",
-        "SessionDescription": "Ever feel like the non-devs and business suit side of your employer just ignore you? Do you think they don't take your suggestions or concerns seriously? This often leave developers frustrated and sidelined by management. The gap between dev and business is often large but can be bridged through thoughtful strategies. Not only will you learn from this session how business analysis, product owners, and the executive suite think, but how to be heard, influence their decisions, and most importantly get respect.",
-        "SpeakerName": "Brian Boyer",
-        "Room": "Wright 2",
-        "USEDT": "14:00:00"
+        "SessionTitle": "Building an Accessible Component Library",
+        "SessionDescription": "One of the great things about JavaScript is the ability to create rich interactive experiences. But as we enhance and extend the default behavior of the web, we run the risk of leaving users behind. During this talk, I will go through techniques and strategies to build out an accessible Component Library to make building accessible solutions a more seamless experience.",
+        "SpeakerName": "Russell Skaggs",
+        "Room": "Morgan 2 (50)",
+        "USEDT": "08:15:00"
     },
     {
-        "SessionTitle": "Goodbye Dockerfiles: Build Secure & Optimised Node.js Container Images with Cloud Native Buildpacks.",
-        "SessionDescription": "Buildpacks were first conceived by Heroku in 2011. Since then, they have been adopted by Cloud Foundry and other PaaS such as Google App Engine, Gitlab, Knative, Deis, Dokku, and Drie, and joined the  Cloud Native Computing Foundation in October 2018.\r\n\r\nCloud Native Buildpacks transform your application source code into images that can run on any cloud.\r\nSo we can have a balanced control between App Devs and Operators so we can guarantee apps meet security and compliance requirements and eventully perform upgrades with minimal effort and intervention.\r\n\r\nIn this talk we will explore how lifecycle - the binary at the heart of buildpacks - makes all this possible.",
-        "SpeakerName": "Alejandro Mercado",
-        "Room": "Morgan 2",
-        "USEDT": "14:00:00"
+        "SessionTitle": "All Things Functions in Javascript",
+        "SessionDescription": "That's a JavaScript function, I know all about those. But wait...what's that asterisk for? Why does that function look different from that function? Is there a difference? And when does this mean that and not this? Let's take a deep dive into JavaScript functions, find out all the little quirks and intricacies and hopefully walk away with a better understanding of the functions we're writing, and maybe how to write them better. In this talk you'll learn about the importance of `this`, other variables specific to functions and what to look out for when coding JavaScript functions in general.",
+        "SpeakerName": "Rey Riel",
+        "Room": "Morgan 3 (50)",
+        "USEDT": "08:15:00"
     },
     {
-        "SessionTitle": "Making A Strong Case For Accessibility",
-        "SessionDescription": "Accessibility is often overlooked or bolted on to the end of a project from the experiences in my career in web development and design. The case for accessibility is something we as people who create and build things for the web should be implementing and advocating for from the inception of a project to the release or handoff and beyond. ",
-        "SpeakerName": "Todd Libby",
-        "Room": "Glenn 1-2",
-        "USEDT": "14:00:00"
+        "SessionTitle": "Debugging Burnout",
+        "SessionDescription": "Working in a product space requires knowing how to take a very complex problem and break it down into iterative chunks.  Far too often, we’re so wrapped up in the problems we’re solving professionally, that we completely forget to introspectively look at ourselves and ask what problems in our own lives need solving.  Burnout is real and worth addressing.  But much like the dev process, understanding the “why” behind behavior leads to a more sustainable outcome.\r\n\r\nThis talk is a part of an ongoing conversation in life.  We want to develop a framework and language to properly identify burnout and how we can work through it.  Let’s take some time in this iteration of the conversation and talk about what it is, why it’s a problem, and how we can leverage tools at our disposal to help identify, address, and debug burnout.\r\n",
+        "SpeakerName": "Samuel Shaw",
+        "Room": "Wright 1 (50)",
+        "USEDT": "08:15:00"
+    },
+    {
+        "SessionTitle": "How to be a Leader",
+        "SessionDescription": "What is leadership?  That term gets thrown around a lot, but what is it really?  What do leader do that makes them leaders?  Leadership can be learned and that is good as leaders are in high demand and in short supply.  TO be an effective leader, you must first understand what leadership is and what traits a leader exhibits.\r\n\r\nDuring this session, we will review leadership traits and principles and how you can implement them within your teams.  By demonstrating these in your daily activities you will earn the respect, confidence, and loyal cooperation of those on your team.",
+        "SpeakerName": "Chad Green",
+        "Room": "Wright 2 (30)",
+        "USEDT": "08:15:00"
+    },
+    {
+        "SessionTitle": "JSON Data Modeling in Document Databases",
+        "SessionDescription": "If you’re thinking about using a document database, it can be intimidating to start. A flexible data model gives you a lot of choices, but which way is the right way? Is a document database even the right tool? In this session we’ll go over the basics of data modeling using JSON. We’ll compare and contrast with traditional RDBMS modeling. Impact on application code will be discussed, as well as some tooling that could be helpful along the way. The examples use the Couchbase Capella document database, but the principles from this session can also be applied to CosmosDb, Mongo, RavenDb, etc.",
+        "SpeakerName": "Matthew Groves",
+        "Room": "Glenn 1-2 (150)",
+        "USEDT": "09:30:00"
+    },
+    {
+        "SessionTitle": "Meet Your New BFF: Backend to Frontend without the Duct Tape",
+        "SessionDescription": "Even with all of the incredible frameworks available today vs. a decade ago (or even two––for devs who have been around as long as I have), it still feels like much of our work as fullstack developers is still repetitive, and held together by duct tape code we shouldn’t be writing.  \r\n\r\nThis is because we write a lot of duplicate and boilerplate code for everyday things such as simple database CRUD, data validation, authorization, and data-type conversions, but the majority of these tasks haven’t advanced at the pace of modern web architecture.  \r\n\r\nIn this live coding session we'll turn a front-end app into a fullstack app with code that is easy to write, follow &, most importantly maintain, with end-to-end typesafety (say no to GraphQL!), consistent and encapsulated validations, live querying, access control, secured APIs, you get the idea. \r\n\r\nYou’ll come away from this session able to build apps for modern web architecture while still maintaining our code DRY and increase productivity.\r\n",
+        "SpeakerName": "Dev Agrawal",
+        "Room": "Morgan 1 (50)",
+        "USEDT": "09:30:00"
     },
     {
         "SessionTitle": "Node.js Multithreading",
         "SessionDescription": "Node.js's sweet spot has traditionally been with I/O-intensive processes. It's event-driven architecture allows I/O operations to run concurrently while their associated callbacks are executed synchronously in the event loop. This, however, comes with a dark side in that CPU-bound operations are likely to block the event loop thus delaying when those callbacks are invoked. Fortunately, Node.js ships with several modules that allow us to offload those blocking CPU-bound operations from the main event loop so it's free to handle other tasks while the CPU-bound operations go about their business. Most notably we'll explore some ways in which the child_process and worker_threads modules can keep your Node.js application performant while still handling those CPU-intensive operations.",
         "SpeakerName": "Dave Fancher",
-        "Room": "Wright 1",
-        "USEDT": "14:00:00"
+        "Room": "Morgan 2 (50)",
+        "USEDT": "09:30:00"
     },
     {
-        "SessionTitle": "Signals, Signals, Everywhere: Tracking Aircraft with Redis & Software-Defined Radio",
-        "SessionDescription": "Aircraft are everywhere. Knowing exactly where is paramount as it’s considered bad form for two aircraft to be in the same place at the same time. To avoid this, aircraft worldwide constantly and publicly broadcast their location, heading, and all sorts of other data using a system called ADS-B or Automatic Dependent Surveillance Broadcast.This data is a natural fit for a streaming architecture. After all, it’s a constant stream of data that is literally being broadcast in real-time. But how can we capture these broadcasts and the data within? Surely it must require expensive hardware and special tools! Not so much. It turns out that we can capture ADS-B data easily using a combination of a cheap radio dongle and free software—a combination called software-defined radio. From there we can store it in a streaming data structure and consume, transform, and publish it using microservices. Cool, right? In this session, you’ll learn how software-defined radio works (and not just for ADB-S), how to receive and store ADS-B data in streams, and how to use those streams with microservices. And, I’ll do it all by example—building a dashboard showing real-time flight data using Node.js, Redis Streams, and whatever front-end JavaScript framework happens to be popular that day!",
+        "SessionTitle": "Understanding Probabilistic Data Structures with 112,092 UFO Sightings",
+        "SessionDescription": "There are three reactions to the title of this talk:\r\n\r\n- What the heck’s a probabilistic data structure?\r\n- UFO Sightings… wha?\r\n- 112,092 is an oddly specific number.\r\n\r\nThis is a talk about the first bullet point with the second thrown in just for fun. I like weird stuff—UFOs, Bigfoot, peanut butter and bologna on toast—maybe you do too? As far as the third bullet point, well, that’s how many sightings I have.\r\n\r\nNow, if you’re like most developers, you probably have no idea what probabilistic data structures are. In fact, I did a super-scientific poll on Twitter and found that out of 119 participants, 58% had never heard of them and 22% had heard the term but nothing more. I wonder what percentage of that 22% heard the term for the first time in the poll. We’re a literal-minded lot at times.\r\n\r\nAnyhow. That’s 4 out of 5 developers or, as I like to call it, the Trident dentist ratio. (It’s actually a manifestation of the Pareto principle but I’m a 70s kid). That’s a lot of folks that need to be educated. So, let’s do that.\r\n\r\nA probabilistic data structure is, well, they’re sort of like the TARDIS—bigger on the inside—and JPEG compression—a bit lossy. And, like both, they are fast, accurate enough, and can take you to interesting places of adventure. That last one might not be something a JPEG does.\r\n\r\nMore technically speaking, most probabilistic data structures use hashes to give you faster and smaller data structures in exchange for precision. If you’ve got a mountain of data to process, this is super useful. In this talk, we’ll briefly go over some common probabilistic data structures; dive deep into a couple (Bloom Filter, MinHash, and Top-K); and show a running application that makes use of Top-K to analyze the most commonly used words in all 112,092 of my UFO sightings.\r\n\r\nWhen we’re done, you’ll be ready to start using some of these structures in your own applications. And, if you use the UFO data, maybe you’ll discover that the truth really is out there.",
         "SpeakerName": "Guy Royse",
-        "Room": "Glenn 1-2",
-        "USEDT": "15:15:00"
+        "Room": "Wright 1 (50)",
+        "USEDT": "09:30:00"
     },
     {
-        "SessionTitle": "Dark UX Patterns",
-        "SessionDescription": "Congratulations! You are the 1,000,000th visitor to our website. Click here to redeem your prize! Just provide your date of birth and phone number to get started.\r\n\r\nLearn about Dark UX Patterns, how they work, how they trick you and what companies are the worst offenders. Roach Motel, Privacy Zuckering? Let’s visit Dark Patterns Hall of Shame and see who joined the dark side!\r\n\r\nThis talk will break down the most popular dark patterns using real life examples from websites and apps you use every day. If you are a designer, a developer or a product manager, you will learn what to avoid when building your product and how to integrate digital well-being and safety features into your service. If you are an end user, we will teach you how to respond to dark patterns in order to stay safe online, protect your privacy, save your money and keep your sanity.",
-        "SpeakerName": "Vitaliy Matiyash",
-        "Room": "Wright 1",
-        "USEDT": "15:15:00"
+        "SessionTitle": "Asynchronous JavaScript (Part 1): Livin' On A Prayer",
+        "SessionDescription": "There is a unique world where Single-Threaded JavaScript manages to be much more. JavaScript interacts with its environment in ways that allow it to handle Asynchronous activities. Using several detailed code examples, we will examine these examples in a unique way to show how these interactions truly work.\r\n\r\nThis talk has been also called, \"JavaScript Enjoys Your Tears\" and \"Lip Sync To The Async\". If you are an experienced developer or new to the field, there is something in this presentation for you.\r\n\r\nThis session takes a look at how JavaScript manages Asynchronous events and some of the ways developer decisions may work for, or against them.\r\n\r\nThis discussion will examine the ways that JavaScript coordinates and manages events using several coding examples and we can determine which are the good, the bad, and ... the ugly.",
+        "SpeakerName": "Bob Fornal",
+        "Room": "Glenn 1-2 (150)",
+        "USEDT": "10:45:00"
     },
     {
-        "SessionTitle": "IoT, JavaScript and Beer Brewing: Cheers to that!",
-        "SessionDescription": "Beer brewing can be fun, but combining brewing with IoT device hacking is even more fun. It is possible to connect and collect data about almost anything, including the fermentation process inside a closed fermenter using open source technologies. In this presentation, the speaker will introduce basic concepts of IoT devices, how to collect the data efficiently and how to use various tools to store, extract and manipulate that data. And if you’re new to beer brewing, don’t worry; you will also learn a thing or two about that as well!",
-        "SpeakerName": "Joel Lord",
-        "Room": "Morgan 3",
-        "USEDT": "15:15:00"
-    },    
+        "SessionTitle": "From Front-End to Fullstack",
+        "SessionDescription": "Fine, I'll do it myself. There is no denying that the User Experience (UX) of Websites is an important factor in reaching web goals. Bad UX leads to abandonment. Abandonment leads to missed revenue. Now more than ever, so much of the experience is determined by performance factors traditionally outside of the control of the UI. In this talk, I will discuss how we leveraged JAMStack to take ownership of our complete web stack  to increase the UX.",
+        "SpeakerName": "Russell Skaggs",
+        "Room": "Morgan 1 (50)",
+        "USEDT": "10:45:00"
+    },
     {
-        "SessionTitle": "Want to try public speaking? You totally should! Here's how.",
-        "SessionDescription": "Yes, public speaking can be incredibly intimidating. Yes, it takes a tremendous amount of work to prepare a great talk.  But most importantly: it is absolutely worth it.\r\n\r\nPublic speaking can have incredible benefits for both learning and career opportunities. It is also a fantastic way to give back to the community.\r\n\r\nWhile public speaking offers unique challenges for each speaker, many speakers encounter the same difficulties in the beginning.\r\n\r\nI'll cover tips on how to get started, how to submit a talk to a conference, how to prepare a talk, and how to encourage others to speak!",
-        "SpeakerName": "Michael Richardson",
-        "Room": "Morgan 2",
-        "USEDT": "15:15:00"
-    },   
+        "SessionTitle": "Just the fun stuff: embracing low code as a hardcore developer",
+        "SessionDescription": "Developers do what they do best because they love problem solving. Nothing is more satisfying than seeing those lines of code we've written run smoothly and seamlessly to solve the issue at hand.\r\n\r\nUnfortunately there's a bunch of housekeeping that usually has to come before we get to make those little bits of mastery execute. Decisions need to be made, scaffolding needs to be put in place, our code needs a foundation before we're able to realize those little joys we crave.\r\n\r\nBut what if we didn't have to worry about that? We've all heard of no code and low code platforms, but aren't they just taking our fun from us? Trying to replace us with the robots? Let's talk about what these platforms are, what makes a good platform for developers and how a solid low code platform let's us get from 0 to fun in the least time possible.",
+        "SpeakerName": "Rey Riel",
+        "Room": "Morgan 2 (50)",
+        "USEDT": "10:45:00"
+    },
     {
-        "USEDT": "16:30:00",
-        "SessionTitle": "Closing and GiveAway",
-        "SpeakerName": "JavaScript and Friends",
-        "Room": "Edison"
+        "SessionTitle": "Measuring the Cost of a GraphQL Query",
+        "SessionDescription": "Developers tend to centralise the fragments definitions and use them in each query where the entity is used, even if just a subset of the attributes is necessary.\r\nUnlike rest, the client needs to be more careful on query optimization because the server must process the client's query and create a tailored response. If the client's query is not optimized, it can lead to the server having to process more data than is necessary, resulting in slower response times.\r\nmercurius-explain is a simple and lightweight Mercurius plugin that records how many times a GraphQL resolver is invoked and how long it took to retrieve the data, which helps to keep track of performance changes during development and to troubleshoot possible bottlenecks.",
+        "SpeakerName": "Marco Ippolito",
+        "Room": "Morgan 3 (50)",
+        "USEDT": "10:45:00"
+    },
+    {
+        "SessionTitle": "Using MySQL Document Store with Node.js",
+        "SessionDescription": "MySQL Document Store offers developers the best features of both a NoSQL database and a traditional SQL based database. In this session we will discuss how we can use Node.js to access a MySQL Document Store, create/remove collections, create/update/remove documents, retrieve, filter, & sort document lists, and leverage raw SQL to retrieve aggregate data for reporting purposes.",
+        "SpeakerName": "Scott Stroz",
+        "Room": "Wright 1 (50)",
+        "USEDT": "10:45:00"
+    },
+    {
+        "SessionTitle": "The Science of Testing",
+        "SessionDescription": "In the past decade the software development paradigm has shifted to “deliver fast” -- with concomitant frameworks and methodologies to support that emphasis – but without proper consideration of quality. So most teams end up failing fast and hard when development continues beyond a shaky foundation. To bring about positive change, we must improve both our knowledge base and our processes to achieve quality delivery without disturbing the bookkeeper’s project delivery timelines. Lessons learned from a career in research science can be applied to QA, with parallels to industry product quality models. Testing techniques and product delivery processes from research science will aid not just testers but the entire team in delivering quality software. More than just day-to-day team activities and testing tools, the science of testing is about the pursuit of knowledge and understanding for its own sake. Testers should foster their skills in the community with professional development activities. Those in attendance will learn about the successes and failures of applying a scientist’s approach to testing software, from the “publish-or-perish” mindset of science to “deliver fast” in IT.\r\n\r\n",
+        "SpeakerName": "Thomas Haver",
+        "Room": "Wright 2 (30)",
+        "USEDT": "10:45:00"
+    },
+    {
+        "SessionTitle": "Tracking Aircraft with Streams + Software-Defined Radio",
+        "SessionDescription": "Aircraft are everywhere. Knowing exactly where is paramount as it’s considered bad form for two aircraft to be in the same place at the same time. To avoid this, aircraft worldwide constantly and publicly broadcast their location, heading, and all sorts of other data using a system called ADS-B or Automatic Dependent Surveillance Broadcast.\r\n\r\nThis data is a natural fit for an event stream. After all, it’s a constant stream of data that is literally being broadcast in real-time. But how can we capture these broadcasts and the data within? Surely it must require expensive hardware and special tools!\r\n\r\nNot so much. It turns out that we can capture ADS-B data easily using a combination of a cheap radio dongle and free software—a combination called software-defined radio. From there we can store it in an event stream and consume, transform, and publish it at our leisure. Cool, right?\r\n\r\nIn this session, you’ll learn how software-defined radio works (and not just for ADB-S), how to receive and store ADS-B data in event streams, and how to use those streams to build a map showing real-time flight data using Node.js, Redis Streams, and whatever front-end JavaScript framework happens to be popular that day!",
+        "SpeakerName": "Guy Royse",
+        "Room": "Glenn 1-2 (150)",
+        "USEDT": "13:15:00"
+    },
+    {
+        "SessionTitle": "The Automation Firehose: Be Strategic and Tactical",
+        "SessionDescription": "The widespread adoption of test automation has led to numerous challenges that range from development lifecycle integration to simple scripting strategy. Just because a scenario CAN be automated does not mean it SHOULD be automated. Teams that adopt automation often rush to automate everything they can -- the automation firehose. For those scenarios that should be automated, every team must adopt an implementation plan to ensure value is derived from reliable automated test execution. In this session, the audience will learn how to automate both strategically and tactically to maximize the benefits of automation. Entry criteria will be demonstrated for automation in the development lifecycle along with a set of checks to determine automation feasibility & ROI. ",
+        "SpeakerName": "Thomas Haver",
+        "Room": "Morgan 1 (50)",
+        "USEDT": "13:15:00"
+    },
+    {
+        "SessionTitle": "TypeScript - Beyond the Basics",
+        "SessionDescription": "TypeScript enables web developers to improve the clarity and reliability of their code. It also enables more powerful tools for writing code. This led to its rapid rise in popularity. But what can it do for you beyond just adding types to your variables and parameters? In this talk, we look at some of the more advanced features in the language that can help you deliver valuable solutions in less time.\r\n\r\nIn this session, we will look at features such as:\r\n* union types\r\n* intersection types\r\n* generics\r\n\r\nWe will also look at some of the new features in TypeScript 5.0.",
+        "SpeakerName": "Eric Potter",
+        "Room": "Morgan 2 (50)",
+        "USEDT": "13:15:00"
+    },
+    {
+        "SessionTitle": "The End… for mobile apps – Enter ASP.NET Core Blazor WebAssembly PWAs",
+        "SessionDescription": "Native/Hybrid/Cross-Platform apps are finally no longer needed! Ionic, React Native, Android/iOS Native… no longer necessary. Come listen in to learn why. What was the web standard or feature that tipped me over the edge? I’ve written dozens of mobile apps over the last few years and watched as the PWA spec has grown to impressive feats. It’s official, we’re no longer writing native apps and have moved all-in on Blazor WebAsm PWAs. In this talk, I’ll take you on a journey through Blazor WebAssembly PWAs and tell you why it solves most major line-of-business mobile needs. I’ll talk about the important PWA features supported and show code examples throughout the entire talk. The example is an app we built 4 years ago with Ionic… now fully capable as a PWA.",
+        "SpeakerName": "Heath Murphy",
+        "Room": "Morgan 3 (50)",
+        "USEDT": "13:15:00"
+    },
+    {
+        "SessionTitle": "Zero Pain Frontend to Fullstack in Minutes with Open Source",
+        "SessionDescription": "How silly is it that in 2023, with the huge diversity of tooling out there for frontend devs, half of our productive coding time is still spent on continuous error handling?! From code duplication, to typing errors, routing, validation, authentication…the list goes on.  \r\n\r\nAs a NodeJS developer, we want to be able to keep our code DRY –– literally just write once, and reuse, by maintaining our code in a  single source of truth. Sounds too good to be true? It is possible.\r\n\r\nIn this live coding demo we’ll walk you through how to take a common NodeJS/Express/Fastify stack and convert it into a fullstack app in minutes using open source tooling and frameworks all fullstack developers should know about.  \r\n",
+        "SpeakerName": "Dev Agrawal",
+        "Room": "Wright 1 (50)",
+        "USEDT": "13:15:00"
+    },
+    {
+        "SessionTitle": "JavaScript Metaprogramming",
+        "SessionDescription": "Metadata, data about data, is everywhere. We seem to intrinsically understand that using data to further describe the data within our systems brings numerous benefits to taming complexity. It follows then that metaprogramming, programming that interacts with the program itself by inspecting or even manipulating its own code can bring similar benefits to our software.\r\n\r\nES6 greatly expands upon JavaScript's existing metaprogramming capabilities with the Symbol, Reflect, and Proxy types. Through some practical examples we'll discuss the role each of these types play within JavaScript metaprogramming and see how they not only affect your code but even drive several modern language features.",
+        "SpeakerName": "Dave Fancher",
+        "Room": "Glenn 1-2 (150)",
+        "USEDT": "14:30:00"
+    },
+    {
+        "SessionTitle": "What to Avoid When Writing Unit Tests",
+        "SessionDescription": "“These tests should never have been written. They provide no or little value.” -ME\r\n\r\nTesting code has been described as an \"art form.\" It is, but it should not be. There are many good patterns that should be followed when writing tests. There is even a lifecycle of tests that should be paid some attention. There are also many BAD patterns that developers should be aware of so that they can be avoided (or cleaned up).\r\n\r\nThis session will provide a series of examples of bad front-end tests and how to write them correctly.\r\n\r\n* Tests Should Not Be \"Well-Factored\"\r\n* Keep The Reader In The Test\r\n* Violate The DRY Principle\r\n* Testing Too Much\r\n* Duplication Of Code Logic\r\n* Bad Test Double\r\n* Testing The Mock\r\n* False Positives\r\n* Testing Private Functionality Directly\r\n* Excessive Setup",
+        "SpeakerName": "Bob Fornal",
+        "Room": "Morgan 1 (50)",
+        "USEDT": "14:30:00"
+    },
+    {
+        "SessionTitle": "Vue for React Developers",
+        "SessionDescription": "React is one of the most popular front end frameworks... but within the React community there are several misconceptions about Vue. Let's go through and convert a React component into a Vue component. The results might surprise a lot of React developers!",
+        "SpeakerName": "Alex Riviere",
+        "Room": "Morgan 2 (50)",
+        "USEDT": "14:30:00"
+    },
+    {
+        "SessionTitle": "Memory First: An Introduction to Redis",
+        "SessionDescription": "Odds are, you’ve heard of Redis. Maybe you’re a total noob and want to learn all about it. Maybe you’ve used it to cache an API call or some JSON strings and want to know what else it can do. Maybe you *haven’t* heard of Redis and are curious what all the fuss is about.\r\n\r\nWanna find out? Join me as I explain what Redis is—a wicked-fast, memory-first database—and why you should care. I’ll share with you what it can store, how you can access it, and how you can make sure that what’s in memory is still there when the power goes off. We’ll explore how you can extend Redis—adding new commands, new data structures, and new capabilities. And, we’ll do it both from the command line and from code with examples in C#, Java, JavaScript, and Python.\r\n\r\nWhen we’re done, you’ll know what Redis is and what all the fuss was about. But, more importantly, you’ll know how to put memory first to build fast applications and faster experiences.",
+        "SpeakerName": "Guy Royse",
+        "Room": "Morgan 3 (50)",
+        "USEDT": "14:30:00"
+    },
+    {
+        "SessionTitle": "CI/CD: A Game-Changer for Code Quality and Production Stability\"",
+        "SessionDescription": "CI/CD is a software development practice  in which code changes are automatically built, tested, and deployed to production. This approach has become increasingly popular in recent years due to its ability to improve code quality and production stability.\r\nBy automating the build, test, and deployment process, CI/CD enables developers to quickly and easily identify and fix errors in their code.\r\nThis not only helps to improve the quality of the code, but also helps to prevent defects from being introduced into production systems.\r\n\r\nIn this talk, Siddharth will walk you through with Bitbucket CI/CD custom pipeline setup and performance improvement techniques along with some custom hooks like code commit checker, linter and running tests on the last commit.\r\n\r\n",
+        "SpeakerName": "Siddharth .",
+        "Room": "Wright 1 (50)",
+        "USEDT": "14:30:00"
     }
 ]

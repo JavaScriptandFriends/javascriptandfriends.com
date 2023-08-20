@@ -51,6 +51,7 @@ export default class Speakers2023 extends Component{
             </Flex>  
 
                 <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
+                    <Speaker name="Varsha Thirumakil" Image={varshaThirumakil} twitter="var_sha612" linkedin="varshathirumakil"  />
                     <Speaker name="Dev Agrawal" Image={devAgrawal} twitter="devagrawal09" linkedin="dev-agr"  /> 
                     <Speaker name="Dave Fancher" Image={daveFancher} twitter="davefancher" linkedin="davefancher"  />
                     <Speaker name="Bob Fornal" Image={bobFornalImage} twitter="rfornal" linkedin="rfornal"  />
@@ -58,17 +59,14 @@ export default class Speakers2023 extends Component{
                     <Speaker name="Matthew Groves" Image={mattGroves} twitter="mgroves" linkedin="mgroves"  />
                     <Speaker name="Thomas Haver" Image={thomasHaver} twitter="cogsfun" linkedin="thomas-haver"  />
                     <Speaker name="Marco Ippolito" Image={marcoIppolito} twitter="satanacchio" linkedin="marcoippolito2021"  />
-                    <Speaker name="Shivay Lamba" Image={shivayLamba} twitter="howdevelop" linkedin="shivaylamba"  />
                     <Speaker name="Heath Murphy" Image={heathMurphy} twitter="" linkedin=""  />
-                    <Speaker name="Tomas Piaggio" Image={tomasPiaggio} twitter="tomas_piaggio" linkedin="tomas-piaggio"  />
                     <Speaker name="Eric Potter" Image={ericPotter} twitter="pottereric" linkedin="ericbpotter"  />
                     <Speaker name="Rey Riel" Image={reyRiel} twitter="rjriel87" linkedin="rey-riel-31156126"  /> 
                     <Speaker name="Alex Riviere" Image={alexRiviere} twitter="fimion" linkedin=""  />  
                     <Speaker name="Guy Royse" Image={guyRoyse} twitter="guyroyse" linkedin="groyse"  />
                     <Speaker name="Samuel Shaw" Image={samuelShaw} twitter="" linkedin="thesamdroid"  />
                     <Speaker name="Russell Skaggs" Image={russellSkaggs} twitter="russellskaggs" linkedin="russellskaggs"  />
-                    <Speaker name="Scott Stroz" Image={scottStroz} twitter="boyzoid" linkedin="boyzoid"  />
-                    <Speaker name="Varsha Thirumakil" Image={varshaThirumakil} twitter="var_sha612" linkedin="varshathirumakil"  />
+                    <Speaker name="Scott Stroz" Image={scottStroz} twitter="boyzoid" linkedin="boyzoid"  />                    
                     <Speaker name="Siddharth Verma" Image={siddarth} twitter="sid_verma32" linkedin="sidverma32"  />
                 </Flex>
 

@@ -57,13 +57,13 @@ const Layout = ({ children, hideHeading = false }) => (
                 </NavItem>               
                 <NavItem>
                   <Link to="/codeofconduct">COC</Link>
-                </NavItem>                                                        
-                <NavItem>
-                  <Link to="/sponsors">Sponsors</Link>
                 </NavItem>  
                 <NavItem>
-                  <Link to="/team">Core Team</Link>
-                </NavItem>               
+                  <Link to="/schedule">Schedule</Link>
+                </NavItem>                                                       
+                <NavItem>
+                  <Link to="/sponsors">Sponsors</Link>
+                </NavItem>                               
               </Nav>
             </Header>
             <Main>{children}</Main> 
