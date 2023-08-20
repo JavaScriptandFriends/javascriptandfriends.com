@@ -4,6 +4,8 @@ import Layout from "../../components/layout";
 import Alternate from "../../components/Alternate";
 import rawScheduleData from "../../content/schedule.json";
 import Text from "../../components/Text";
+import { Flex } from "@rebass/grid"; 
+import { Link as ButtonLink } from "../../components/Button";
 
 const DEFAULT_TIMEZONE = 'US/Eastern'
 const TIMEZONE_STORAGE_KEY = 'schedule.timezone'
@@ -103,6 +105,16 @@ export default class scheduleTime extends Component {
     render() {
         return (
             <Layout style={{justifyContent:'center'}}>
+                <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
+            <ButtonLink
+            href="https://www.eventbrite.com/e/javascript-and-friends-conference-2023-tickets-668633670307"
+            alignSelf="center"
+            mr={40}
+            target="_blank" rel="noopener noreferrer"
+          >
+            REGISTER
+          </ButtonLink>          
+            </Flex> 
                 <Alternate style={{ border: 0 }}>
                <div style={{ maxWidth: `100%`, margin: `1.45rem` ,justifyContent: 'center'}}>
             <h1>Schedule</h1>            
