@@ -7,6 +7,7 @@ import Speaker from "../../components/Speaker";
 import { Hidden } from '../../components/Hidden';
 import Text from "../../components/Text";
 import { Link as ButtonLink } from "../../components/Button";
+import amandaLange from "../../components/SpeakerImages/AmandaLange";
 import bobFornalImage from "../../components/SpeakerImages/bob-fornal";
 import alexRiviere from "../../components/SpeakerImages/AlexRiviere";
 import chadGreen from "../../components/SpeakerImages/ChadGreen";
@@ -51,6 +52,7 @@ export default class Speakers2023 extends Component{
             </Flex>  
 
                 <Flex flexDirection="row" flexWrap="wrap" alignItems="center" justifyContent="center" style={{ padding: "2rem", width: "" }}>
+                    <Speaker name="Amanda Lange" Image={amandaLange} twitter="" linkedin="amanda-lange-scrummaster"  /> 
                     <Speaker name="Varsha Thirumakil" Image={varshaThirumakil} twitter="var_sha612" linkedin="varshathirumakil"  />
                     <Speaker name="Dev Agrawal" Image={devAgrawal} twitter="devagrawal09" linkedin="dev-agr"  /> 
                     <Speaker name="Dave Fancher" Image={daveFancher} twitter="davefancher" linkedin="davefancher"  />
