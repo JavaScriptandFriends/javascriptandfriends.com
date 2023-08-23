@@ -62,14 +62,9 @@ export default class Speakers2023 extends Component{
                     <Speaker name="Thomas Haver" Image={thomasHaver} twitter="cogsfun" linkedin="thomas-haver"  />
                     <Speaker name="Marco Ippolito" Image={marcoIppolito} twitter="satanacchio" linkedin="marcoippolito2021"  />
                     <Speaker name="Heath Murphy" Image={heathMurphy} twitter="" linkedin=""  />
-                    <Speaker name="Eric Potter" Image={ericPotter} twitter="pottereric" linkedin="ericbpotter"  />
-                    <Speaker name="Rey Riel" Image={reyRiel} twitter="rjriel87" linkedin="rey-riel-31156126"  /> 
                     <Speaker name="Alex Riviere" Image={alexRiviere} twitter="fimion" linkedin=""  />  
                     <Speaker name="Guy Royse" Image={guyRoyse} twitter="guyroyse" linkedin="groyse"  />
                     <Speaker name="Samuel Shaw" Image={samuelShaw} twitter="" linkedin="thesamdroid"  />
-                    <Speaker name="Russell Skaggs" Image={russellSkaggs} twitter="russellskaggs" linkedin="russellskaggs"  />
-                    <Speaker name="Scott Stroz" Image={scottStroz} twitter="boyzoid" linkedin="boyzoid"  />                    
-                    <Speaker name="Siddharth Verma" Image={siddarth} twitter="sid_verma32" linkedin="sidverma32"  />
                 </Flex>
 
                 <h4 style={{color: 'white', textAlign:'center'}}>###### Speakers subject to change.</h4>
