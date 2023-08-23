@@ -26,33 +26,19 @@
         "SpeakerName": "Bob Fornal",
         "Room": "Morgan 1 (50)",
         "USEDT": "08:15:00"
-    },
-    {
-        "SessionTitle": "Building an Accessible Component Library",
-        "SessionDescription": "One of the great things about JavaScript is the ability to create rich interactive experiences. But as we enhance and extend the default behavior of the web, we run the risk of leaving users behind. During this talk, I will go through techniques and strategies to build out an accessible Component Library to make building accessible solutions a more seamless experience.",
-        "SpeakerName": "Russell Skaggs",
-        "Room": "Morgan 2 (50)",
-        "USEDT": "08:15:00"
-    },
-    {
-        "SessionTitle": "All Things Functions in Javascript",
-        "SessionDescription": "That's a JavaScript function, I know all about those. But wait...what's that asterisk for? Why does that function look different from that function? Is there a difference? And when does this mean that and not this? Let's take a deep dive into JavaScript functions, find out all the little quirks and intricacies and hopefully walk away with a better understanding of the functions we're writing, and maybe how to write them better. In this talk you'll learn about the importance of `this`, other variables specific to functions and what to look out for when coding JavaScript functions in general.",
-        "SpeakerName": "Rey Riel",
-        "Room": "Morgan 3 (50)",
-        "USEDT": "08:15:00"
-    },
+    }, 
     {
         "SessionTitle": "Debugging Burnout",
         "SessionDescription": "Working in a product space requires knowing how to take a very complex problem and break it down into iterative chunks.  Far too often, we’re so wrapped up in the problems we’re solving professionally, that we completely forget to introspectively look at ourselves and ask what problems in our own lives need solving.  Burnout is real and worth addressing.  But much like the dev process, understanding the “why” behind behavior leads to a more sustainable outcome.\r\n\r\nThis talk is a part of an ongoing conversation in life.  We want to develop a framework and language to properly identify burnout and how we can work through it.  Let’s take some time in this iteration of the conversation and talk about what it is, why it’s a problem, and how we can leverage tools at our disposal to help identify, address, and debug burnout.\r\n",
         "SpeakerName": "Samuel Shaw",
-        "Room": "Wright 1 (50)",
+        "Room": "Morgan 2 (50)",
         "USEDT": "08:15:00"
     },
     {
         "SessionTitle": "How to be a Leader",
         "SessionDescription": "What is leadership?  That term gets thrown around a lot, but what is it really?  What do leader do that makes them leaders?  Leadership can be learned and that is good as leaders are in high demand and in short supply.  TO be an effective leader, you must first understand what leadership is and what traits a leader exhibits.\r\n\r\nDuring this session, we will review leadership traits and principles and how you can implement them within your teams.  By demonstrating these in your daily activities you will earn the respect, confidence, and loyal cooperation of those on your team.",
         "SpeakerName": "Chad Green",
-        "Room": "Wright 2 (30)",
+        "Room": "Morgan 3 (50)",
         "USEDT": "08:15:00"
     },
     {
@@ -91,20 +77,6 @@
         "USEDT": "10:45:00"
     },
     {
-        "SessionTitle": "From Front-End to Fullstack",
-        "SessionDescription": "Fine, I'll do it myself. There is no denying that the User Experience (UX) of Websites is an important factor in reaching web goals. Bad UX leads to abandonment. Abandonment leads to missed revenue. Now more than ever, so much of the experience is determined by performance factors traditionally outside of the control of the UI. In this talk, I will discuss how we leveraged JAMStack to take ownership of our complete web stack  to increase the UX.",
-        "SpeakerName": "Russell Skaggs",
-        "Room": "Morgan 1 (50)",
-        "USEDT": "10:45:00"
-    },
-    {
-        "SessionTitle": "Just the fun stuff: embracing low code as a hardcore developer",
-        "SessionDescription": "Developers do what they do best because they love problem solving. Nothing is more satisfying than seeing those lines of code we've written run smoothly and seamlessly to solve the issue at hand.\r\n\r\nUnfortunately there's a bunch of housekeeping that usually has to come before we get to make those little bits of mastery execute. Decisions need to be made, scaffolding needs to be put in place, our code needs a foundation before we're able to realize those little joys we crave.\r\n\r\nBut what if we didn't have to worry about that? We've all heard of no code and low code platforms, but aren't they just taking our fun from us? Trying to replace us with the robots? Let's talk about what these platforms are, what makes a good platform for developers and how a solid low code platform let's us get from 0 to fun in the least time possible.",
-        "SpeakerName": "Rey Riel",
-        "Room": "Morgan 2 (50)",
-        "USEDT": "10:45:00"
-    },
-    {
         "SessionTitle": "Measuring the Cost of a GraphQL Query",
         "SessionDescription": "Developers tend to centralise the fragments definitions and use them in each query where the entity is used, even if just a subset of the attributes is necessary.\r\nUnlike rest, the client needs to be more careful on query optimization because the server must process the client's query and create a tailored response. If the client's query is not optimized, it can lead to the server having to process more data than is necessary, resulting in slower response times.\r\nmercurius-explain is a simple and lightweight Mercurius plugin that records how many times a GraphQL resolver is invoked and how long it took to retrieve the data, which helps to keep track of performance changes during development and to troubleshoot possible bottlenecks.",
         "SpeakerName": "Marco Ippolito",
@@ -112,17 +84,17 @@
         "USEDT": "10:45:00"
     },
     {
-        "SessionTitle": "Using MySQL Document Store with Node.js",
-        "SessionDescription": "MySQL Document Store offers developers the best features of both a NoSQL database and a traditional SQL based database. In this session we will discuss how we can use Node.js to access a MySQL Document Store, create/remove collections, create/update/remove documents, retrieve, filter, & sort document lists, and leverage raw SQL to retrieve aggregate data for reporting purposes.",
-        "SpeakerName": "Scott Stroz",
-        "Room": "Wright 1 (50)",
+        "SessionTitle": "Turn on those listening ears!: Improving Communication through Listening Skills",
+        "SessionDescription": "In today's fast-paced technological age, effective communication skills are essential for success in all areas of life, both personal and professional. One of the most critical communication skills is listening, and it is often overlooked. Amanda is a Certified Professional Scrum Master who wants to help developers (and friends) focus on the importance of listening skills in technology and related fields. With the ever-evolving advancements in technology, it's essential to be a good listener to understand and respond effectively to the needs of our clients, colleagues, and stakeholders. We will explore the various aspects of listening, including active listening, empathetic listening, and critical listening, and how they can be applied in the context of technology.",
+        "SpeakerName": "Amanda Lange",
+        "Room": "Morgan 2 (50)",
         "USEDT": "10:45:00"
     },
     {
         "SessionTitle": "The Science of Testing",
         "SessionDescription": "In the past decade the software development paradigm has shifted to “deliver fast” -- with concomitant frameworks and methodologies to support that emphasis – but without proper consideration of quality. So most teams end up failing fast and hard when development continues beyond a shaky foundation. To bring about positive change, we must improve both our knowledge base and our processes to achieve quality delivery without disturbing the bookkeeper’s project delivery timelines. Lessons learned from a career in research science can be applied to QA, with parallels to industry product quality models. Testing techniques and product delivery processes from research science will aid not just testers but the entire team in delivering quality software. More than just day-to-day team activities and testing tools, the science of testing is about the pursuit of knowledge and understanding for its own sake. Testers should foster their skills in the community with professional development activities. Those in attendance will learn about the successes and failures of applying a scientist’s approach to testing software, from the “publish-or-perish” mindset of science to “deliver fast” in IT.\r\n\r\n",
         "SpeakerName": "Thomas Haver",
-        "Room": "Wright 2 (30)",
+        "Room": "Morgan 1 (50)",
         "USEDT": "10:45:00"
     },
     {
@@ -140,13 +112,6 @@
         "USEDT": "13:15:00"
     },
     {
-        "SessionTitle": "TypeScript - Beyond the Basics",
-        "SessionDescription": "TypeScript enables web developers to improve the clarity and reliability of their code. It also enables more powerful tools for writing code. This led to its rapid rise in popularity. But what can it do for you beyond just adding types to your variables and parameters? In this talk, we look at some of the more advanced features in the language that can help you deliver valuable solutions in less time.\r\n\r\nIn this session, we will look at features such as:\r\n* union types\r\n* intersection types\r\n* generics\r\n\r\nWe will also look at some of the new features in TypeScript 5.0.",
-        "SpeakerName": "Eric Potter",
-        "Room": "Morgan 2 (50)",
-        "USEDT": "13:15:00"
-    },
-    {
         "SessionTitle": "The End… for mobile apps – Enter ASP.NET Core Blazor WebAssembly PWAs",
         "SessionDescription": "Native/Hybrid/Cross-Platform apps are finally no longer needed! Ionic, React Native, Android/iOS Native… no longer necessary. Come listen in to learn why. What was the web standard or feature that tipped me over the edge? I’ve written dozens of mobile apps over the last few years and watched as the PWA spec has grown to impressive feats. It’s official, we’re no longer writing native apps and have moved all-in on Blazor WebAsm PWAs. In this talk, I’ll take you on a journey through Blazor WebAssembly PWAs and tell you why it solves most major line-of-business mobile needs. I’ll talk about the important PWA features supported and show code examples throughout the entire talk. The example is an app we built 4 years ago with Ionic… now fully capable as a PWA.",
         "SpeakerName": "Heath Murphy",
@@ -157,7 +122,7 @@
         "SessionTitle": "Zero Pain Frontend to Fullstack in Minutes with Open Source",
         "SessionDescription": "How silly is it that in 2023, with the huge diversity of tooling out there for frontend devs, half of our productive coding time is still spent on continuous error handling?! From code duplication, to typing errors, routing, validation, authentication…the list goes on.  \r\n\r\nAs a NodeJS developer, we want to be able to keep our code DRY –– literally just write once, and reuse, by maintaining our code in a  single source of truth. Sounds too good to be true? It is possible.\r\n\r\nIn this live coding demo we’ll walk you through how to take a common NodeJS/Express/Fastify stack and convert it into a fullstack app in minutes using open source tooling and frameworks all fullstack developers should know about.  \r\n",
         "SpeakerName": "Dev Agrawal",
-        "Room": "Wright 1 (50)",
+        "Room": "Morgan 2 (50)",
         "USEDT": "13:15:00"
     },
     {
@@ -184,15 +149,8 @@
     {
         "SessionTitle": "Memory First: An Introduction to Redis",
         "SessionDescription": "Odds are, you’ve heard of Redis. Maybe you’re a total noob and want to learn all about it. Maybe you’ve used it to cache an API call or some JSON strings and want to know what else it can do. Maybe you *haven’t* heard of Redis and are curious what all the fuss is about.\r\n\r\nWanna find out? Join me as I explain what Redis is—a wicked-fast, memory-first database—and why you should care. I’ll share with you what it can store, how you can access it, and how you can make sure that what’s in memory is still there when the power goes off. We’ll explore how you can extend Redis—adding new commands, new data structures, and new capabilities. And, we’ll do it both from the command line and from code with examples in C#, Java, JavaScript, and Python.\r\n\r\nWhen we’re done, you’ll know what Redis is and what all the fuss was about. But, more importantly, you’ll know how to put memory first to build fast applications and faster experiences.",
-        "SpeakerName": "Guy Royse",
+        "SpeakerNaSme": "Guy Royse",
         "Room": "Morgan 3 (50)",
-        "USEDT": "14:30:00"
-    },
-    {
-        "SessionTitle": "CI/CD: A Game-Changer for Code Quality and Production Stability\"",
-        "SessionDescription": "CI/CD is a software development practice  in which code changes are automatically built, tested, and deployed to production. This approach has become increasingly popular in recent years due to its ability to improve code quality and production stability.\r\nBy automating the build, test, and deployment process, CI/CD enables developers to quickly and easily identify and fix errors in their code.\r\nThis not only helps to improve the quality of the code, but also helps to prevent defects from being introduced into production systems.\r\n\r\nIn this talk, Siddharth will walk you through with Bitbucket CI/CD custom pipeline setup and performance improvement techniques along with some custom hooks like code commit checker, linter and running tests on the last commit.\r\n\r\n",
-        "SpeakerName": "Siddharth .",
-        "Room": "Wright 1 (50)",
         "USEDT": "14:30:00"
     }
 ]
